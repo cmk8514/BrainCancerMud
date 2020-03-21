@@ -1,0 +1,392 @@
+*
+New Area
+StdArea
+0
+
+ 
+<ARCHP /><PARENTS /><CHILDREN /><PREJFC /><IGNMSK /><BUDGET /><DEVALR /><INVRER>0</INVRER><IPRICS /><IMG /><BEHAVES /><AFFECS /><AUTHOR /><CURRENCY /><BLURBS /><AATMO>-1</AATMO> 
+0
+*
+Gods Inc
+StdArea
+0
+
+ 
+<ARCHP /><PARENTS /><CHILDREN /><PREJFC /><IGNMSK /><BUDGET /><DEVALR /><INVRER>0</INVRER><IPRICS /><IMG /><BEHAVES><BHAVE><BCLASS>WeatherAffects</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS><AFF><ACLASS>Prop_NoTeleport</ACLASS><ATEXT /></AFF></AFFECS><AUTHOR /><CURRENCY /><BLURBS /><AATMO>-1</AATMO> 
+0
+-
+Belt Region
+StdArea
+9
+;
+Placeholder for places in the Belt Region 
+<ARCHP /><PARENTS /><CHILDREN /><PREJFC /><IGNMSK /><BUDGET /><DEVALR /><INVRER>0</INVRER><IPRICS /><IMG /><BEHAVES /><AFFECS><AFF><ACLASS>Prop_NoSummon</ACLASS><ATEXT /></AFF><AFF><ACLASS>Prop_NoTeleport</ACLASS><ATEXT /></AFF></AFFECS><AUTHOR /><CURRENCY>DOLLAR</CURRENCY><BLURBS /><AATMO>-1</AATMO> 
+0
+-
+Desert Region
+StdArea
+24
+;
+Placeholder for places in the Desert Region 
+<ARCHP /><PARENTS /><CHILDREN /><PREJFC /><IGNMSK /><BUDGET /><DEVALR /><INVRER>0</INVRER><IPRICS /><IMG /><BEHAVES /><AFFECS><AFF><ACLASS>Prop_NoSummon</ACLASS><ATEXT /></AFF><AFF><ACLASS>Prop_NoTeleport</ACLASS><ATEXT /></AFF></AFFECS><AUTHOR /><CURRENCY>DOLLAR</CURRENCY><BLURBS /><AATMO>-1</AATMO> 
+0
+-
+Middle West Region
+StdArea
+4
+;
+Placeholder for places in the Middle West Region 
+<ARCHP /><PARENTS /><CHILDREN /><PREJFC /><IGNMSK /><BUDGET /><DEVALR /><INVRER>0</INVRER><IPRICS /><IMG /><BEHAVES /><AFFECS><AFF><ACLASS>Prop_NoSummon</ACLASS><ATEXT /></AFF><AFF><ACLASS>Prop_NoTeleport</ACLASS><ATEXT /></AFF></AFFECS><AUTHOR /><CURRENCY>DOLLAR</CURRENCY><BLURBS /><AATMO>-1</AATMO> 
+0
+*
+Nee Side Region
+StdArea
+-1
+;
+Placeholder for places in the Nee Side Region 
+<ARCHP /><PARENTS /><CHILDREN><CHILD><CHILDNAMED>Primus</CHILDNAMED></CHILD></CHILDREN><PREJFC /><IGNMSK /><BUDGET /><DEVALR /><INVRER>0</INVRER><IPRICS /><IMG /><BEHAVES><BHAVE><BCLASS>WeatherAffects</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS><AFF><ACLASS>Prop_NoSummon</ACLASS><ATEXT /></AFF><AFF><ACLASS>Prop_NoTeleport</ACLASS><ATEXT /></AFF></AFFECS><AUTHOR /><CURRENCY>DOLLAR</CURRENCY><BLURBS /><AATMO>-1</AATMO> 
+0
+-
+Life Recycling Act Academy
+StdArea
+0
+
+ 
+<ARCHP /><PARENTS /><CHILDREN /><PREJFC /><IGNMSK /><BUDGET /><DEVALR /><INVRER>0</INVRER><IPRICS /><IMG /><BEHAVES><BHAVE><BCLASS>WeatherAffects</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><AUTHOR /><CURRENCY>DOLLAR</CURRENCY><BLURBS /><AATMO>-1</AATMO> 
+0
+-
+Primus
+StdArea
+-1
+
+The starting city for players of Brain Cancer. Features all of the things starting players may need.  Primus is a backwater town, site of an old factory that made living gadgets. It also featured a bar. Now it hosts the Life Recycling Act Academy and has brought some new life to the city.  Danger level: Low to nil Conquerable: No Area: Nee Side (So use dollars) 
+<ARCHP /><PARENTS><PARENT><PARENTNAMED>Nee Side Region</PARENTNAMED></PARENT></PARENTS><CHILDREN /><PREJFC /><IGNMSK /><BUDGET /><DEVALR /><INVRER>0</INVRER><IPRICS /><IMG /><BEHAVES><BHAVE><BCLASS>WeatherAffects</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><AUTHOR /><CURRENCY>DOLLAR</CURRENCY><BLURBS /><AATMO>-1</AATMO> 
+0
+-
+Primus Old Gadget Factory
+StdArea
+-1
+;
+All of the recycled have jobs lined up for them, cleaning up at the Old Gadget Factory. It is not glamorous, but a job is   a job, right? The Old Gadget Factory used to make wonderful constructs that made life easier, but now thanks to various   problems, it is now self-running and everyone else except the cleaning crew were atomized. 
+<ARCHP /><PARENTS /><CHILDREN /><PREJFC /><IGNMSK /><BUDGET /><DEVALR /><INVRER>0</INVRER><IPRICS /><IMG /><BEHAVES><BHAVE><BCLASS>WeatherAffects</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><AUTHOR /><CURRENCY>DOLLAR</CURRENCY><BLURBS /><AATMO>-1</AATMO> 
+0
+-
+Merika
+StdArea
+31
+;
+ 
+<ARCHP /><PARENTS /><CHILDREN /><PREJFC /><IGNMSK /><BUDGET /><DEVALR /><INVRER>0</INVRER><IPRICS /><IMG /><BEHAVES /><AFFECS /><AUTHOR /><CURRENCY>DOLLAR</CURRENCY><BLURBS /><AATMO>-1</AATMO> 
+0
+-
+Dee See
+StdArea
+-1
+;
+The once-capital of Merika, several places for control can be found here. Can a government be made from here? 
+<ARCHP /><PARENTS /><CHILDREN /><PREJFC /><IGNMSK /><BUDGET /><DEVALR /><INVRER>0</INVRER><IPRICS /><IMG /><BEHAVES /><AFFECS /><AUTHOR /><CURRENCY>DOLLAR</CURRENCY><BLURBS /><AATMO>-1</AATMO> 
+0
+-
+Filly
+StdArea
+-1
+;
+An old city, still filled with weird power and unusual features 
+<ARCHP /><PARENTS /><CHILDREN /><PREJFC /><IGNMSK /><BUDGET /><DEVALR /><INVRER>0</INVRER><IPRICS /><IMG /><BEHAVES /><AFFECS /><AUTHOR /><CURRENCY>DOLLAR</CURRENCY><BLURBS /><AATMO>-1</AATMO> 
+0
+-
+New Naw Ork
+StdArea
+-1
+;
+The brain and cultural hub for life in Merika. Beware the sewers. 
+<ARCHP /><PARENTS /><CHILDREN /><PREJFC /><IGNMSK /><BUDGET /><DEVALR /><INVRER>0</INVRER><IPRICS /><IMG /><BEHAVES /><AFFECS /><AUTHOR /><CURRENCY>DOLLAR</CURRENCY><BLURBS /><AATMO>-1</AATMO> 
+0
+-
+Post Air
+StdArea
+-1
+;
+A walled city that contains some mean streets 
+<ARCHP /><PARENTS /><CHILDREN /><PREJFC /><IGNMSK /><BUDGET /><DEVALR /><INVRER>0</INVRER><IPRICS /><IMG /><BEHAVES /><AFFECS /><AUTHOR /><CURRENCY>DOLLAR</CURRENCY><BLURBS /><AATMO>-1</AATMO> 
+0
+-
+New Quivers
+StdArea
+-1
+;
+A small town, the radioactive and sludge filled dump may contain a lost power though 
+<ARCHP /><PARENTS /><CHILDREN /><PREJFC /><IGNMSK /><BUDGET /><DEVALR /><INVRER>0</INVRER><IPRICS /><IMG /><BEHAVES /><AFFECS /><AUTHOR /><CURRENCY>DOLLAR</CURRENCY><BLURBS /><AATMO>-1</AATMO> 
+0
+-
+Ronto
+StdArea
+22
+;
+Ronto ceded itself to Merika shortly before the changes, this prevents it from being part of the Northern Wastes. Ronto considers itself a beacon of civilization. 
+<ARCHP /><PARENTS /><CHILDREN /><PREJFC /><IGNMSK /><BUDGET /><DEVALR /><INVRER>0</INVRER><IPRICS /><IMG /><BEHAVES /><AFFECS /><AUTHOR /><CURRENCY>DOLLAR</CURRENCY><BLURBS /><AATMO>-1</AATMO> 
+0
+-
+Pencilvania
+StdArea
+-1
+;
+A city-state with a layered architecture, commerce and trade is done on the ground level, the rich live high above the ground, and the poor below. Rumors persist of a level below the poor where Eugenics Forces sometimes come up and `handle` the surplus population of the poor. Rumors of course, but poor people do vanish and there are a lot of locked vault style doors everywhere 
+<ARCHP /><PARENTS /><CHILDREN /><PREJFC /><IGNMSK /><BUDGET /><DEVALR /><INVRER>0</INVRER><IPRICS /><IMG /><BEHAVES /><AFFECS /><AUTHOR /><CURRENCY>DOLLAR</CURRENCY><BLURBS /><AATMO>-1</AATMO> 
+0
+-
+Rockport
+StdArea
+-1
+;
+A port town, contains yards for shipping and ports for ships that can take you to other coastal places 
+<ARCHP /><PARENTS /><CHILDREN /><PREJFC /><IGNMSK /><BUDGET /><DEVALR /><INVRER>0</INVRER><IPRICS /><IMG /><BEHAVES /><AFFECS /><AUTHOR /><CURRENCY>DOLLAR</CURRENCY><BLURBS /><AATMO>-1</AATMO> 
+0
+-
+Atlantis
+StdArea
+9
+;
+An inviting city of shops and places to stay for comfortable prices, there is however an old district with sunken ruins and an old disease research facility that may be of note 
+<ARCHP /><PARENTS /><CHILDREN /><PREJFC /><IGNMSK /><BUDGET /><DEVALR /><INVRER>0</INVRER><IPRICS /><IMG /><BEHAVES /><AFFECS /><AUTHOR /><CURRENCY>DOLLAR</CURRENCY><BLURBS /><AATMO>-1</AATMO> 
+0
+-
+Biloxi Nest
+StdArea
+9
+;
+An ancient town, once inhabited by bird-men, now free once again... but some say they are still somewhere in the town 
+<ARCHP /><PARENTS /><CHILDREN /><PREJFC /><IGNMSK /><BUDGET /><DEVALR /><INVRER>0</INVRER><IPRICS /><IMG /><BEHAVES /><AFFECS /><AUTHOR /><CURRENCY>DOLLAR</CURRENCY><BLURBS /><AATMO>-1</AATMO> 
+0
+-
+Floriduh City
+StdArea
+9
+;
+A city-state, has a population ranging from retirees to redneck mutants 
+<ARCHP /><PARENTS /><CHILDREN /><PREJFC /><IGNMSK /><BUDGET /><DEVALR /><INVRER>0</INVRER><IPRICS /><IMG /><BEHAVES /><AFFECS /><AUTHOR /><CURRENCY>DOLLAR</CURRENCY><BLURBS /><AATMO>-1</AATMO> 
+0
+*
+Hallover
+StdArea
+24
+;
+Before the changing, Hallover was a nude beach. Then the nukes and irradiation hit. Hallover is still a nude beach, attracting some of the most interesting characters in the Belt Region. So please, get nude, and visit Hallover today. 
+<ARCHP /><PARENTS /><CHILDREN /><PREJFC /><IGNMSK /><BUDGET /><DEVALR /><INVRER>0</INVRER><IPRICS /><IMG /><BEHAVES /><AFFECS /><AUTHOR /><CURRENCY>DOLLAR</CURRENCY><BLURBS /><AATMO>-1</AATMO> 
+0
+-
+Knives
+StdArea
+9
+;
+A city in the middle of the Belt`s swamps and jungles... Knives is a city of science and research, but acquiring test subjects is a whole other matter, that`s why the office of acquiring test subjects shares space with the Knives Tourism Committee. Welcome to Knives by the way. 
+<ARCHP /><PARENTS /><CHILDREN /><PREJFC /><IGNMSK /><BUDGET /><DEVALR /><INVRER>0</INVRER><IPRICS /><IMG /><BEHAVES /><AFFECS /><AUTHOR /><CURRENCY>DOLLAR</CURRENCY><BLURBS /><AATMO>-1</AATMO> 
+0
+-
+Misree
+StdArea
+-1
+;
+Busy city, fun theme park and center of pleasure and entertainment, and slave work camp. Misree has it all! 
+<ARCHP /><PARENTS /><CHILDREN /><PREJFC /><IGNMSK /><BUDGET /><DEVALR /><INVRER>0</INVRER><IPRICS /><IMG /><BEHAVES /><AFFECS /><AUTHOR /><CURRENCY>DOLLAR</CURRENCY><BLURBS /><AATMO>-1</AATMO> 
+0
+-
+New Naw Or Leans
+StdArea
+9
+;
+A city in the Belt, known for it`s fun and pleasure 
+<ARCHP /><PARENTS /><CHILDREN /><PREJFC /><IGNMSK /><BUDGET /><DEVALR /><INVRER>0</INVRER><IPRICS /><IMG /><BEHAVES /><AFFECS /><AUTHOR /><CURRENCY>DOLLAR</CURRENCY><BLURBS /><AATMO>-1</AATMO> 
+0
+-
+Aggrocultural Center
+StdArea
+24
+;
+A massive farming center that has gone horribly right and wrong, all other water in the Desert region was diverted to this center, thus desertifying the whole area, but made it successful. Now it provides food to all of Merika before it becomes processed with soylent, here one may purchase unprocessed food before it is shipped off, just beware of the old experimental dome. 
+<ARCHP /><PARENTS /><CHILDREN /><PREJFC /><IGNMSK /><BUDGET /><DEVALR /><INVRER>0</INVRER><IPRICS /><IMG /><BEHAVES /><AFFECS /><AUTHOR /><CURRENCY>DOLLAR</CURRENCY><BLURBS /><AATMO>-1</AATMO> 
+0
+-
+City of Dale the Lesser
+StdArea
+24
+;
+A city that has empowered itself with strange and alien technology, there is a `lottery` every once in a while where a few citizens are selected and forced to go to the Apex, it is not known what happens here, but these citizens are never seen of or heard from ever again. 
+<ARCHP /><PARENTS /><CHILDREN /><PREJFC /><IGNMSK /><BUDGET /><DEVALR /><INVRER>0</INVRER><IPRICS /><IMG /><BEHAVES /><AFFECS /><AUTHOR /><CURRENCY>DOLLAR</CURRENCY><BLURBS /><AATMO>-1</AATMO> 
+0
+-
+Jonbenet
+StdArea
+18
+;
+Originally known as Boulder and a major part of the city still bears that name, Jonbenet is a harshly divided city, the outskirts are at the mercy of raiders and marauders who have claimed parts of these outskirts their homes. Posh and civilized life continues though inside of the Boulder Rock, a fortress of sorts 
+<ARCHP /><PARENTS /><CHILDREN /><PREJFC /><IGNMSK /><BUDGET /><DEVALR /><INVRER>0</INVRER><IPRICS /><IMG /><BEHAVES /><AFFECS /><AUTHOR /><CURRENCY>DOLLAR</CURRENCY><BLURBS /><AATMO>-1</AATMO> 
+0
+-
+Lost Wages
+StdArea
+24
+;
+A city of glitz and glamour, some interesting games can be played here, but the city is under the control of several warring gangs and crime families 
+<ARCHP /><PARENTS /><CHILDREN /><PREJFC /><IGNMSK /><BUDGET /><DEVALR /><INVRER>0</INVRER><IPRICS /><IMG /><BEHAVES /><AFFECS /><AUTHOR /><CURRENCY>DOLLAR</CURRENCY><BLURBS /><AATMO>-1</AATMO> 
+0
+-
+Quills
+StdArea
+24
+;
+A town in the Desert Region, has recently come under the grip of Long Black Johnson and his gang 
+<ARCHP /><PARENTS /><CHILDREN /><PREJFC /><IGNMSK /><BUDGET /><DEVALR /><INVRER>0</INVRER><IPRICS /><IMG /><BEHAVES /><AFFECS /><AUTHOR /><CURRENCY>DOLLAR</CURRENCY><BLURBS /><AATMO>-1</AATMO> 
+0
+-
+Soap Lake Holy Land
+StdArea
+24
+;
+An old city, on the edge of a clean and salty lake, every deity in Brain Cancer has formed a pact, even Jayhovah, and has put up a temple here. 
+<ARCHP /><PARENTS /><CHILDREN /><PREJFC /><IGNMSK /><BUDGET /><DEVALR /><INVRER>0</INVRER><IPRICS /><IMG /><BEHAVES /><AFFECS /><AUTHOR /><CURRENCY>DOLLAR</CURRENCY><BLURBS /><AATMO>-1</AATMO> 
+0
+-
+Texaco City
+StdArea
+24
+;
+A city from an ancient non-Merikan region, some say it`s from Yndonesia and avoid this city like the plague, despite that, it`s a vibrant city with a vibrant culture 
+<ARCHP /><PARENTS /><CHILDREN /><PREJFC /><IGNMSK /><BUDGET /><DEVALR /><INVRER>0</INVRER><IPRICS /><IMG /><BEHAVES /><AFFECS /><AUTHOR /><CURRENCY>DOLLAR</CURRENCY><BLURBS /><AATMO>-1</AATMO> 
+0
+-
+You Stoned
+StdArea
+24
+;
+A city of factories, chemical plants, storage facilities, and a place to tell someone if you have a problem for some reason 
+<ARCHP /><PARENTS /><CHILDREN /><PREJFC /><IGNMSK /><BUDGET /><DEVALR /><INVRER>0</INVRER><IPRICS /><IMG /><BEHAVES /><AFFECS /><AUTHOR /><CURRENCY>DOLLAR</CURRENCY><BLURBS /><AATMO>-1</AATMO> 
+0
+-
+Chicago Hive Arcology
+StdArea
+-1
+;
+A huge twisting spire that has a contained population, most never leave. Cyborgs patrol the halls and mutants can be seen through the ducts, one should also avoid falling into the protein vats. 
+<ARCHP /><PARENTS /><CHILDREN /><PREJFC /><IGNMSK /><BUDGET /><DEVALR /><INVRER>0</INVRER><IPRICS /><IMG /><BEHAVES /><AFFECS /><AUTHOR /><CURRENCY>DOLLAR</CURRENCY><BLURBS /><AATMO>-1</AATMO> 
+0
+-
+Dedroid
+StdArea
+-1
+;
+A run down shell of a city, scavengers pick apart what is left while robots ranging from domestic help to warbots claim several sectors as their own. 
+<ARCHP /><PARENTS /><CHILDREN /><PREJFC /><IGNMSK /><BUDGET /><DEVALR /><INVRER>0</INVRER><IPRICS /><IMG /><BEHAVES /><AFFECS /><AUTHOR /><CURRENCY>DOLLAR</CURRENCY><BLURBS /><AATMO>-1</AATMO> 
+0
+-
+Fort W
+StdArea
+-1
+;
+A town that is now a fortress, perhaps it can be taken over, yes? 
+<ARCHP /><PARENTS /><CHILDREN /><PREJFC /><IGNMSK /><BUDGET /><DEVALR /><INVRER>0</INVRER><IPRICS /><IMG /><BEHAVES /><AFFECS /><AUTHOR /><CURRENCY>DOLLAR</CURRENCY><BLURBS /><AATMO>-1</AATMO> 
+0
+-
+Gnash Hill
+StdArea
+-1
+;
+A city that is run by celebrities, for celebrities. 
+<ARCHP /><PARENTS /><CHILDREN /><PREJFC /><IGNMSK /><BUDGET /><DEVALR /><INVRER>0</INVRER><IPRICS /><IMG /><BEHAVES /><AFFECS /><AUTHOR /><CURRENCY>DOLLAR</CURRENCY><BLURBS /><AATMO>-1</AATMO> 
+0
+-
+India Polis
+StdArea
+-1
+;
+A beacon of civilization in the Middle West with different sectors struggling for control: Industrial, Organic, Retro, and Sacrificial 
+<ARCHP /><PARENTS /><CHILDREN /><PREJFC /><IGNMSK /><BUDGET /><DEVALR /><INVRER>0</INVRER><IPRICS /><IMG /><BEHAVES /><AFFECS /><AUTHOR /><CURRENCY>DOLLAR</CURRENCY><BLURBS /><AATMO>-1</AATMO> 
+0
+-
+Port Colubus
+StdArea
+-1
+;
+A city that has taken nearly all the metal and infrastructure for the rest of the city and used to fashion a tower that acts as a one-way rocketport to many other cities in Merika, 
+<ARCHP /><PARENTS /><CHILDREN /><PREJFC /><IGNMSK /><BUDGET /><DEVALR /><INVRER>0</INVRER><IPRICS /><IMG /><BEHAVES /><AFFECS /><AUTHOR /><CURRENCY>DOLLAR</CURRENCY><BLURBS /><AATMO>-1</AATMO> 
+0
+-
+Mall of Merika
+StdArea
+-1
+;
+An all-but-literal temple to capitalism in Merika, visit the many stores here, some supplying mundane needs, others giving way to exotic wants and goals. 
+<ARCHP /><PARENTS /><CHILDREN /><PREJFC /><IGNMSK /><BUDGET /><DEVALR /><INVRER>0</INVRER><IPRICS /><IMG /><BEHAVES /><AFFECS /><AUTHOR /><CURRENCY>DOLLAR</CURRENCY><BLURBS /><AATMO>-1</AATMO> 
+0
+-
+Quakelar
+StdArea
+-1
+;
+The destroyed ruins of a city that was the site of perhaps the biggest battle in history, it is unknown what the fight was over, but millions of humans from different nations, non-humans, machines, and aliens fought over something in the city. There is nothing but a graveyard dedicated to them now but there is also the most awesome arena in Merika! 
+<ARCHP /><PARENTS /><CHILDREN /><PREJFC /><IGNMSK /><BUDGET /><DEVALR /><INVRER>0</INVRER><IPRICS /><IMG /><BEHAVES /><AFFECS /><AUTHOR /><CURRENCY>DOLLAR</CURRENCY><BLURBS /><AATMO>-1</AATMO> 
+0
+-
+Sinsinatthee
+StdArea
+-1
+;
+A city of sin, no really, a city of sin. The city and it`s subsections are dedicated to and even mandate the various forms of sins and sin-cults make sure people sin all the time. 
+<ARCHP /><PARENTS /><CHILDREN /><PREJFC /><IGNMSK /><BUDGET /><DEVALR /><INVRER>0</INVRER><IPRICS /><IMG /><BEHAVES /><AFFECS /><AUTHOR /><CURRENCY>DOLLAR</CURRENCY><BLURBS /><AATMO>-1</AATMO> 
+0
+*
+Lou`s Thrill
+StdArea
+0
+
+ 
+<ARCHP /><PARENTS /><CHILDREN /><PREJFC /><IGNMSK /><BUDGET /><DEVALR /><INVRER>0</INVRER><IPRICS /><IMG /><BEHAVES /><AFFECS /><AUTHOR /><CURRENCY /><BLURBS /><AATMO>-1</AATMO> 
+0
+-
+Lou`s Thrill
+StdArea
+-1
+;
+ 
+<ARCHP /><PARENTS /><CHILDREN /><PREJFC /><IGNMSK /><BUDGET /><DEVALR /><INVRER>0</INVRER><IPRICS /><IMG /><BEHAVES /><AFFECS /><AUTHOR /><CURRENCY>DOLLAR</CURRENCY><BLURBS /><AATMO>-1</AATMO> 
+0
+-
+Gods Inc
+StdArea
+0
+
+ 
+<ARCHP /><PARENTS /><CHILDREN /><PREJFC /><IGNMSK /><BUDGET /><DEVALR /><INVRER>0</INVRER><IPRICS /><IMG /><BEHAVES><BHAVE><BCLASS>WeatherAffects</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS><AFF><ACLASS>Prop_NoTeleport</ACLASS><ATEXT /></AFF></AFFECS><AUTHOR /><CURRENCY>DOLLAR</CURRENCY><BLURBS /><AATMO>-1</AATMO> 
+0
+-
+New Area
+StdArea
+0
+
+ 
+<ARCHP /><PARENTS /><CHILDREN /><PREJFC /><IGNMSK /><BUDGET /><DEVALR /><INVRER>0</INVRER><IPRICS /><IMG /><BEHAVES><BHAVE><BCLASS>WeatherAffects</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><AUTHOR /><CURRENCY /><BLURBS /><AATMO>-1</AATMO> 
+0
+-
+Nee Side Region
+StdArea
+-1
+;
+The Nee Side Region 
+<ARCHP /><PARENTS /><CHILDREN><CHILD><CHILDNAMED>Primus</CHILDNAMED></CHILD></CHILDREN><PREJFC /><IGNMSK /><BUDGET /><DEVALR /><INVRER>0</INVRER><IPRICS /><IMG /><BEHAVES><BHAVE><BCLASS>WeatherAffects</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><AUTHOR /><CURRENCY>DOLLAR</CURRENCY><BLURBS /><AATMO>-1</AATMO> 
+0
+-
+Hallover
+StdArea
+24
+
+Before the changing, Hallover was a nude beach. Then the nukes and irradiation hit. Hallover is still a nude beach, attracting some of the most interesting characters in the Belt Region. So please, get nude, and visit Hallover today. 
+<ARCHP /><PARENTS /><CHILDREN /><PREJFC /><IGNMSK /><BUDGET /><DEVALR /><INVRER>0</INVRER><IPRICS /><IMG /><BEHAVES><BHAVE><BCLASS>WeatherAffects</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><AUTHOR /><CURRENCY>DOLLAR</CURRENCY><BLURBS /><AATMO>-1</AATMO> 
+0
+-
+Neural Information Net
+StdArea
+0
+
+ 
+<ARCHP /><PARENTS /><CHILDREN /><PREJFC /><IGNMSK /><BUDGET /><DEVALR /><INVRER>0</INVRER><IPRICS /><IMG /><BEHAVES /><AFFECS /><AUTHOR /><CURRENCY /><BLURBS /><AATMO>-1</AATMO> 
+0

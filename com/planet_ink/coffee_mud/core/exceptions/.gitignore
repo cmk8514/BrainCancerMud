@@ -1,0 +1,8 @@
+/CMException.class
+/CoffeeMudException.class
+/BadEmailAddressException.class
+/HTTPRedirectException.class
+/HTTPServerException.class
+/ScriptParseException.class
+/CharStatOutOfRangeException.class
+/StatOutOfRangeException.class

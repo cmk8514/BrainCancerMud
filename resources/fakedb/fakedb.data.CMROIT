@@ -1,0 +1,1485 @@
+*
+START
+com.planet_ink.coffee_mud.Items.MiscMagic.ManualArchon@30f8a4c3
+ManualArchon
+
+ 
+0
+2147483647
+0
+0
+0
+-
+Primus#11
+com.planet_ink.coffee_mud.Items.Basic.GenChair@158883b8
+GenChair
+
+<NAME>a ^ks^?p^ko^?t^kt^?e^kd^? couch</NAME><DESC /><DISP>a s^kp^?o^kt^?t^ke^?d couch is here.</DISP><PROP>0|0|0|0|0|1|0|1.0|150|0|16|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>25</FLAG><IDENT /><VALUE>5</VALUE><MTRAL>566</MTRAL><READ /><WORNL>false</WORNL><WORNB>512</WORNB><CAPA>3000</CAPA><CONT>0</CONT><OPENTK>30</OPENTK><RIDET>3</RIDET><RIDEC>4</RIDEC> 
+0
+100
+1
+0
+0
+-
+Primus#11
+com.planet_ink.coffee_mud.Items.Basic.GenFountain@59ad83e7
+GenFountain
+
+<NAME>a water fountain</NAME><DESC>The water looks pure and clean.</DESC><DISP>a water fountain is here in the corner.</DISP><PROP>0|0|0|0|0|0|0|1.0|5|0|16|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>25</FLAG><IDENT /><VALUE>10</VALUE><MTRAL>811</MTRAL><READ>2876</READ><WORNL>false</WORNL><WORNB>512</WORNB><CAPA>0</CAPA><CONT>1</CONT><OPENTK>30</OPENTK><CAPA2>9999999</CAPA2><REMAN>9999999</REMAN><LTYPE>2876</LTYPE><DRINK>250</DRINK> 
+0
+2147483647
+0
+0
+0
+-
+Primus#11
+com.planet_ink.coffee_mud.Items.Basic.GenChair@11a4117b
+GenChair
+
+<NAME>a stuffed chair</NAME><DESC /><DISP>a stuffed chair is here.</DISP><PROP>0|0|0|0|0|1|0|1.0|150|0|16|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>25</FLAG><IDENT /><VALUE>5</VALUE><MTRAL>3684</MTRAL><READ /><WORNL>false</WORNL><WORNB>512</WORNB><CAPA>3000</CAPA><CONT>0</CONT><OPENTK>30</OPENTK><RIDET>3</RIDET><RIDEC>1</RIDEC> 
+0
+100
+1
+0
+0
+-
+Life Recycling Act Academy#14
+com.planet_ink.coffee_mud.Items.Armor.GenArmor@63a33b8f
+GenArmor
+
+<NAME>^wa hospital gown^?</NAME><DESC>It`s a hospital gown made out of paper-like material, it will not really protect you, and it`s not good for modesty either as it easily leaves your whole backside, including your ass, completely bare.</DESC><DISP>^wa hospital gown^? lies here</DISP><PROP>0|3|0|0|0|1|0|1.0|2|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>27</FLAG><IDENT /><VALUE>5</VALUE><MTRAL>2368</MTRAL><READ /><WORNL>true</WORNL><WORNB>5242884</WORNB><CAPA>0</CAPA><CONT>0</CONT><OPENTK>30</OPENTK><LAYR>0</LAYR><LAYA>0</LAYA> 
+0
+100
+1
+0
+0
+-
+SPACE
+com.planet_ink.coffee_mud.Items.BasicTech.GenSpaceTech@217cca4d
+GenSpaceTech
+
+<SSRADIUS>115</SSRADIUS><SSCOORDS>-4697806198283744643, 8010941554909919421, 4940965937592089708</SSCOORDS><SSDIR>0.0, 0.0</SSDIR><SSSPEED>0</SSSPEED><NAME>a generic techy thing in space</NAME><DESC>You can't tell what it is by looking at it.</DESC><DISP>a generic techy thing is floating in space</DISP><PROP>0|0|0|0|0|1|0|1.0|1|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>11</FLAG><IDENT /><VALUE>0</VALUE><MTRAL>811</MTRAL><READ /><WORNL>false</WORNL><WORNB>512</WORNB> 
+0
+2147483647
+1
+0
+0
+-
+New Naw Ork#157
+com.planet_ink.coffee_mud.Items.Basic.GenItem@73fe5bd0
+GenItem
+
+<NAME>a ^bholographic video ad^?</NAME><DESC>A ^bholographic video ad^? is displayed here, set in the bathing complex of an arcology, several nude men and women are seen walking to the sonic or water showers and a woman with her big but firm looking naked ass is off to the side. A nude muscular man steps into the frame and says `It`s fun having a wife with the money my arcology job pays me but I gotta tell you, the 18 hour work days, 7 days a week means I never get to bang her. That`s why I got this guy!` A second naked man who looks just like the first man then steps into frame, he might be an identical twin except for the fact his genitalia is not just small in comparison to the first man`s, but actually looks atrophied. The first nude man then says `Every night when he plugs in, he copies my memories of what I do in addition to my work responsibilities being uploaded to me, he doesn`t get jealous unlike the previous models...` as the second man nods before he continues by saying `And I can pass work inspections and tests in my pod!` and then the naked woman turns around and approaches the two, revealing her big boobs and trimmed bush, as she gives both men a peck on the cheek and says `And we can do whatever we want.` A text box appears and declares `When the time is right and your salary is high enough, talk to your doctor about getting a B-clone, so they can do the business, while you do the pleasure`.</DESC><DISP>a ^bholographic video ad^? floats here.</DISP><PROP>0|0|0|0|0|1|0|1.0|2|0|16|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>9</FLAG><IDENT /><VALUE>5</VALUE><MTRAL>3439</MTRAL><READ /><WORNL>false</WORNL><WORNB>512</WORNB> 
+0
+2147483647
+1
+0
+0
+-
+New Naw Ork#207
+com.planet_ink.coffee_mud.Items.Basic.GenItem@1010ec1c
+GenItem
+
+<NAME>^Wa statue of Expressionless^?</NAME><DESC>A statue of an expressionless young woman draped only in a torn hospital gown that covers only her front side leaving her backside out for the world to see.</DESC><DISP>a statue of Expressionless</DISP><PROP>0|0|0|0|0|1|0|1.0|2|0|16|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>9</FLAG><IDENT /><VALUE>5</VALUE><MTRAL>2590</MTRAL><READ /><WORNL>false</WORNL><WORNB>512</WORNB> 
+0
+2147483647
+1
+0
+0
+-
+New Naw Ork#211
+com.planet_ink.coffee_mud.Items.Basic.GenItem@3f3ed301
+GenItem
+
+<NAME>a ^kstatue of Headwound^?</NAME><DESC>A statue of a pallid humanoid covered in black bondage gear, spikes, collars, items that do self-mutilation and more.</DESC><DISP>a ^kstatue of Headwound^? stands here.</DISP><PROP>0|0|0|0|0|1|0|1.0|2|0|16|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>9</FLAG><IDENT /><VALUE>5</VALUE><MTRAL>811</MTRAL><READ /><WORNL>false</WORNL><WORNB>512</WORNB> 
+0
+2147483647
+1
+0
+0
+-
+New Naw Ork#215
+com.planet_ink.coffee_mud.Items.Basic.GenItem@74898946
+GenItem
+
+<NAME>a ^ystatue of Goldhoard^?</NAME><DESC>A statue of a globe of molten gold. Gold everywhere. Some diamonds too, but lots of gold.</DESC><DISP>a ^ystatue of Goldhoard^? is here.</DISP><PROP>0|0|0|0|0|1|0|1.0|5000|0|16|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>9</FLAG><IDENT /><VALUE>5</VALUE><MTRAL>805</MTRAL><READ /><WORNL>false</WORNL><WORNB>512</WORNB> 
+0
+2147483647
+1
+0
+0
+-
+New Naw Ork#219
+com.planet_ink.coffee_mud.Items.Basic.GenItem@2737e35d
+GenItem
+
+<NAME>a ^Pstatue of President^?</NAME><DESC>A statue of a big and tall man in a very nice purple and blue suit, the statue has a slight orange glow to it.</DESC><DISP>a ^Pstatue of President^? stands here.</DISP><PROP>0|0|0|0|0|1|0|1.0|5000|0|16|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>9</FLAG><IDENT /><VALUE>5</VALUE><MTRAL>1602</MTRAL><READ /><WORNL>false</WORNL><WORNB>512</WORNB> 
+0
+2147483647
+1
+0
+0
+-
+Gods Inc#0
+com.planet_ink.coffee_mud.Items.Basic.StdCoins@a408ada
+StdCoins
+com.planet_ink.coffee_mud.Items.MiscMagic.GoodyBag@4e31e5d2
+GOLD/0.1 
+0
+2147483647
+0
+100
+0
+-
+Gods Inc#0
+com.planet_ink.coffee_mud.Items.Basic.StdCoins@146cdb82
+StdCoins
+com.planet_ink.coffee_mud.Items.MiscMagic.GoodyBag@4e31e5d2
+COPPER/10.0 
+0
+2147483647
+0
+100
+0
+-
+Gods Inc#0
+com.planet_ink.coffee_mud.Items.Basic.StdCoins@388010c9
+StdCoins
+com.planet_ink.coffee_mud.Items.MiscMagic.GoodyBag@4e31e5d2
+CREDIT/1000000.0 
+0
+2147483647
+0
+100
+0
+-
+Gods Inc#0
+com.planet_ink.coffee_mud.Items.MiscMagic.GenScroll@36184b59
+GenScroll
+
+<NAME>a very powerful scroll</NAME><DESC>a very powerful scroll. </DESC><DISP>a very powerful scroll lies here</DISP><PROP>0|0|0|0|0|80|2147483647|1.0|1|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>11</FLAG><IDENT /><VALUE>2500</VALUE><MTRAL>2368</MTRAL><READ /><WORNL>false</WORNL><WORNB>512</WORNB> 
+2147483647
+0
+80
+0
+0
+-
+Gods Inc#0
+com.planet_ink.coffee_mud.Items.MiscMagic.GenSuperPill@77c6273d
+GenSuperPill
+com.planet_ink.coffee_mud.Items.MiscMagic.GoodyBag@4e31e5d2
+<NAME>a dexterity pill</NAME><DESC>Large and round, with strange markings.</DESC><DISP>A quick little pill has been left here.</DISP><PROP>0|0|0|0|0|0|0|1.0|1|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>11</FLAG><IDENT /><VALUE>200</VALUE><MTRAL>1800</MTRAL><READ>dex+1</READ><WORNL>false</WORNL><WORNB>512</WORNB><CAPA2>500</CAPA2><BITE>0</BITE> 
+0
+2147483647
+0
+0
+0
+-
+Gods Inc#0
+com.planet_ink.coffee_mud.Items.Basic.StdCoins@584428c
+StdCoins
+com.planet_ink.coffee_mud.Items.MiscMagic.GoodyBag@4e31e5d2
+/100.0 
+0
+2147483647
+0
+100
+0
+-
+Gods Inc#0
+com.planet_ink.coffee_mud.Items.MiscMagic.GenSuperPill@3d3a1cad
+GenSuperPill
+com.planet_ink.coffee_mud.Items.MiscMagic.GoodyBag@4e31e5d2
+<NAME>a training pill</NAME><DESC>Large and round, with strange markings.</DESC><DISP>A small round pill has been left here.</DISP><PROP>0|0|0|0|0|0|0|1.0|1|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>11</FLAG><IDENT /><VALUE>200</VALUE><MTRAL>1800</MTRAL><READ>train+1</READ><WORNL>false</WORNL><WORNB>512</WORNB><CAPA2>500</CAPA2><BITE>0</BITE> 
+0
+2147483647
+0
+0
+0
+-
+Gods Inc#0
+com.planet_ink.coffee_mud.Items.MiscMagic.GenSuperPill@498ccad0
+GenSuperPill
+com.planet_ink.coffee_mud.Items.MiscMagic.GoodyBag@4e31e5d2
+<NAME>a 5000 exp pill</NAME><DESC>Large and round, with strange markings.</DESC><DISP>An important little pill has been left here.</DISP><PROP>0|0|0|0|0|0|0|1.0|1|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>11</FLAG><IDENT /><VALUE>200</VALUE><MTRAL>1800</MTRAL><READ>expe+5000</READ><WORNL>false</WORNL><WORNB>512</WORNB><CAPA2>500</CAPA2><BITE>0</BITE> 
+0
+2147483647
+0
+0
+0
+-
+Gods Inc#0
+com.planet_ink.coffee_mud.Items.Basic.GenResource@fb5f313
+GenResource
+
+<NAME>a pound of dirt</NAME><DESC /><DISP>some dirt sits here.</DISP><PROP>0|0|0|0|0|1|0|1.0|1|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>11</FLAG><IDENT /><VALUE>1</VALUE><MTRAL>2765</MTRAL><READ /><WORNL>false</WORNL><WORNB>512</WORNB><DOMN>10</DOMN> 
+0
+2147483647
+1
+0
+0
+-
+Gods Inc#0
+com.planet_ink.coffee_mud.Items.Armor.GenPants@2802504b
+GenPants
+
+<NAME>a pair of pants</NAME><DESC>a well tailored pair of travelers pants.</DESC><DISP>a pair of pants lies here</DISP><PROP>0|1|0|0|0|1|0|1.0|1|75|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>27</FLAG><IDENT /><VALUE>1</VALUE><MTRAL>314</MTRAL><READ /><WORNL>false</WORNL><WORNB>16384</WORNB><CAPA>0</CAPA><CONT>0</CONT><OPENTK>30</OPENTK><LAYR>0</LAYR><LAYA>0</LAYA> 
+0
+100
+1
+0
+75
+-
+Gods Inc#0
+com.planet_ink.coffee_mud.Items.Basic.StdCoins@45b0ee92
+StdCoins
+com.planet_ink.coffee_mud.Items.MiscMagic.GoodyBag@4e31e5d2
+DOLLAR/100000.0 
+0
+2147483647
+0
+100
+0
+-
+Gods Inc#0
+com.planet_ink.coffee_mud.Items.MiscMagic.GenScroll@6a4566be
+GenScroll
+
+<NAME>a master scroll</NAME><DESC>a master scroll. </DESC><DISP>a master scroll lies here</DISP><PROP>0|0|0|0|0|60|2147483647|1.0|1|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>11</FLAG><IDENT /><VALUE>1000</VALUE><MTRAL>2368</MTRAL><READ /><WORNL>false</WORNL><WORNB>512</WORNB> 
+2147483647
+0
+60
+0
+0
+-
+Gods Inc#0
+com.planet_ink.coffee_mud.Items.MiscMagic.HerbChest@4a483d8e
+HerbChest
+
+ 
+0
+2147483647
+1
+0
+0
+-
+Gods Inc#0
+com.planet_ink.coffee_mud.Items.Basic.StdCoins@7072ac84
+StdCoins
+com.planet_ink.coffee_mud.Items.MiscMagic.GoodyBag@4e31e5d2
+COPPER/1.0 
+0
+2147483647
+0
+100
+0
+-
+Gods Inc#0
+com.planet_ink.coffee_mud.Items.Basic.StdCoins@32f41866
+StdCoins
+com.planet_ink.coffee_mud.Items.MiscMagic.GoodyBag@4e31e5d2
+CREDIT/1000.0 
+0
+2147483647
+0
+100
+0
+-
+Gods Inc#0
+com.planet_ink.coffee_mud.Items.MiscMagic.GenSuperPill@7345f810
+GenSuperPill
+com.planet_ink.coffee_mud.Items.MiscMagic.GoodyBag@4e31e5d2
+<NAME>a level pill</NAME><DESC>Large and round, with strange markings.</DESC><DISP>A pretty little pill has been left here.</DISP><PROP>0|0|0|0|0|0|0|1.0|1|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>11</FLAG><IDENT /><VALUE>200</VALUE><MTRAL>1800</MTRAL><READ>level+1</READ><WORNL>false</WORNL><WORNB>512</WORNB><CAPA2>500</CAPA2><BITE>0</BITE> 
+0
+2147483647
+0
+0
+0
+-
+Gods Inc#0
+com.planet_ink.coffee_mud.Items.MiscMagic.GenSuperPill@786a0fbb
+GenSuperPill
+com.planet_ink.coffee_mud.Items.MiscMagic.GoodyBag@4e31e5d2
+<NAME>a 5-level pill</NAME><DESC>Large and round, with strange markings.</DESC><DISP>A pretty little pill has been left here.</DISP><PROP>0|0|0|0|0|0|0|1.0|1|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>11</FLAG><IDENT /><VALUE>200</VALUE><MTRAL>1800</MTRAL><READ>level+5</READ><WORNL>false</WORNL><WORNB>512</WORNB><CAPA2>500</CAPA2><BITE>0</BITE> 
+0
+2147483647
+0
+0
+0
+-
+Gods Inc#0
+com.planet_ink.coffee_mud.Items.MiscMagic.GenPlayingCard@1d999abe
+GenPlayingCard
+
+<NAME>A card</NAME><DESC /><DISP>A card lies here.</DISP><PROP>0|0|0|0|0|0|0|1.0|0|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>11</FLAG><IDENT /><VALUE>0</VALUE><MTRAL>314</MTRAL><READ /><WORNL>false</WORNL><WORNB>512</WORNB> 
+0
+2147483647
+0
+0
+0
+-
+Gods Inc#0
+com.planet_ink.coffee_mud.Items.MiscMagic.GenSuperPill@f3c9643
+GenSuperPill
+com.planet_ink.coffee_mud.Items.MiscMagic.GoodyBag@4e31e5d2
+<NAME>a practice pill</NAME><DESC>Large and round, with strange markings.</DESC><DISP>A tiny little pill has been left here.</DISP><PROP>0|0|0|0|0|0|0|1.0|1|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>11</FLAG><IDENT /><VALUE>200</VALUE><MTRAL>1800</MTRAL><READ>prac+1</READ><WORNL>false</WORNL><WORNB>512</WORNB><CAPA2>500</CAPA2><BITE>0</BITE> 
+0
+2147483647
+0
+0
+0
+-
+Gods Inc#0
+com.planet_ink.coffee_mud.Items.MiscMagic.GenSuperPill@53656acc
+GenSuperPill
+com.planet_ink.coffee_mud.Items.MiscMagic.GoodyBag@4e31e5d2
+<NAME>a 10-level pill</NAME><DESC>Large and round, with strange markings.</DESC><DISP>A pretty little pill has been left here.</DISP><PROP>0|0|0|0|0|0|0|1.0|1|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>11</FLAG><IDENT /><VALUE>200</VALUE><MTRAL>1800</MTRAL><READ>level+10</READ><WORNL>false</WORNL><WORNB>512</WORNB><CAPA2>500</CAPA2><BITE>0</BITE> 
+0
+2147483647
+0
+0
+0
+-
+Gods Inc#0
+com.planet_ink.coffee_mud.Items.Basic.StdCoins@7b5ab0cc
+StdCoins
+com.planet_ink.coffee_mud.Items.MiscMagic.GoodyBag@4e31e5d2
+/1.0 
+0
+2147483647
+0
+100
+0
+-
+Gods Inc#0
+com.planet_ink.coffee_mud.Items.Basic.StdCoins@2a478973
+StdCoins
+com.planet_ink.coffee_mud.Items.MiscMagic.GoodyBag@4e31e5d2
+CREDIT/1.0 
+0
+2147483647
+0
+100
+0
+-
+Gods Inc#0
+com.planet_ink.coffee_mud.Items.MiscMagic.GenSuperPill@41229cf6
+GenSuperPill
+com.planet_ink.coffee_mud.Items.MiscMagic.GoodyBag@4e31e5d2
+<NAME>a strength pill</NAME><DESC>Large and round, with strange markings.</DESC><DISP>An strong little pill has been left here.</DISP><PROP>0|0|0|0|0|0|0|1.0|1|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>11</FLAG><IDENT /><VALUE>200</VALUE><MTRAL>1800</MTRAL><READ>str+1</READ><WORNL>false</WORNL><WORNB>512</WORNB><CAPA2>500</CAPA2><BITE>0</BITE> 
+0
+2147483647
+0
+0
+0
+-
+Gods Inc#0
+com.planet_ink.coffee_mud.Items.Basic.StdCoins@39e9ad14
+StdCoins
+com.planet_ink.coffee_mud.Items.MiscMagic.GoodyBag@4e31e5d2
+COPPER/10000.0 
+0
+2147483647
+0
+100
+0
+-
+Gods Inc#0
+com.planet_ink.coffee_mud.Items.Basic.StdCoins@171bb635
+StdCoins
+com.planet_ink.coffee_mud.Items.MiscMagic.GoodyBag@4e31e5d2
+/10000.0 
+0
+2147483647
+0
+100
+0
+-
+Gods Inc#0
+com.planet_ink.coffee_mud.Items.MiscMagic.GenSuperPill@181b9b4
+GenSuperPill
+com.planet_ink.coffee_mud.Items.MiscMagic.GoodyBag@4e31e5d2
+<NAME>a quest point pill</NAME><DESC>Large and round, with strange markings.</DESC><DISP>A questy little pill has been left here.</DISP><PROP>0|0|0|0|0|0|0|1.0|1|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>11</FLAG><IDENT /><VALUE>200</VALUE><MTRAL>1800</MTRAL><READ>ques+1</READ><WORNL>false</WORNL><WORNB>512</WORNB><CAPA2>500</CAPA2><BITE>0</BITE> 
+0
+2147483647
+0
+0
+0
+-
+Gods Inc#0
+com.planet_ink.coffee_mud.Items.MiscMagic.GoodyBag@4e31e5d2
+GoodyBag
+
+ 
+0
+2147483647
+1
+0
+0
+-
+Gods Inc#0
+com.planet_ink.coffee_mud.Items.Basic.StdCoins@5411505e
+StdCoins
+com.planet_ink.coffee_mud.Items.MiscMagic.GoodyBag@4e31e5d2
+GOLD/1.0 
+0
+2147483647
+0
+100
+0
+-
+Gods Inc#0
+com.planet_ink.coffee_mud.Items.MiscMagic.GenScroll@2064d6c5
+GenScroll
+
+<NAME>% travelling spellbook</NAME><DESC>% travelling spellbook. </DESC><DISP>% travelling spellbook lies here</DISP><PROP>0|0|0|0|0|21|2147483647|1.0|1|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>11</FLAG><IDENT /><VALUE>100</VALUE><MTRAL>2368</MTRAL><READ /><WORNL>false</WORNL><WORNB>512</WORNB> 
+2147483647
+0
+21
+0
+0
+-
+Gods Inc#0
+com.planet_ink.coffee_mud.Items.Basic.StdCoins@6a8476e2
+StdCoins
+com.planet_ink.coffee_mud.Items.MiscMagic.GoodyBag@4e31e5d2
+COPPER/100.0 
+0
+2147483647
+0
+100
+0
+-
+Gods Inc#0
+com.planet_ink.coffee_mud.Items.Basic.StdCoins@66c43e1f
+StdCoins
+com.planet_ink.coffee_mud.Items.MiscMagic.GoodyBag@4e31e5d2
+COPPER/500.0 
+0
+2147483647
+0
+100
+0
+-
+Gods Inc#0
+com.planet_ink.coffee_mud.Items.Basic.StdCoins@38891139
+StdCoins
+com.planet_ink.coffee_mud.Items.MiscMagic.GoodyBag@4e31e5d2
+GOLD/5.0 
+0
+2147483647
+0
+100
+0
+-
+Gods Inc#0
+com.planet_ink.coffee_mud.Items.Basic.GenPaper@3edd3a13
+GenPaper
+
+<NAME>a sheet of vellum</NAME><DESC>a sheet of vellum. </DESC><DISP>a sheet of vellum lies here</DISP><PROP>0|0|0|0|0|10|2147483647|1.0|1|0|8|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>15</FLAG><IDENT /><VALUE>3</VALUE><MTRAL>2368</MTRAL><READ /><WORNL>false</WORNL><WORNB>512</WORNB><MAXPG>1</MAXPG><MAXCHPG>4000</MAXCHPG> 
+2147483647
+2147483647
+10
+0
+0
+-
+Gods Inc#0
+com.planet_ink.coffee_mud.Items.MiscMagic.GenScroll@7727784c
+GenScroll
+
+<NAME>a very powerful scroll</NAME><DESC>a very powerful scroll. </DESC><DISP>a very powerful scroll lies here</DISP><PROP>0|0|0|0|0|80|2147483647|1.0|1|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>11</FLAG><IDENT /><VALUE>2500</VALUE><MTRAL>2368</MTRAL><READ /><WORNL>false</WORNL><WORNB>512</WORNB> 
+2147483647
+0
+80
+0
+0
+-
+Gods Inc#0
+com.planet_ink.coffee_mud.Items.Basic.StdCoins@30d48471
+StdCoins
+com.planet_ink.coffee_mud.Items.MiscMagic.GoodyBag@4e31e5d2
+GOLD/0.01 
+0
+2147483647
+0
+100
+0
+-
+Gods Inc#0
+com.planet_ink.coffee_mud.Items.Basic.GenPaper@40a44b8b
+GenPaper
+
+<NAME>a wedding banner</NAME><DESC>a wedding banner. </DESC><DISP>a wedding banner lies here</DISP><PROP>0|0|0|0|0|15|2147483647|1.0|1|0|8|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>15</FLAG><IDENT /><VALUE>35</VALUE><MTRAL>2368</MTRAL><READ /><WORNL>false</WORNL><WORNB>512</WORNB><MAXPG>1</MAXPG><MAXCHPG>280</MAXCHPG> 
+2147483647
+2147483647
+15
+0
+0
+-
+Gods Inc#0
+com.planet_ink.coffee_mud.Items.MiscMagic.GenSuperPill@17fefc2e
+GenSuperPill
+com.planet_ink.coffee_mud.Items.MiscMagic.GoodyBag@4e31e5d2
+<NAME>a 500 exp pill</NAME><DESC>Large and round, with strange markings.</DESC><DISP>An important little pill has been left here.</DISP><PROP>0|0|0|0|0|0|0|1.0|1|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>11</FLAG><IDENT /><VALUE>200</VALUE><MTRAL>1800</MTRAL><READ>expe+500</READ><WORNL>false</WORNL><WORNB>512</WORNB><CAPA2>500</CAPA2><BITE>0</BITE> 
+0
+2147483647
+0
+0
+0
+-
+Gods Inc#0
+com.planet_ink.coffee_mud.Items.MiscMagic.GenSuperPill@5b571385
+GenSuperPill
+com.planet_ink.coffee_mud.Items.MiscMagic.GoodyBag@4e31e5d2
+<NAME>a constitution pill</NAME><DESC>Large and round, with strange markings.</DESC><DISP>A nutricious little pill has been left here.</DISP><PROP>0|0|0|0|0|0|0|1.0|1|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>11</FLAG><IDENT /><VALUE>200</VALUE><MTRAL>1800</MTRAL><READ>con+1</READ><WORNL>false</WORNL><WORNB>512</WORNB><CAPA2>500</CAPA2><BITE>0</BITE> 
+0
+2147483647
+0
+0
+0
+-
+Gods Inc#0
+com.planet_ink.coffee_mud.Items.Basic.GenResource@4fb4f392
+GenResource
+
+<NAME>a pound of dirt</NAME><DESC /><DISP>some dirt sits here.</DISP><PROP>0|0|0|0|0|1|0|1.0|1|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>11</FLAG><IDENT /><VALUE>1</VALUE><MTRAL>2765</MTRAL><READ /><WORNL>false</WORNL><WORNB>512</WORNB><DOMN>10</DOMN> 
+0
+2147483647
+1
+0
+0
+-
+Gods Inc#0
+com.planet_ink.coffee_mud.Items.MiscMagic.GenSuperPill@2dae01fc
+GenSuperPill
+com.planet_ink.coffee_mud.Items.MiscMagic.GoodyBag@4e31e5d2
+<NAME>a 100 exp pill</NAME><DESC>Large and round, with strange markings.</DESC><DISP>An important little pill has been left here.</DISP><PROP>0|0|0|0|0|0|0|1.0|1|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>11</FLAG><IDENT /><VALUE>200</VALUE><MTRAL>1800</MTRAL><READ>expe+100</READ><WORNL>false</WORNL><WORNB>512</WORNB><CAPA2>500</CAPA2><BITE>0</BITE> 
+0
+2147483647
+0
+0
+0
+-
+Gods Inc#0
+com.planet_ink.coffee_mud.Items.Basic.StdCoins@4dd197eb
+StdCoins
+com.planet_ink.coffee_mud.Items.MiscMagic.GoodyBag@4e31e5d2
+DOLLAR/100.0 
+0
+2147483647
+0
+100
+0
+-
+Gods Inc#0
+com.planet_ink.coffee_mud.Items.MiscMagic.GenSuperPill@2e796eef
+GenSuperPill
+com.planet_ink.coffee_mud.Items.MiscMagic.GoodyBag@4e31e5d2
+<NAME>an intelligence pill</NAME><DESC>Large and round, with strange markings.</DESC><DISP>An smart little pill has been left here.</DISP><PROP>0|0|0|0|0|0|0|1.0|1|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>11</FLAG><IDENT /><VALUE>200</VALUE><MTRAL>1800</MTRAL><READ>int+1</READ><WORNL>false</WORNL><WORNB>512</WORNB><CAPA2>500</CAPA2><BITE>0</BITE> 
+0
+2147483647
+0
+0
+0
+-
+Gods Inc#0
+com.planet_ink.coffee_mud.Items.Basic.StdCoins@463920d1
+StdCoins
+com.planet_ink.coffee_mud.Items.MiscMagic.GoodyBag@4e31e5d2
+/1000000.0 
+0
+2147483647
+0
+100
+0
+-
+Gods Inc#0
+com.planet_ink.coffee_mud.Items.MiscMagic.GenSuperPill@1bc5680b
+GenSuperPill
+com.planet_ink.coffee_mud.Items.MiscMagic.GoodyBag@4e31e5d2
+<NAME>a charisma pill</NAME><DESC>Large and round, with strange markings.</DESC><DISP>A pretty little pill has been left here.</DISP><PROP>0|0|0|0|0|0|0|1.0|1|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>11</FLAG><IDENT /><VALUE>200</VALUE><MTRAL>1800</MTRAL><READ>cha+1</READ><WORNL>false</WORNL><WORNB>512</WORNB><CAPA2>500</CAPA2><BITE>0</BITE> 
+0
+2147483647
+0
+0
+0
+-
+Gods Inc#0
+com.planet_ink.coffee_mud.Items.MiscMagic.GenSuperPill@5a6aca57
+GenSuperPill
+com.planet_ink.coffee_mud.Items.MiscMagic.GoodyBag@4e31e5d2
+<NAME>a 2000 exp pill</NAME><DESC>Large and round, with strange markings.</DESC><DISP>An important little pill has been left here.</DISP><PROP>0|0|0|0|0|0|0|1.0|1|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>11</FLAG><IDENT /><VALUE>200</VALUE><MTRAL>1800</MTRAL><READ>expe+2000</READ><WORNL>false</WORNL><WORNB>512</WORNB><CAPA2>500</CAPA2><BITE>0</BITE> 
+0
+2147483647
+0
+0
+0
+-
+Gods Inc#0
+com.planet_ink.coffee_mud.Items.MiscMagic.GenSuperPill@3f81c9e3
+GenSuperPill
+com.planet_ink.coffee_mud.Items.MiscMagic.GoodyBag@4e31e5d2
+<NAME>a wisdom pill</NAME><DESC>Large and round, with strange markings.</DESC><DISP>A wise little pill has been left here.</DISP><PROP>0|0|0|0|0|0|0|1.0|1|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>11</FLAG><IDENT /><VALUE>200</VALUE><MTRAL>1800</MTRAL><READ>wis+1</READ><WORNL>false</WORNL><WORNB>512</WORNB><CAPA2>500</CAPA2><BITE>0</BITE> 
+0
+2147483647
+0
+0
+0
+-
+Gods Inc#0
+com.planet_ink.coffee_mud.Items.MiscMagic.GenSuperPill@3031596a
+GenSuperPill
+com.planet_ink.coffee_mud.Items.MiscMagic.GoodyBag@4e31e5d2
+<NAME>a 1000 exp pill</NAME><DESC>Large and round, with strange markings.</DESC><DISP>An important little pill has been left here.</DISP><PROP>0|0|0|0|0|0|0|1.0|1|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>11</FLAG><IDENT /><VALUE>200</VALUE><MTRAL>1800</MTRAL><READ>expe+1000</READ><WORNL>false</WORNL><WORNB>512</WORNB><CAPA2>500</CAPA2><BITE>0</BITE> 
+0
+2147483647
+0
+0
+0
+-
+Gods Inc#0
+com.planet_ink.coffee_mud.Items.Basic.StdCoins@84fa57
+StdCoins
+com.planet_ink.coffee_mud.Items.MiscMagic.GoodyBag@4e31e5d2
+DOLLAR/1.0 
+0
+2147483647
+0
+100
+0
+-
+Gods Inc#5
+com.planet_ink.coffee_mud.Items.Basic.GenDrink@266d5c1c
+GenDrink
+
+<NAME>a generic drinking container</NAME><DESC /><DISP>a generic drinking container sits here.</DISP><PROP>0|0|0|0|0|0|0|1.0|1|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>27</FLAG><IDENT /><VALUE>1</VALUE><MTRAL>808</MTRAL><READ>3024</READ><WORNL>false</WORNL><WORNB>512</WORNB><CAPA>5</CAPA><CONT>1</CONT><OPENTK>30</OPENTK><CAPA2>700</CAPA2><REMAN>700</REMAN><LTYPE>3024</LTYPE><DRINK>100</DRINK> 
+0
+2147483647
+0
+0
+0
+-
+Gods Inc#5
+com.planet_ink.coffee_mud.Items.Basic.GenWater@4f54f4ca
+GenWater
+
+<NAME>a glass of water</NAME><DESC /><DISP>a glass of water sits here.</DISP><PROP>0|0|0|0|0|0|0|1.0|1|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>27</FLAG><IDENT /><VALUE>0</VALUE><MTRAL>2876</MTRAL><READ /><WORNL>false</WORNL><WORNB>512</WORNB><CAPA>0</CAPA><CONT>1</CONT><OPENTK>30</OPENTK><CAPA2>100</CAPA2><REMAN>100</REMAN><LTYPE>2876</LTYPE><DRINK>100</DRINK> 
+0
+2147483647
+0
+0
+0
+-
+Gods Inc#2
+com.planet_ink.coffee_mud.Items.MiscMagic.StdPlayingCard@410fae51
+StdPlayingCard
+com.planet_ink.coffee_mud.Items.MiscMagic.StdDeckOfCards@2d1ddd9
+ 
+0
+2147483647
+0
+60
+0
+-
+Gods Inc#2
+com.planet_ink.coffee_mud.Items.MiscMagic.GenWand@353f669e
+GenWand
+
+<NAME>an elm wand</NAME><DESC>an elm wand. </DESC><DISP>an elm wand lies here</DISP><PROP>0|0|0|0|64|22|2147483647|1.0|5|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>11</FLAG><IDENT /><VALUE>3</VALUE><MTRAL>1418</MTRAL><READ /><WORNL>false</WORNL><WORNB>512</WORNB><MAXUSE>2147483647</MAXUSE> 
+2147483647
+0
+22
+0
+0
+-
+Gods Inc#2
+com.planet_ink.coffee_mud.Items.MiscMagic.StdPlayingCard@8b8244f
+StdPlayingCard
+com.planet_ink.coffee_mud.Items.MiscMagic.StdDeckOfCards@2d1ddd9
+ 
+0
+2147483647
+0
+23
+0
+-
+Gods Inc#2
+com.planet_ink.coffee_mud.Items.MiscMagic.StdPlayingCard@3895e9e7
+StdPlayingCard
+com.planet_ink.coffee_mud.Items.MiscMagic.StdDeckOfCards@2d1ddd9
+ 
+0
+2147483647
+0
+10
+0
+-
+Gods Inc#2
+com.planet_ink.coffee_mud.Items.MiscMagic.GenScroll@6ab0cbd6
+GenScroll
+
+<NAME>% spellbook</NAME><DESC>% spellbook. </DESC><DISP>% spellbook lies here</DISP><PROP>0|0|0|0|0|41|2147483647|1.0|1|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>11</FLAG><IDENT /><VALUE>250</VALUE><MTRAL>2368</MTRAL><READ /><WORNL>false</WORNL><WORNB>512</WORNB> 
+2147483647
+0
+41
+0
+0
+-
+Gods Inc#2
+com.planet_ink.coffee_mud.Items.MiscMagic.StdPlayingCard@4f80e4f4
+StdPlayingCard
+com.planet_ink.coffee_mud.Items.MiscMagic.StdDeckOfCards@2d1ddd9
+ 
+0
+2147483647
+0
+44
+0
+-
+Gods Inc#2
+com.planet_ink.coffee_mud.Items.MiscMagic.StdPlayingCard@75e521d0
+StdPlayingCard
+com.planet_ink.coffee_mud.Items.MiscMagic.StdDeckOfCards@2d1ddd9
+ 
+0
+2147483647
+0
+36
+0
+-
+Gods Inc#2
+com.planet_ink.coffee_mud.Items.Armor.GenArmor@6683ec4c
+GenArmor
+
+<NAME>a designer spidersteel headband</NAME><DESC>a designer spidersteel headband. </DESC><DISP>a designer spidersteel headband lies here</DISP><PROP>0|0|0|0|0|33|2147483647|1.0|1|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>27</FLAG><IDENT /><VALUE>31</VALUE><MTRAL>414</MTRAL><READ /><WORNL>false</WORNL><WORNB>1</WORNB><CAPA>0</CAPA><CONT>0</CONT><OPENTK>30</OPENTK><LAYR>-2</LAYR><LAYA>1</LAYA> 
+2147483647
+100
+33
+0
+0
+-
+Gods Inc#2
+com.planet_ink.coffee_mud.Items.MiscMagic.GenDice@28c67d94
+GenDice
+
+<NAME>a six sided die</NAME><DESC>It looks like a cube.</DESC><DISP>a six sided die is lying here, showing 4.</DISP><PROP>6|0|0|0|0|1|0|1.0|1|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>11</FLAG><IDENT>Try THROWing it, or ROLLing it!</IDENT><VALUE>5</VALUE><MTRAL>2648</MTRAL><READ /><WORNL>false</WORNL><WORNB>512</WORNB> 
+0
+2147483647
+1
+6
+0
+-
+Gods Inc#2
+com.planet_ink.coffee_mud.Items.MiscMagic.StdPlayingCard@6ea1b3cb
+StdPlayingCard
+com.planet_ink.coffee_mud.Items.MiscMagic.StdDeckOfCards@2d1ddd9
+ 
+0
+2147483647
+0
+20
+0
+-
+Gods Inc#2
+com.planet_ink.coffee_mud.Items.MiscMagic.StdPlayingCard@321cc311
+StdPlayingCard
+com.planet_ink.coffee_mud.Items.MiscMagic.StdDeckOfCards@2d1ddd9
+ 
+0
+2147483647
+0
+51
+0
+-
+Gods Inc#2
+com.planet_ink.coffee_mud.Items.MiscMagic.StdPlayingCard@f6e36e7
+StdPlayingCard
+com.planet_ink.coffee_mud.Items.MiscMagic.StdDeckOfCards@2d1ddd9
+ 
+0
+2147483647
+0
+41
+0
+-
+Gods Inc#2
+com.planet_ink.coffee_mud.Items.MiscMagic.StdPlayingCard@11a049fa
+StdPlayingCard
+com.planet_ink.coffee_mud.Items.MiscMagic.StdDeckOfCards@2d1ddd9
+ 
+0
+2147483647
+0
+42
+0
+-
+Gods Inc#2
+com.planet_ink.coffee_mud.Items.MiscMagic.StdPlayingCard@4a32e8f8
+StdPlayingCard
+com.planet_ink.coffee_mud.Items.MiscMagic.StdDeckOfCards@2d1ddd9
+ 
+0
+2147483647
+0
+11
+0
+-
+Gods Inc#2
+com.planet_ink.coffee_mud.Items.MiscMagic.StdPlayingCard@11dddcc0
+StdPlayingCard
+com.planet_ink.coffee_mud.Items.MiscMagic.StdDeckOfCards@2d1ddd9
+ 
+0
+2147483647
+0
+55
+0
+-
+Gods Inc#2
+com.planet_ink.coffee_mud.Items.MiscMagic.StdPlayingCard@6115be9f
+StdPlayingCard
+com.planet_ink.coffee_mud.Items.MiscMagic.StdDeckOfCards@2d1ddd9
+ 
+0
+2147483647
+0
+6
+0
+-
+Gods Inc#2
+com.planet_ink.coffee_mud.Items.MiscMagic.GenScroll@d172710
+GenScroll
+
+<NAME>an improved scroll</NAME><DESC>an improved scroll. </DESC><DISP>an improved scroll lies here</DISP><PROP>0|0|0|0|0|20|2147483647|1.0|1|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>11</FLAG><IDENT /><VALUE>60</VALUE><MTRAL>414</MTRAL><READ /><WORNL>false</WORNL><WORNB>512</WORNB> 
+2147483647
+0
+20
+0
+0
+-
+Gods Inc#2
+com.planet_ink.coffee_mud.Items.MiscMagic.StdPlayingCard@37557f97
+StdPlayingCard
+com.planet_ink.coffee_mud.Items.MiscMagic.StdDeckOfCards@2d1ddd9
+ 
+0
+2147483647
+0
+53
+0
+-
+Gods Inc#2
+com.planet_ink.coffee_mud.Items.Basic.GenFood@748f5b72
+GenFood
+
+<NAME>medium dark roasted malt</NAME><DESC>It looks good!</DESC><DISP>some medium dark roasted malt is here</DISP><PROP>0|0|0|0|0|0|2147483647|1.0|2|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>11</FLAG><IDENT /><VALUE>5</VALUE><MTRAL>2050</MTRAL><READ /><WORNL>false</WORNL><WORNB>512</WORNB><CAPA2>200</CAPA2><BITE>0</BITE> 
+2147483647
+2147483647
+0
+0
+0
+-
+Gods Inc#2
+com.planet_ink.coffee_mud.Items.MiscMagic.StdPlayingCard@6fbeb2aa
+StdPlayingCard
+com.planet_ink.coffee_mud.Items.MiscMagic.StdDeckOfCards@2d1ddd9
+ 
+0
+2147483647
+0
+61
+0
+-
+Gods Inc#2
+com.planet_ink.coffee_mud.Items.MiscMagic.StdPlayingCard@39b7f996
+StdPlayingCard
+com.planet_ink.coffee_mud.Items.MiscMagic.StdDeckOfCards@2d1ddd9
+ 
+0
+2147483647
+0
+45
+0
+-
+Gods Inc#2
+com.planet_ink.coffee_mud.Items.MiscMagic.StdPlayingCard@1e4b32df
+StdPlayingCard
+com.planet_ink.coffee_mud.Items.MiscMagic.StdDeckOfCards@2d1ddd9
+ 
+0
+2147483647
+0
+50
+0
+-
+Gods Inc#2
+com.planet_ink.coffee_mud.Items.MiscMagic.GenScroll@23930884
+GenScroll
+
+<NAME>a powerful scroll</NAME><DESC>a powerful scroll. </DESC><DISP>a powerful scroll lies here</DISP><PROP>0|0|0|0|0|70|2147483647|1.0|1|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>11</FLAG><IDENT /><VALUE>2000</VALUE><MTRAL>2368</MTRAL><READ /><WORNL>false</WORNL><WORNB>512</WORNB> 
+2147483647
+0
+70
+0
+0
+-
+Gods Inc#2
+com.planet_ink.coffee_mud.Items.MiscMagic.StdPlayingCard@17888441
+StdPlayingCard
+com.planet_ink.coffee_mud.Items.MiscMagic.StdDeckOfCards@2d1ddd9
+ 
+0
+2147483647
+0
+43
+0
+-
+Gods Inc#2
+com.planet_ink.coffee_mud.Items.MiscMagic.StdPlayingCard@59322456
+StdPlayingCard
+com.planet_ink.coffee_mud.Items.MiscMagic.StdDeckOfCards@2d1ddd9
+ 
+0
+2147483647
+0
+46
+0
+-
+Gods Inc#2
+com.planet_ink.coffee_mud.Items.MiscMagic.StdPlayingCard@552a41a3
+StdPlayingCard
+com.planet_ink.coffee_mud.Items.MiscMagic.StdDeckOfCards@2d1ddd9
+ 
+0
+2147483647
+0
+25
+0
+-
+Gods Inc#2
+com.planet_ink.coffee_mud.Items.MiscMagic.StdPlayingCard@4a66e0f6
+StdPlayingCard
+com.planet_ink.coffee_mud.Items.MiscMagic.StdDeckOfCards@2d1ddd9
+ 
+0
+2147483647
+0
+34
+0
+-
+Gods Inc#2
+com.planet_ink.coffee_mud.Items.MiscMagic.StdPlayingCard@6ee4b33a
+StdPlayingCard
+com.planet_ink.coffee_mud.Items.MiscMagic.StdDeckOfCards@2d1ddd9
+ 
+0
+2147483647
+0
+3
+0
+-
+Gods Inc#2
+com.planet_ink.coffee_mud.Items.MiscMagic.StdPlayingCard@ba43289
+StdPlayingCard
+com.planet_ink.coffee_mud.Items.MiscMagic.StdDeckOfCards@2d1ddd9
+ 
+0
+2147483647
+0
+40
+0
+-
+Gods Inc#2
+com.planet_ink.coffee_mud.Items.MiscMagic.StdPlayingCard@19521909
+StdPlayingCard
+com.planet_ink.coffee_mud.Items.MiscMagic.StdDeckOfCards@2d1ddd9
+ 
+0
+2147483647
+0
+8
+0
+-
+Gods Inc#2
+com.planet_ink.coffee_mud.Items.Basic.GenDrink@363c36b
+GenDrink
+
+<NAME>a china mug</NAME><DESC>a china mug. </DESC><DISP>a china mug lies here</DISP><PROP>0|0|0|0|0|3|2147483647|1.0|5|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>27</FLAG><IDENT /><VALUE>1</VALUE><MTRAL>1602</MTRAL><READ>2876</READ><WORNL>false</WORNL><WORNB>512</WORNB><CAPA>10</CAPA><CONT>1</CONT><OPENTK>30</OPENTK><CAPA2>250</CAPA2><REMAN>0</REMAN><LTYPE>2876</LTYPE><DRINK>250</DRINK> 
+2147483647
+2147483647
+3
+0
+0
+-
+Gods Inc#2
+com.planet_ink.coffee_mud.Items.MiscMagic.StdPlayingCard@60fca61a
+StdPlayingCard
+com.planet_ink.coffee_mud.Items.MiscMagic.StdDeckOfCards@2d1ddd9
+ 
+0
+2147483647
+0
+56
+0
+-
+Gods Inc#2
+com.planet_ink.coffee_mud.Items.MiscMagic.StdPlayingCard@380f2cab
+StdPlayingCard
+com.planet_ink.coffee_mud.Items.MiscMagic.StdDeckOfCards@2d1ddd9
+ 
+0
+2147483647
+0
+18
+0
+-
+Gods Inc#2
+com.planet_ink.coffee_mud.Items.MiscMagic.StdPlayingCard@38ee7e1
+StdPlayingCard
+com.planet_ink.coffee_mud.Items.MiscMagic.StdDeckOfCards@2d1ddd9
+ 
+0
+2147483647
+0
+14
+0
+-
+Gods Inc#2
+com.planet_ink.coffee_mud.Items.MiscMagic.StdPlayingCard@3d2d990
+StdPlayingCard
+com.planet_ink.coffee_mud.Items.MiscMagic.StdDeckOfCards@2d1ddd9
+ 
+0
+2147483647
+0
+62
+0
+-
+Gods Inc#2
+com.planet_ink.coffee_mud.Items.MiscMagic.StdPlayingCard@7fe17df3
+StdPlayingCard
+com.planet_ink.coffee_mud.Items.MiscMagic.StdDeckOfCards@2d1ddd9
+ 
+0
+2147483647
+0
+39
+0
+-
+Gods Inc#2
+com.planet_ink.coffee_mud.Items.MiscMagic.StdPlayingCard@6bf60d67
+StdPlayingCard
+com.planet_ink.coffee_mud.Items.MiscMagic.StdDeckOfCards@2d1ddd9
+ 
+0
+2147483647
+0
+52
+0
+-
+Gods Inc#2
+com.planet_ink.coffee_mud.Items.MiscMagic.StdPlayingCard@d627aa0
+StdPlayingCard
+com.planet_ink.coffee_mud.Items.MiscMagic.StdDeckOfCards@2d1ddd9
+ 
+0
+2147483647
+0
+30
+0
+-
+Gods Inc#2
+com.planet_ink.coffee_mud.Items.MiscMagic.StdPlayingCard@11db3537
+StdPlayingCard
+com.planet_ink.coffee_mud.Items.MiscMagic.StdDeckOfCards@2d1ddd9
+ 
+0
+2147483647
+0
+59
+0
+-
+Gods Inc#2
+com.planet_ink.coffee_mud.Items.MiscMagic.StdPlayingCard@6f7cef31
+StdPlayingCard
+com.planet_ink.coffee_mud.Items.MiscMagic.StdDeckOfCards@2d1ddd9
+ 
+0
+2147483647
+0
+29
+0
+-
+Gods Inc#2
+com.planet_ink.coffee_mud.Items.Weapons.GenWeapon@6265cb41
+GenWeapon
+
+<NAME>an iron spear</NAME><DESC>an iron spear. </DESC><DISP>an iron spear lies here</DISP><PROP>0|0|-15|12|0|1|2147483647|1.0|12|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>11</FLAG><IDENT /><VALUE>318</VALUE><MTRAL>801</MTRAL><READ /><WORNL>true</WORNL><WORNB>1536</WORNB><ACAPA>0</ACAPA><TYPE>2</TYPE><CLASS>6</CLASS><MINR>0</MINR><MAXR>1</MAXR> 
+2147483647
+100
+1
+0
+0
+-
+Gods Inc#2
+com.planet_ink.coffee_mud.Items.MiscMagic.StdPlayingCard@19c5df1d
+StdPlayingCard
+com.planet_ink.coffee_mud.Items.MiscMagic.StdDeckOfCards@2d1ddd9
+ 
+0
+2147483647
+0
+24
+0
+-
+Gods Inc#2
+com.planet_ink.coffee_mud.Items.Armor.GenArmor@7f8024fd
+GenArmor
+
+<NAME>panties</NAME><DESC /><DISP>a pair of panties sits here.</DISP><PROP>0|10|0|0|0|1|0|1.0|25|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>27</FLAG><IDENT /><VALUE>5</VALUE><MTRAL>341</MTRAL><READ /><WORNL>false</WORNL><WORNB>0</WORNB><CAPA>0</CAPA><CONT>0</CONT><OPENTK>30</OPENTK><LAYR>0</LAYR><LAYA>0</LAYA> 
+0
+100
+1
+0
+0
+-
+Gods Inc#2
+com.planet_ink.coffee_mud.Items.MiscMagic.StdPlayingCard@6ed50f8
+StdPlayingCard
+com.planet_ink.coffee_mud.Items.MiscMagic.StdDeckOfCards@2d1ddd9
+ 
+0
+2147483647
+0
+38
+0
+-
+Gods Inc#2
+com.planet_ink.coffee_mud.Items.MiscMagic.StdPlayingCard@ab9b829
+StdPlayingCard
+com.planet_ink.coffee_mud.Items.MiscMagic.StdDeckOfCards@2d1ddd9
+ 
+0
+2147483647
+0
+28
+0
+-
+Gods Inc#2
+com.planet_ink.coffee_mud.Items.Basic.GenFood@75c3264d
+GenFood
+
+<NAME>a poisoned apple</NAME><DESC /><DISP>a poisoned apple sits here.</DISP><PROP>0|0|0|0|0|0|0|1.0|2|0|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>InstantDeath</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS><AFF><ACLASS>Prop_InstantDeath</ACLASS><ATEXT /></AFF></AFFECS><FLAG>11</FLAG><IDENT /><VALUE>5</VALUE><MTRAL>1807</MTRAL><READ /><WORNL>false</WORNL><WORNB>512</WORNB><CAPA2>500</CAPA2><BITE>0</BITE> 
+0
+2147483647
+0
+0
+0
+-
+Gods Inc#2
+com.planet_ink.coffee_mud.Items.MiscMagic.StdPlayingCard@5f39b677
+StdPlayingCard
+com.planet_ink.coffee_mud.Items.MiscMagic.StdDeckOfCards@2d1ddd9
+ 
+0
+2147483647
+0
+35
+0
+-
+Gods Inc#2
+com.planet_ink.coffee_mud.Items.MiscMagic.StdPlayingCard@3eab25d2
+StdPlayingCard
+com.planet_ink.coffee_mud.Items.MiscMagic.StdDeckOfCards@2d1ddd9
+ 
+0
+2147483647
+0
+9
+0
+-
+Gods Inc#2
+com.planet_ink.coffee_mud.Items.MiscMagic.StdPlayingCard@65ed9a55
+StdPlayingCard
+com.planet_ink.coffee_mud.Items.MiscMagic.StdDeckOfCards@2d1ddd9
+ 
+0
+2147483647
+0
+21
+0
+-
+Gods Inc#2
+com.planet_ink.coffee_mud.Items.MiscMagic.GenScroll@299e6a6a
+GenScroll
+
+<NAME>% huge spellbook</NAME><DESC>% huge spellbook. </DESC><DISP>% huge spellbook lies here</DISP><PROP>0|0|0|0|0|81|2147483647|1.0|1|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>11</FLAG><IDENT /><VALUE>5000</VALUE><MTRAL>312</MTRAL><READ /><WORNL>false</WORNL><WORNB>512</WORNB> 
+2147483647
+0
+81
+0
+0
+-
+Gods Inc#2
+com.planet_ink.coffee_mud.Items.MiscMagic.GenScroll@57c70468
+GenScroll
+
+<NAME>a nice scroll</NAME><DESC>a nice scroll. </DESC><DISP>a nice scroll lies here</DISP><PROP>0|0|0|0|0|10|2147483647|1.0|1|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>11</FLAG><IDENT /><VALUE>40</VALUE><MTRAL>2368</MTRAL><READ /><WORNL>false</WORNL><WORNB>512</WORNB> 
+2147483647
+0
+10
+0
+0
+-
+Gods Inc#2
+com.planet_ink.coffee_mud.Items.Armor.GenArmor@30a52ef7
+GenArmor
+
+<NAME>a fibreglass loincloth</NAME><DESC>a fibreglass loincloth. </DESC><DISP>a fibreglass loincloth lies here</DISP><PROP>-1|2|0|0|64|2|2147483647|1.0|1|0|64|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>19</FLAG><IDENT /><VALUE>2</VALUE><MTRAL>445</MTRAL><READ /><WORNL>false</WORNL><WORNB>16384</WORNB><CAPA>0</CAPA><CONT>0</CONT><OPENTK>30</OPENTK><LAYR>-2</LAYR><LAYA>1</LAYA> 
+2147483647
+100
+2
+-1
+0
+-
+Gods Inc#2
+com.planet_ink.coffee_mud.Items.MiscMagic.StdPlayingCard@1c92aa42
+StdPlayingCard
+com.planet_ink.coffee_mud.Items.MiscMagic.StdDeckOfCards@2d1ddd9
+ 
+0
+2147483647
+0
+27
+0
+-
+Gods Inc#2
+com.planet_ink.coffee_mud.Items.MiscMagic.StdPlayingCard@685c9cc0
+StdPlayingCard
+com.planet_ink.coffee_mud.Items.MiscMagic.StdDeckOfCards@2d1ddd9
+ 
+0
+2147483647
+0
+4
+0
+-
+Gods Inc#2
+com.planet_ink.coffee_mud.Items.MiscMagic.StdPlayingCard@39932584
+StdPlayingCard
+com.planet_ink.coffee_mud.Items.MiscMagic.StdDeckOfCards@2d1ddd9
+ 
+0
+2147483647
+0
+7
+0
+-
+Gods Inc#2
+com.planet_ink.coffee_mud.Items.MiscMagic.StdPlayingCard@115716da
+StdPlayingCard
+com.planet_ink.coffee_mud.Items.MiscMagic.StdDeckOfCards@2d1ddd9
+ 
+0
+2147483647
+0
+54
+0
+-
+Gods Inc#2
+com.planet_ink.coffee_mud.Items.MiscMagic.StdPlayingCard@6384d5e6
+StdPlayingCard
+com.planet_ink.coffee_mud.Items.MiscMagic.StdDeckOfCards@2d1ddd9
+ 
+0
+2147483647
+0
+22
+0
+-
+Gods Inc#2
+com.planet_ink.coffee_mud.Items.MiscMagic.StdPlayingCard@3e1c12ac
+StdPlayingCard
+com.planet_ink.coffee_mud.Items.MiscMagic.StdDeckOfCards@2d1ddd9
+ 
+0
+2147483647
+0
+13
+0
+-
+Gods Inc#2
+com.planet_ink.coffee_mud.Items.MiscMagic.StdPlayingCard@c8f69ba
+StdPlayingCard
+com.planet_ink.coffee_mud.Items.MiscMagic.StdDeckOfCards@2d1ddd9
+ 
+0
+2147483647
+0
+26
+0
+-
+Gods Inc#2
+com.planet_ink.coffee_mud.Items.MiscMagic.GenScroll@15442c4a
+GenScroll
+
+<NAME>an intricate scroll</NAME><DESC>an intricate scroll. </DESC><DISP>an intricate scroll lies here</DISP><PROP>0|0|0|0|0|50|2147483647|1.0|1|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>11</FLAG><IDENT /><VALUE>500</VALUE><MTRAL>2368</MTRAL><READ /><WORNL>false</WORNL><WORNB>512</WORNB> 
+2147483647
+0
+50
+0
+0
+-
+Gods Inc#2
+com.planet_ink.coffee_mud.Items.MiscMagic.StdPlayingCard@355b9463
+StdPlayingCard
+com.planet_ink.coffee_mud.Items.MiscMagic.StdDeckOfCards@2d1ddd9
+ 
+0
+2147483647
+0
+58
+0
+-
+Gods Inc#2
+com.planet_ink.coffee_mud.Items.MiscMagic.GenScroll@70b54ccb
+GenScroll
+
+<NAME>% huge spellbook</NAME><DESC>% huge spellbook. </DESC><DISP>% huge spellbook lies here</DISP><PROP>0|0|0|0|64|81|2147483647|1.0|1|0|64|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>3</FLAG><IDENT /><VALUE>5000</VALUE><MTRAL>455</MTRAL><READ /><WORNL>false</WORNL><WORNB>512</WORNB> 
+2147483647
+0
+81
+0
+0
+-
+Gods Inc#2
+com.planet_ink.coffee_mud.Items.MiscMagic.GenScroll@70039de
+GenScroll
+
+<NAME>an advanced scroll</NAME><DESC>an advanced scroll. </DESC><DISP>an advanced scroll lies here</DISP><PROP>0|0|0|0|0|40|2147483647|1.0|1|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>11</FLAG><IDENT /><VALUE>100</VALUE><MTRAL>2368</MTRAL><READ /><WORNL>false</WORNL><WORNB>512</WORNB> 
+2147483647
+0
+40
+0
+0
+-
+Gods Inc#2
+com.planet_ink.coffee_mud.Items.Armor.GenArmor@33126308
+GenArmor
+
+<NAME>some fibreglass trousers</NAME><DESC>some fibreglass trousers. </DESC><DISP>some fibreglass trousers lies here</DISP><PROP>0|9|0|0|64|29|2147483647|1.0|3|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>27</FLAG><IDENT /><VALUE>4</VALUE><MTRAL>445</MTRAL><READ /><WORNL>false</WORNL><WORNB>16384</WORNB><CAPA>0</CAPA><CONT>0</CONT><OPENTK>30</OPENTK><LAYR>-1</LAYR><LAYA>0</LAYA> 
+2147483647
+100
+29
+0
+0
+-
+Gods Inc#2
+com.planet_ink.coffee_mud.Items.MiscMagic.StdPlayingCard@49827382
+StdPlayingCard
+com.planet_ink.coffee_mud.Items.MiscMagic.StdDeckOfCards@2d1ddd9
+ 
+0
+2147483647
+0
+12
+0
+-
+Gods Inc#2
+com.planet_ink.coffee_mud.Items.MiscMagic.StdPlayingCard@26bc232f
+StdPlayingCard
+com.planet_ink.coffee_mud.Items.MiscMagic.StdDeckOfCards@2d1ddd9
+ 
+0
+2147483647
+0
+37
+0
+-
+Gods Inc#2
+com.planet_ink.coffee_mud.Items.MiscMagic.StdPlayingCard@4414e085
+StdPlayingCard
+com.planet_ink.coffee_mud.Items.MiscMagic.StdDeckOfCards@2d1ddd9
+ 
+0
+2147483647
+0
+57
+0
+-
+Gods Inc#2
+com.planet_ink.coffee_mud.Items.Armor.GenArmor@5a831185
+GenArmor
+
+<NAME>a titanium scalemail mantle</NAME><DESC>a titanium scalemail mantle. </DESC><DISP>a titanium scalemail mantle lies here</DISP><PROP>1|3|0|0|64|7|2147483647|1.0|4|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>27</FLAG><IDENT /><VALUE>32</VALUE><MTRAL>956</MTRAL><READ /><WORNL>false</WORNL><WORNB>2</WORNB><CAPA>0</CAPA><CONT>0</CONT><OPENTK>30</OPENTK><LAYR>1</LAYR><LAYA>0</LAYA> 
+2147483647
+100
+7
+1
+0
+-
+Gods Inc#2
+com.planet_ink.coffee_mud.Items.MiscMagic.StdPlayingCard@ebdf26b
+StdPlayingCard
+com.planet_ink.coffee_mud.Items.MiscMagic.StdDeckOfCards@2d1ddd9
+ 
+0
+2147483647
+0
+19
+0
+-
+Gods Inc#2
+com.planet_ink.coffee_mud.Items.MiscMagic.GenScroll@8add0a
+GenScroll
+
+<NAME>an intricate scroll</NAME><DESC>an intricate scroll. </DESC><DISP>an intricate scroll lies here</DISP><PROP>0|0|0|0|0|50|2147483647|1.0|1|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>11</FLAG><IDENT /><VALUE>500</VALUE><MTRAL>314</MTRAL><READ /><WORNL>false</WORNL><WORNB>512</WORNB> 
+2147483647
+0
+50
+0
+0
+-
+Gods Inc#2
+com.planet_ink.coffee_mud.Items.MiscMagic.StdDeckOfCards@2d1ddd9
+StdDeckOfCards
+
+ 
+0
+2147483647
+0
+0
+0
+-
+Gods Inc#2
+com.planet_ink.coffee_mud.Items.MiscMagic.GenScroll@642ca0c
+GenScroll
+
+<NAME>an improved scroll</NAME><DESC>an improved scroll. </DESC><DISP>an improved scroll lies here</DISP><PROP>0|0|0|0|0|20|2147483647|1.0|1|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>11</FLAG><IDENT /><VALUE>60</VALUE><MTRAL>456</MTRAL><READ /><WORNL>false</WORNL><WORNB>512</WORNB> 
+2147483647
+0
+20
+0
+0
+-
+Gods Inc#2
+com.planet_ink.coffee_mud.Items.MiscMagic.StdPlayingCard@193ca5d7
+StdPlayingCard
+com.planet_ink.coffee_mud.Items.MiscMagic.StdDeckOfCards@2d1ddd9
+ 
+0
+2147483647
+0
+5
+0
+-
+New Naw Ork#429
+com.planet_ink.coffee_mud.Items.Basic.GenItem@5802a85f
+GenItem
+
+<NAME>a ^bVidscreen^?</NAME><DESC /><DISP /><PROP>0|0|0|0|0|1|0|1.0|10000|0|16|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Emoter</BCLASS><BPARMS>min=10 max=20 chance=25;shows the dark skinned and black haired Gabrielita Marcozotron going through the city asking citizens their opinions on price changes for various goods and services. Her big boobs with dark nipples jiggle a little bit as citizens say what they say, it pans out to show her thick black bush as she asks shopkeepers and they say it`s a tragedy but supplies have forced their hands.;shows the dark skinned and black haired Gabrielita Marcozotron inside the station talking to another naked anchor who is on location, her long luxurious black hair does not quite reach her nice and plump ass which is being shown naked to the world.;shows the dark skinned and black haired Gabrielita Marcozotron sitting inside a bar with her big boobs with dark nipples on display, perhaps the Hub, she is smiling and getting good reviews about the bar from patrons, she opens her legs a little bit showing her thick black bush.;shows the dark skinned and black haired Gabrielita Marcozotron inside Brightman Labs playing with a chemical concoction, the camera focuses on her big boobs capped by dark nipples as she mixes compounds and a test tube changes colors.;shows the golden skinned and black haired Than Than 3301 walking down the street and pointing out various landmarks in the city, her perky boobs and vulva with just a mote of pubic hair are on display, but the camera slows down and she keeps walking, now her tight rear is being shown naked to New Naw Ork as she continues pointing out landmarks.;shows the golden skinned and black haired Than Than 3301 smiling and giving advice for staving off obesity, which means avoiding eating while full and going jogging every once in a while, she begins to jog as the camera pans out to show her naked tight rear.;shows the golden skinned and black haired Than Than 3301 in the Unfree Clinic getting an examination as her perky boobs are getting examined in particular, with white gloved fingers being run on her dark nipples. An image appears, showing the Unfree Clinic on the southern side of the city on Main Street.;shows the golden skinned and black haired Than Than 3301 by a water cooler, her tight rear naked to the viewer as it zooms in, she turns around with a smile as it stops on her face and perky boobs in frame. She drinks a clean and clear glass of water as she reminds viewers to `stay butt naked but also stay hydrated`.;shows what may be most amount of clothes worn by an anchor of the BNIN as the ebony skinned and black haired Kyrita Andernickles is seen trying on bras at Taurus, her firm body which leads down to her vulva with a landing strip is on display, the light colored bras contrast with her dark ebony body, she takes a bra off to reveal her big boobs capped by black nipples, then puts another bra on, checking the mirror and therefore showing her big and round, yet firm, ass bare to the world.;shows the ebony skinned and black haired Kyrita Andernickles interviewing people in Center Park on various issues in daily life talking to people with a smile on her pretty face with her big boobs capped by black nipples and her landing strip on display.;shows the naked big and round, yet firm, ass of ebony skinned and black haired Kyrita Andernickles bouncing in time with her long black hair in center of the frame as she boldly walks into the shower room of some high-end apartment block, there is a large naked cybernetic man in the shower, his half-robotic penis hardens as soon she is visible to him. It turns out he is a drug lord who has been delivering drugs that have been cut way too much and she asks questions about this as the camera turns to show her landing strip and big boobs capped by dark nipples. He looks confused and immediately runs out of the room. She turns and says this looks like one gift he turned down.;shows the ebony skinned and black haired Kyrita Andernickles at Lots of Cars, to be specific, she is looking into a car, her big and round, yet firm, ass naked to the camera. The camera pans around to her face as she smiles and reminds viewers to always `view` what they are buying.;shows the bronze skinned and dark brown haired elf Tellurina naked to the camera, her small but perky titties and completely shaven vulva on display, a tall man approaches her and she smiles and holds the microphone over her head to interview him, he instead scowls and insults her elf heritage and says her being naked has just made what he is going to do next easy. She is taken slightly aback but not terrified, she steps back as a faint blue psionic flame can be seen in her hand. He ignores this as he steps closer to her while continuing his tirade, but as he takes one more step, an agent or bodyguard who is very much clothed and armed steps into frame and puts a plasma-based hole in the tall man. Tellurina thanks the rescuer as a Red X appears on the screen and a voiceover says `Hate Ain`t Cool`.;shows the bronze skinned and dark brown haired elf Tellurina inside the Temple of All Faiths, her long dark hair is slightly wavy and it doesn`t come close to covering her small and tight bottom, which is being shown naked as she talks to the priestess Xicolata, who is also nude, save for her green glowing nipple rings. Xicolata gladly tells Tellurina about the religious services provided and the buffs she provides to people who attend services.;shows a behind-the-scenes look at the BNIN with the bronze skinned and dark brown haired elf Tellurina with her human boyfriend, Drydon, an average height and handsome man with a tan complexion who himself is seen wearing nothing but red shorts. He lifts the naked elf up, showing her small and tight bottom bare to the world as she playfully resists him. She is next shown standing next to him, with her small but perky titties and her completely shaven vulva on display. They both talk about working for the BNIN, they`re both psychics and it`s nice to be accepted, she`s an anchor who finds the expectation to be naked on the clock to be both liberating and a unique use of her college degree in mass media studies and he says he works in accounting, and they both agree it`s a great place to work for. A caption appears showing that this has got the BNIN banned in many places outside New Naw Ork, no, not because of the naked anchors, but because there`s knowledge that they are OK with a human and an elf sleeping together.;shows the small and tight bottom of bronze skinned and dark haired elf Tellurina naked with that long and wavy dark hair not coming close to covering that bottom, she is seen walking to a mandzard member of the Illuminati wearing a black bodysuit, as the camera moves to put her small but perky titties and her completely shaven vulva on display. The mandzard Illuminati member has agreed to some sort of interview with the naked elf. He admits the Illuminati receives does indeed receive assistance from aliens and ghosts from time to time, but he also says that any rumor that they receive leprechaun gold is just that, a rumor.;shows the ivory skinned and blonde haired Karli Layex with her big boobs capped by pink nipples and her trimmed blonde bush on display. She is then being shown a rifle and asked if she wants to try it out, to which she happily agrees to. She takes the rifle and the camera goes over to show her backside, now with her nice and toned butt with a heart tattoo on her right buttock on display, she fires the rifle, taking out a pest, one of the many pests on the west side of the city.;shows the ivory skinned and blonde haired Karli Layex butt naked in the Psience Center talking to a telepath in a labcoat, she asks what exactly can telepaths do, he nods and his eyes squint... Her face immediately turns a bright red and she covers her big boobs capped by pink nipples and her trimmed blonde bush with her hands, she turns away from the camera and says `Oh!`, perhaps realizing her nice and toned butt with a heart tattoo on the right buttock is now being shown naked to the world, she puts a paper over it and the telepath asks her if she wants a labcoat to wear, but she says her contract forbids her from wearing clothes as long as she is on the clock or on camera, and speaking of which, is observing her crouching down, trying to cover herself as much as possible. The telepath then ends his mind powers, as she stops blushing and gets back up like nothing happened as the telepath then says he recreated an ancient feeling that many humans used to have... a powerful aversion to being seen naked in public, a fact that which Karli Layex expresses astonishment to.;shows the ivory skinned and blonde haired Karli Layex in the studio, and not naked, but wearing a pair of white panties and she has a device in her hands but still topless with her big boobs capped by pink nipples on display. Does it break her nudity requirement contract, she asks. She then turns around, showing the panties completely cover her butt. She then presses a button on the device in her hand as the panties disappear, revealing her naked nice and toned butt with a heart tattoo on her right buttock. She turns back around, revealing her trimmed blonde bush. She talks about holographic clothes, what the implications mean for things like nudity contracts, and how the technology might be suppressed by METH Labs down in Floriduh City, which requires all workers and visitors to be in the nude at all times.;shows the ivory skinned and blonde haired Karli Layex naked with her big boobs capped by big pink nipples and her trimmed blonde bush on display talking to the Mayor of New Naw Ork in his pink bathrobe, and after answering her questions, he agrees with his aide, an animated floating rubber ducky that the city is a happy and healthy place to live, work, and play in. Karli Layex thanks the Mayor for his time and he politely asks if he can kiss `three of her cheeks`, she smiles and nods in agreement with a slight confused look to her face (This is the man who talks to a rubber ducky), sure enough, he kisses the cheeks on her face, but then stoops down and plants a kiss on her naked nice and toned butt with a heart tattoo on her right buttock, on the opposite cheek to be exact. She smirks and calls it cheeky, the Mayor grins and says being cheeky is why he is the mayor.;shows the snow white skinned and pure black haired vampire Liasha naked in the stadium with her proportionate boobs capped by dark nipples and her hairless vulva on display in the station, it looks like there is another celebrity sex video out, and she is showing it by pointing out the mechanics involved.;shows the snow white skinned and pure black haired vampire Liasha naked outside at night, she is talking to the celebrity Truffles with a drink in his hand as usual, as they are talking, he casually reaches out grabs one of her proportionate boobs capped by dark nipples, squeezing the nipple. She doesn`t mind, but then he asks if he can lick her, she says she will bite him in response.;shows the male anchor with a tan complexion and short light brown hair named Maximus nude, his toned chest, muscular stomach, and his nice penis and balls below a thick and curly bush are on display as he is interviewing a steam elemental about a labor dispute in the power plant.;shows a firm and compact butt bare in middle of the camera frame, the bare butt belonging to Maximus, the male anchor with a tan complexion and short light brown hair walking nude in the city harbor, the camera pans around as he is walking, leaving his butt and showing his toned chest, muscular stomach, and his nice penis and balls below a thick and curly bush, with his naked penis swinging around as he is walking. He stops to talk to a brunette woman in the harbor wearing a black one piece bathing suit and asks her how she likes it here. She says she finds junk to sell by the junkyard and it gets her money, as she is talking, she casually pulls down her bathing suit, revealing her big boobs and trimmed bush. Maximus replies with a grin.;shows the naked backside of Maximus, the male anchor with a tan complexion and short light brown hair, his firm and compact butt is naked in Paper Pusher Plaza as he is positioned overlooking a turned over table which itself is behind an energy barrier, as humans and elves locked in their race war both fight each other in front of the barrier, he turns around and gets safely behind the table, showing his toned chest, muscular stomach, and his nice penis and balls below a thick and curly bush.</BPARMS></BHAVE></BEHAVES><AFFECS /><FLAG>9</FLAG><IDENT /><VALUE>5</VALUE><MTRAL>3684</MTRAL><READ /><WORNL>false</WORNL><WORNB>512</WORNB> 
+0
+2147483647
+1
+0
+0

@@ -1,0 +1,2295 @@
+-
+Primus#15
+com.planet_ink.coffee_mud.MOBS.GenBanker@39508fd7
+GenBanker
+<NAME>a Primus Banker</NAME><DESC>He looks like he wants your money.</DESC><DISP>a Primus Banker stands here.</DISP><PROP>11|0|0|0|0|1|0|1.0|152|68|0|</PROP><PREJFC /><IGNMSK /><BUDGET /><DEVALR /><INVRER>0</INVRER><IPRICS /><IMG /><BEHAVES /><AFFECS /><FLAG>0</FLAG><MONEY>0</MONEY><VARMONEY>0.0</VARMONEY><GENDER>M</GENDER><MRACE>Human</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">10000</FCTN></FACTIONS><INVEN /><ABLTYS><ABLTY><ACLASS>Chopping</ACLASS><APROF>50</APROF><ADATA><AWRAP /></ADATA></ABLTY><ABLTY><ACLASS>Common</ACLASS><APROF>100</APROF><ADATA><AWRAP /></ADATA></ABLTY></ABLTYS><BANK>PrimusBank</BANK><COININT>1.0E-4</COININT><ITEMINT>-1.0E-4</ITEMINT><LOANINT>0.01</LOANINT><SELLCD>12</SELLCD><SELLIMSK /><STORE /> 
+1
+11
+0
+
+-
+Primus#12
+com.planet_ink.coffee_mud.MOBS.GenShopkeeper@65b3d0f1
+GenShopkeeper
+<NAME>a trader</NAME><DESC>He looks like he wants to sell something to you.</DESC><DISP>a trader stands here.</DISP><PROP>11|0|0|0|0|1|0|1.0|177|74|0|</PROP><PREJFC /><IGNMSK /><BUDGET /><DEVALR /><INVRER>0</INVRER><IPRICS /><IMG /><BEHAVES /><AFFECS /><FLAG>0</FLAG><MONEY>0</MONEY><VARMONEY>0.0</VARMONEY><GENDER>M</GENDER><MRACE>Human</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">10000</FCTN></FACTIONS><INVEN /><ABLTYS><ABLTY><ACLASS>Chopping</ACLASS><APROF>50</APROF><ADATA><AWRAP /></ADATA></ABLTY><ABLTY><ACLASS>Common</ACLASS><APROF>100</APROF><ADATA><AWRAP /></ADATA></ABLTY></ABLTYS><SELLCD>0</SELLCD><SELLIMSK /><STORE><SHITEM><SICLASS>Torch</SICLASS><SITYPE>ITEM</SITYPE><SISTOCK>1000</SISTOCK><SIPRICE>15</SIPRICE><SIDATA><IWORN>0</IWORN><ILOC /><IUSES>2147483647</IUSES><ILEVL>0</ILEVL><IABLE>0</IABLE><ITEXT /></SIDATA></SHITEM><SHITEM><SICLASS>Wineskin</SICLASS><SITYPE>ITEM</SITYPE><SISTOCK>1000</SISTOCK><SIPRICE>15</SIPRICE><SIDATA><IID>com.planet_ink.coffee_mud.Items.Basic.Wineskin@3e2d6805</IID><IWORN>0</IWORN><ILOC /><IUSES>2147483647</IUSES><ILEVL>0</ILEVL><IABLE>0</IABLE><ITEXT /></SIDATA></SHITEM><SHITEM><SICLASS>Waterskin</SICLASS><SITYPE>ITEM</SITYPE><SISTOCK>102</SISTOCK><SIPRICE>-1</SIPRICE><SIDATA><IID>com.planet_ink.coffee_mud.Items.Basic.Waterskin@54b5845d</IID><IWORN>0</IWORN><ILOC /><IUSES>2147483647</IUSES><ILEVL>0</ILEVL><IABLE>0</IABLE><ITEXT /></SIDATA></SHITEM><SHITEM><SICLASS>StdSmokable</SICLASS><SITYPE>ITEM</SITYPE><SISTOCK>100</SISTOCK><SIPRICE>-1</SIPRICE><SIDATA><IWORN>0</IWORN><ILOC /><IUSES>2147483647</IUSES><ILEVL>0</ILEVL><IABLE>0</IABLE><ITEXT /></SIDATA></SHITEM><SHITEM><SICLASS>SmallSack</SICLASS><SITYPE>ITEM</SITYPE><SISTOCK>100</SISTOCK><SIPRICE>-1</SIPRICE><SIDATA><IID>com.planet_ink.coffee_mud.Items.Basic.SmallSack@2534e8d4</IID><IWORN>0</IWORN><ILOC /><IUSES>2147483647</IUSES><ILEVL>0</ILEVL><IABLE>0</IABLE><ITEXT /></SIDATA></SHITEM><SHITEM><SICLASS>Ration</SICLASS><SITYPE>ITEM</SITYPE><SISTOCK>101</SISTOCK><SIPRICE>-1</SIPRICE><SIDATA><IWORN>0</IWORN><ILOC /><IUSES>2147483647</IUSES><ILEVL>0</ILEVL><IABLE>0</IABLE><ITEXT /></SIDATA></SHITEM><SHITEM><SICLASS>Pot</SICLASS><SITYPE>ITEM</SITYPE><SISTOCK>100</SISTOCK><SIPRICE>-1</SIPRICE><SIDATA><IID>com.planet_ink.coffee_mud.Items.Basic.Pot@369f07ef</IID><IWORN>0</IWORN><ILOC /><IUSES>2147483647</IUSES><ILEVL>0</ILEVL><IABLE>0</IABLE><ITEXT /></SIDATA></SHITEM><SHITEM><SICLASS>Parchment</SICLASS><SITYPE>ITEM</SITYPE><SISTOCK>100</SISTOCK><SIPRICE>-1</SIPRICE><SIDATA><NAME>a piece of parchment</NAME><DESC>looks kinda like a piece of paper</DESC><DISP>a piece of parchment here.</DISP><PROP>0|0|0|0|0|1|0|1.0|1|0|8|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>15</FLAG><IDENT /><VALUE>5</VALUE><MTRAL>2368</MTRAL><READ /><WORNL>false</WORNL><WORNB>512</WORNB><IWORN>0</IWORN><ILOC /><IUSES>2147483647</IUSES><ILEVL>1</ILEVL><IABLE>0</IABLE></SIDATA></SHITEM><SHITEM><SICLASS>OilFlask</SICLASS><SITYPE>ITEM</SITYPE><SISTOCK>100</SISTOCK><SIPRICE>-1</SIPRICE><SIDATA><IWORN>0</IWORN><ILOC /><IUSES>2147483647</IUSES><ILEVL>0</ILEVL><IABLE>0</IABLE><ITEXT /></SIDATA></SHITEM><SHITEM><SICLASS>LargeSack</SICLASS><SITYPE>ITEM</SITYPE><SISTOCK>100</SISTOCK><SIPRICE>-1</SIPRICE><SIDATA><IID>com.planet_ink.coffee_mud.Items.Basic.LargeSack@d4cfbcf</IID><IWORN>0</IWORN><ILOC /><IUSES>2147483647</IUSES><ILEVL>0</ILEVL><IABLE>0</IABLE><ITEXT /></SIDATA></SHITEM><SHITEM><SICLASS>Apple</SICLASS><SITYPE>ITEM</SITYPE><SISTOCK>100</SISTOCK><SIPRICE>-1</SIPRICE><SIDATA><IWORN>0</IWORN><ILOC /><IUSES>2147483647</IUSES><ILEVL>0</ILEVL><IABLE>0</IABLE><ITEXT /></SIDATA></SHITEM></STORE> 
+1
+11
+0
+
+-
+Primus#17
+com.planet_ink.coffee_mud.MOBS.GenShopkeeper@46ec6b50
+GenShopkeeper
+<NAME>a soylent vendor</NAME><DESC>A large machine near the front of the morgue, there are lines and vats leading to it from where the corpses end up.</DESC><DISP>a soylent vendor stands here.</DISP><PROP>11|0|0|0|0|1|0|1.0|486|74|0|</PROP><PREJFC /><IGNMSK /><BUDGET /><DEVALR /><INVRER>0</INVRER><IPRICS /><IMG /><BEHAVES /><AFFECS /><FLAG>0</FLAG><MONEY>0</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>MetalGolem</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">10000</FCTN></FACTIONS><INVEN /><ABLTYS /><SELLCD>16384</SELLCD><SELLIMSK /><STORE><SHITEM><SICLASS>GenFood</SICLASS><SITYPE>ITEM</SITYPE><SISTOCK>100</SISTOCK><SIPRICE>-1</SIPRICE><SIDATA><NAME>a ^gsoylent green wafer^?</NAME><DESC>A flat green wafer</DESC><DISP>a wafer of soylent green sits here</DISP><PROP>0|0|0|0|0|0|0|1.0|1|0|0|</PROP><IMG /><BEHAVES /><AFFECS><AFF><ACLASS>Prop_ItemNoRuin</ACLASS><ATEXT /></AFF></AFFECS><FLAG>11</FLAG><IDENT /><VALUE>5</VALUE><MTRAL>2049</MTRAL><READ /><WORNL>false</WORNL><WORNB>512</WORNB><CAPA2>50</CAPA2><BITE>0</BITE><IWORN>0</IWORN><ILOC /><IUSES>2147483647</IUSES><ILEVL>0</ILEVL><IABLE>0</IABLE></SIDATA></SHITEM><SHITEM><SICLASS>GenFood</SICLASS><SITYPE>ITEM</SITYPE><SISTOCK>100</SISTOCK><SIPRICE>-1</SIPRICE><SIDATA><NAME>a ^Ychocolent bar^?</NAME><DESC>A flat rectangle of chocolate, red wrapping says it`s chocolate, it`s people, it`s both.</DESC><DISP>a chocolate bar sits here.</DISP><PROP>0|0|0|0|0|0|0|1.0|1|0|0|</PROP><IMG /><BEHAVES /><AFFECS><AFF><ACLASS>Prop_ItemNoRuin</ACLASS><ATEXT /></AFF></AFFECS><FLAG>11</FLAG><IDENT /><VALUE>10</VALUE><MTRAL>1878</MTRAL><READ /><WORNL>false</WORNL><WORNB>512</WORNB><CAPA2>100</CAPA2><BITE>0</BITE><IWORN>0</IWORN><ILOC /><IUSES>2147483647</IUSES><ILEVL>0</ILEVL><IABLE>0</IABLE></SIDATA></SHITEM></STORE> 
+1
+11
+0
+
+-
+Life Recycling Act Academy#5
+com.planet_ink.coffee_mud.MOBS.GenMob@37100e5c
+GenMob
+<NAME>a target</NAME><DESC>It`s a small target designed to test your cognition, the only threat it poses is it can hit back if you hit it.</DESC><DISP>a target stands here off the ground.</DISP><PROP>0|100|0|0|0|1|0|1.0|5|60|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>0</FLAG><MONEY>0</MONEY><VARMONEY>0.0</VARMONEY><GENDER>M</GENDER><MRACE>MetalGolem</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+1
+0
+0
+
+-
+Life Recycling Act Academy#4
+com.planet_ink.coffee_mud.MOBS.GenMob@573f1183
+GenMob
+<NAME>a target</NAME><DESC>It`s a small target designed to test your cognition, the only threat it poses is it can hit back if you hit it.</DESC><DISP>a target stands here off the ground.</DISP><PROP>0|100|0|0|0|1|0|1.0|5|60|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>0</FLAG><MONEY>0</MONEY><VARMONEY>0.0</VARMONEY><GENDER>M</GENDER><MRACE>MetalGolem</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+1
+0
+0
+
+-
+Life Recycling Act Academy#6
+com.planet_ink.coffee_mud.MOBS.GenMob@41631b28
+GenMob
+<NAME>a target</NAME><DESC>It`s a small target designed to test your cognition, the only threat it poses is it can hit back if you hit it.</DESC><DISP>a target stands here off the ground.</DISP><PROP>0|100|0|0|0|1|0|1.0|5|60|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>0</FLAG><MONEY>0</MONEY><VARMONEY>0.0</VARMONEY><GENDER>M</GENDER><MRACE>MetalGolem</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+1
+0
+0
+
+-
+Life Recycling Act Academy#7
+com.planet_ink.coffee_mud.MOBS.GenMob@455c87dc
+GenMob
+<NAME>a target</NAME><DESC>It`s a small target designed to test your cognition, the only threat it poses is it can hit back if you hit it.</DESC><DISP>a target stands here off the ground.</DISP><PROP>0|100|0|0|0|1|0|1.0|5|60|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>0</FLAG><MONEY>0</MONEY><VARMONEY>0.0</VARMONEY><GENDER>M</GENDER><MRACE>MetalGolem</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+1
+0
+0
+
+-
+Life Recycling Act Academy#8
+com.planet_ink.coffee_mud.MOBS.GenMob@5eaecf70
+GenMob
+<NAME>a target</NAME><DESC>It`s a small target designed to test your cognition, the only threat it poses is it can hit back if you hit it.</DESC><DISP>a target stands here off the ground.</DISP><PROP>0|100|0|0|0|1|0|1.0|5|60|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>0</FLAG><MONEY>0</MONEY><VARMONEY>0.0</VARMONEY><GENDER>M</GENDER><MRACE>MetalGolem</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+1
+0
+0
+
+-
+Life Recycling Act Academy#9
+com.planet_ink.coffee_mud.MOBS.GenMob@43601729
+GenMob
+<NAME>a target</NAME><DESC>It`s a small target designed to test your cognition, the only threat it poses is it can hit back if you hit it.</DESC><DISP>a target stands here off the ground.</DISP><PROP>0|100|0|0|0|1|0|1.0|5|60|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>0</FLAG><MONEY>0</MONEY><VARMONEY>0.0</VARMONEY><GENDER>M</GENDER><MRACE>MetalGolem</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+1
+0
+0
+
+-
+Life Recycling Act Academy#12
+com.planet_ink.coffee_mud.MOBS.GenMob@1b06cbb
+GenMob
+<NAME>a target</NAME><DESC>It`s a small target designed to test your cognition, the only threat it poses is it can hit back if you hit it.</DESC><DISP>a target stands here off the ground.</DISP><PROP>0|100|0|0|0|1|0|1.0|5|60|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>0</FLAG><MONEY>0</MONEY><VARMONEY>0.0</VARMONEY><GENDER>M</GENDER><MRACE>MetalGolem</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+1
+0
+0
+
+-
+Life Recycling Act Academy#11
+com.planet_ink.coffee_mud.MOBS.GenMob@2ae2b71c
+GenMob
+<NAME>a target</NAME><DESC>It`s a small target designed to test your cognition, the only threat it poses is it can hit back if you hit it.</DESC><DISP>a target stands here off the ground.</DISP><PROP>0|100|0|0|0|1|0|1.0|5|60|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>0</FLAG><MONEY>0</MONEY><VARMONEY>0.0</VARMONEY><GENDER>M</GENDER><MRACE>MetalGolem</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+1
+0
+0
+
+-
+Life Recycling Act Academy#10
+com.planet_ink.coffee_mud.MOBS.GenMob@7edcdc0f
+GenMob
+<NAME>a target</NAME><DESC>It`s a small target designed to test your cognition, the only threat it poses is it can hit back if you hit it.</DESC><DISP>a target stands here off the ground.</DISP><PROP>0|100|0|0|0|1|0|1.0|5|60|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>0</FLAG><MONEY>1</MONEY><VARMONEY>0.0</VARMONEY><GENDER>M</GENDER><MRACE>MetalGolem</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+1
+0
+0
+
+-
+Primus Old Gadget Factory#5
+com.planet_ink.coffee_mud.MOBS.GenMob@3dceb7c2
+GenMob
+<NAME>an assisting grocery bag</NAME><DESC>This bag was created to fly to groceries and bag them by itself.</DESC><DISP>an assisting grocery bag floats here.</DISP><PROP>0|94|2|2|0|2|45|1.0|141|69|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>5</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Unique</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+2
+0
+45
+
+-
+Primus Old Gadget Factory#5
+com.planet_ink.coffee_mud.MOBS.GenMob@23ca1b51
+GenMob
+<NAME>an assisting grocery bag</NAME><DESC>This bag was created to fly to groceries and bag them by itself.</DESC><DISP>an assisting grocery bag floats here.</DISP><PROP>0|94|2|2|0|2|45|1.0|141|69|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>5</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Unique</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+2
+0
+45
+
+-
+Primus Old Gadget Factory#5
+com.planet_ink.coffee_mud.MOBS.GenMob@26e875ae
+GenMob
+<NAME>an assisting grocery bag</NAME><DESC>This bag was created to fly to groceries and bag them by itself.</DESC><DISP>an assisting grocery bag floats here.</DISP><PROP>0|94|2|2|0|2|45|1.0|141|69|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>5</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Unique</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+2
+0
+45
+
+-
+Primus Old Gadget Factory#4
+com.planet_ink.coffee_mud.MOBS.GenMob@27dd56e9
+GenMob
+<NAME>an assisting grocery bag</NAME><DESC>This bag was created to fly to groceries and bag them by itself.</DESC><DISP>an assisting grocery bag floats here.</DISP><PROP>0|94|2|2|0|2|45|1.0|141|69|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>5</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Unique</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+2
+0
+45
+
+-
+Primus Old Gadget Factory#4
+com.planet_ink.coffee_mud.MOBS.GenMob@196b6bf2
+GenMob
+<NAME>an assisting grocery bag</NAME><DESC>This bag was created to fly to groceries and bag them by itself.</DESC><DISP>an assisting grocery bag floats here.</DISP><PROP>0|94|2|2|0|2|45|1.0|141|69|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>5</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Unique</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+2
+0
+45
+
+-
+Primus Old Gadget Factory#4
+com.planet_ink.coffee_mud.MOBS.GenMob@756f911c
+GenMob
+<NAME>an assisting grocery bag</NAME><DESC>This bag was created to fly to groceries and bag them by itself.</DESC><DISP>an assisting grocery bag floats here.</DISP><PROP>0|94|2|2|0|2|45|1.0|141|69|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>5</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Unique</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+2
+0
+45
+
+-
+Primus Old Gadget Factory#4
+com.planet_ink.coffee_mud.MOBS.GenMob@6a47c2b6
+GenMob
+<NAME>an assisting grocery bag</NAME><DESC>This bag was created to fly to groceries and bag them by itself.</DESC><DISP>an assisting grocery bag floats here.</DISP><PROP>0|94|2|2|0|2|45|1.0|141|69|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>5</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Unique</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+2
+0
+45
+
+-
+Primus Old Gadget Factory#4
+com.planet_ink.coffee_mud.MOBS.GenMob@2df68704
+GenMob
+<NAME>an assisting grocery bag</NAME><DESC>This bag was created to fly to groceries and bag them by itself.</DESC><DISP>an assisting grocery bag floats here.</DISP><PROP>0|94|2|2|0|2|45|1.0|141|69|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>5</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Unique</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+2
+0
+45
+
+-
+Primus Old Gadget Factory#3
+com.planet_ink.coffee_mud.MOBS.GenMob@40b4ab9d
+GenMob
+<NAME>an assisting grocery bag</NAME><DESC>This bag was created to fly to groceries and bag them by itself.</DESC><DISP>an assisting grocery bag floats here.</DISP><PROP>0|94|2|2|0|2|45|1.0|141|69|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>5</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Unique</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+2
+0
+45
+
+-
+Primus Old Gadget Factory#3
+com.planet_ink.coffee_mud.MOBS.GenMob@4ad86ccf
+GenMob
+<NAME>an assisting grocery bag</NAME><DESC>This bag was created to fly to groceries and bag them by itself.</DESC><DISP>an assisting grocery bag floats here.</DISP><PROP>0|94|2|2|0|2|45|1.0|141|69|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>5</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Unique</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+2
+0
+45
+
+-
+Primus Old Gadget Factory#3
+com.planet_ink.coffee_mud.MOBS.GenMob@41ebfa8
+GenMob
+<NAME>an assisting grocery bag</NAME><DESC>This bag was created to fly to groceries and bag them by itself.</DESC><DISP>an assisting grocery bag floats here.</DISP><PROP>0|94|2|2|0|2|45|1.0|141|69|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>5</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Unique</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+2
+0
+45
+
+-
+Primus Old Gadget Factory#3
+com.planet_ink.coffee_mud.MOBS.GenMob@df03946
+GenMob
+<NAME>an assisting grocery bag</NAME><DESC>This bag was created to fly to groceries and bag them by itself.</DESC><DISP>an assisting grocery bag floats here.</DISP><PROP>0|94|2|2|0|2|45|1.0|141|69|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>5</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Unique</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+2
+0
+45
+
+-
+Primus Old Gadget Factory#3
+com.planet_ink.coffee_mud.MOBS.GenMob@68fd8326
+GenMob
+<NAME>an assisting grocery bag</NAME><DESC>This bag was created to fly to groceries and bag them by itself.</DESC><DISP>an assisting grocery bag floats here.</DISP><PROP>0|94|2|2|0|2|45|1.0|141|69|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>5</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Unique</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+2
+0
+45
+
+-
+Primus Old Gadget Factory#2
+com.planet_ink.coffee_mud.MOBS.GenMob@52cbc8d5
+GenMob
+<NAME>an assisting grocery bag</NAME><DESC>This bag was created to fly to groceries and bag them by itself.</DESC><DISP>an assisting grocery bag floats here.</DISP><PROP>0|94|2|2|0|2|45|1.0|141|69|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>5</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Unique</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+2
+0
+45
+
+-
+Primus Old Gadget Factory#2
+com.planet_ink.coffee_mud.MOBS.GenMob@376b9227
+GenMob
+<NAME>an assisting grocery bag</NAME><DESC>This bag was created to fly to groceries and bag them by itself.</DESC><DISP>an assisting grocery bag floats here.</DISP><PROP>0|94|2|2|0|2|45|1.0|141|69|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>5</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Unique</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+2
+0
+45
+
+-
+Primus Old Gadget Factory#2
+com.planet_ink.coffee_mud.MOBS.GenMob@7a4ce03d
+GenMob
+<NAME>an assisting grocery bag</NAME><DESC>This bag was created to fly to groceries and bag them by itself.</DESC><DISP>an assisting grocery bag floats here.</DISP><PROP>0|94|2|2|0|2|45|1.0|141|69|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>5</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Unique</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+2
+0
+45
+
+-
+Primus Old Gadget Factory#2
+com.planet_ink.coffee_mud.MOBS.GenMob@a5b3dc
+GenMob
+<NAME>an assisting grocery bag</NAME><DESC>This bag was created to fly to groceries and bag them by itself.</DESC><DISP>an assisting grocery bag floats here.</DISP><PROP>0|94|2|2|0|2|45|1.0|141|69|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>5</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Unique</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+2
+0
+45
+
+-
+Primus Old Gadget Factory#2
+com.planet_ink.coffee_mud.MOBS.GenMob@ca45e7d
+GenMob
+<NAME>an assisting grocery bag</NAME><DESC>This bag was created to fly to groceries and bag them by itself.</DESC><DISP>an assisting grocery bag floats here.</DISP><PROP>0|94|2|2|0|2|45|1.0|141|69|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>5</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Unique</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+2
+0
+45
+
+-
+Primus Old Gadget Factory#1
+com.planet_ink.coffee_mud.MOBS.GenMob@4552109e
+GenMob
+<NAME>an assisting grocery bag</NAME><DESC>This bag was created to fly to groceries and bag them by itself.</DESC><DISP>an assisting grocery bag floats here.</DISP><PROP>0|94|2|2|0|2|45|1.0|141|69|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>5</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Unique</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+2
+0
+45
+
+-
+Primus Old Gadget Factory#1
+com.planet_ink.coffee_mud.MOBS.GenMob@4348afa9
+GenMob
+<NAME>an assisting grocery bag</NAME><DESC>This bag was created to fly to groceries and bag them by itself.</DESC><DISP>an assisting grocery bag floats here.</DISP><PROP>0|94|2|2|0|2|45|1.0|141|69|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>5</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Unique</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+2
+0
+45
+
+-
+Primus Old Gadget Factory#1
+com.planet_ink.coffee_mud.MOBS.GenMob@5e4ef2b5
+GenMob
+<NAME>an assisting grocery bag</NAME><DESC>This bag was created to fly to groceries and bag them by itself.</DESC><DISP>an assisting grocery bag floats here.</DISP><PROP>0|94|2|2|0|2|45|1.0|141|69|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>5</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Unique</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+2
+0
+45
+
+-
+Primus Old Gadget Factory#1
+com.planet_ink.coffee_mud.MOBS.GenMob@ac8c9b8
+GenMob
+<NAME>an assisting grocery bag</NAME><DESC>This bag was created to fly to groceries and bag them by itself.</DESC><DISP>an assisting grocery bag floats here.</DISP><PROP>0|94|2|2|0|2|45|1.0|141|69|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>5</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Unique</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+2
+0
+45
+
+-
+Primus Old Gadget Factory#1
+com.planet_ink.coffee_mud.MOBS.GenMob@5f4bfe9f
+GenMob
+<NAME>an assisting grocery bag</NAME><DESC>This bag was created to fly to groceries and bag them by itself.</DESC><DISP>an assisting grocery bag floats here.</DISP><PROP>0|94|2|2|0|2|45|1.0|141|69|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>5</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Unique</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+2
+0
+45
+
+-
+Primus Old Gadget Factory#13
+com.planet_ink.coffee_mud.MOBS.GenMob@10a980d6
+GenMob
+<NAME>an autonomous pocket</NAME><DESC>It`s a pants pocket that could have been attached to pants.</DESC><DISP>an autonomous pocket lies here.</DISP><PROP>11|94|2|2|0|2|45|1.0|1|1|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>5</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Unique</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+2
+11
+45
+
+-
+Primus Old Gadget Factory#13
+com.planet_ink.coffee_mud.MOBS.GenMob@196b6bf2
+GenMob
+<NAME>an assisting grocery bag</NAME><DESC>This bag was created to fly to groceries and bag them by itself.</DESC><DISP>an assisting grocery bag floats here.</DISP><PROP>0|94|2|2|0|2|45|1.0|141|69|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>5</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Unique</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+2
+0
+45
+
+-
+Primus Old Gadget Factory#12
+com.planet_ink.coffee_mud.MOBS.GenMob@614a24e2
+GenMob
+<NAME>an autonomous pocket</NAME><DESC>It`s a pants pocket that could have been attached to pants.</DESC><DISP>an autonomous pocket lies here.</DISP><PROP>11|94|2|2|0|2|45|1.0|1|1|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>5</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Unique</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+2
+11
+45
+
+-
+Primus Old Gadget Factory#12
+com.planet_ink.coffee_mud.MOBS.GenMob@59782738
+GenMob
+<NAME>an autonomous pocket</NAME><DESC>It`s a pants pocket that could have been attached to pants.</DESC><DISP>an autonomous pocket lies here.</DISP><PROP>11|94|2|2|0|2|45|1.0|1|1|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>5</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Unique</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+2
+11
+45
+
+-
+Primus Old Gadget Factory#12
+com.planet_ink.coffee_mud.MOBS.GenMob@700aadf8
+GenMob
+<NAME>an autonomous pocket</NAME><DESC>It`s a pants pocket that could have been attached to pants.</DESC><DISP>an autonomous pocket lies here.</DISP><PROP>11|94|2|2|0|2|45|1.0|1|1|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>5</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Unique</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+2
+11
+45
+
+-
+Primus Old Gadget Factory#12
+com.planet_ink.coffee_mud.MOBS.GenMob@3cc33f48
+GenMob
+<NAME>an autonomous pocket</NAME><DESC>It`s a pants pocket that could have been attached to pants.</DESC><DISP>an autonomous pocket lies here.</DISP><PROP>11|94|2|2|0|2|45|1.0|1|1|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>5</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Unique</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+2
+11
+45
+
+-
+Primus Old Gadget Factory#12
+com.planet_ink.coffee_mud.MOBS.GenMob@3c7c9149
+GenMob
+<NAME>an autonomous pocket</NAME><DESC>It`s a pants pocket that could have been attached to pants.</DESC><DISP>an autonomous pocket lies here.</DISP><PROP>11|94|2|2|0|2|45|1.0|1|1|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>5</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Unique</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+2
+11
+45
+
+-
+Primus Old Gadget Factory#11
+com.planet_ink.coffee_mud.MOBS.GenMob@67351f64
+GenMob
+<NAME>an autonomous pocket</NAME><DESC>It`s a pants pocket that could have been attached to pants.</DESC><DISP>an autonomous pocket lies here.</DISP><PROP>11|94|2|2|0|2|45|1.0|1|1|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>5</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Unique</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+2
+11
+45
+
+-
+Primus Old Gadget Factory#11
+com.planet_ink.coffee_mud.MOBS.GenMob@7a6546b7
+GenMob
+<NAME>an autonomous pocket</NAME><DESC>It`s a pants pocket that could have been attached to pants.</DESC><DISP>an autonomous pocket lies here.</DISP><PROP>11|94|2|2|0|2|45|1.0|1|1|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>5</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Unique</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+2
+11
+45
+
+-
+Primus Old Gadget Factory#11
+com.planet_ink.coffee_mud.MOBS.GenMob@57733174
+GenMob
+<NAME>an autonomous pocket</NAME><DESC>It`s a pants pocket that could have been attached to pants.</DESC><DISP>an autonomous pocket lies here.</DISP><PROP>11|94|2|2|0|2|45|1.0|1|1|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>5</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Unique</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+2
+11
+45
+
+-
+Primus Old Gadget Factory#11
+com.planet_ink.coffee_mud.MOBS.GenMob@798aca51
+GenMob
+<NAME>an autonomous pocket</NAME><DESC>It`s a pants pocket that could have been attached to pants.</DESC><DISP>an autonomous pocket lies here.</DISP><PROP>11|94|2|2|0|2|45|1.0|1|1|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>5</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Unique</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+2
+11
+45
+
+-
+Primus Old Gadget Factory#11
+com.planet_ink.coffee_mud.MOBS.GenMob@360b343b
+GenMob
+<NAME>an autonomous pocket</NAME><DESC>It`s a pants pocket that could have been attached to pants.</DESC><DISP>an autonomous pocket lies here.</DISP><PROP>11|94|2|2|0|2|45|1.0|1|1|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>5</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Unique</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+2
+11
+45
+
+-
+Primus Old Gadget Factory#10
+com.planet_ink.coffee_mud.MOBS.GenMob@2e04f346
+GenMob
+<NAME>an autonomous pocket</NAME><DESC>It`s a pants pocket that could have been attached to pants.</DESC><DISP>an autonomous pocket lies here.</DISP><PROP>11|94|2|2|0|2|45|1.0|1|1|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>5</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Unique</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+2
+11
+45
+
+-
+Primus Old Gadget Factory#10
+com.planet_ink.coffee_mud.MOBS.GenMob@209e5de4
+GenMob
+<NAME>an autonomous pocket</NAME><DESC>It`s a pants pocket that could have been attached to pants.</DESC><DISP>an autonomous pocket lies here.</DISP><PROP>11|94|2|2|0|2|45|1.0|1|1|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>5</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Unique</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+2
+11
+45
+
+-
+Primus Old Gadget Factory#10
+com.planet_ink.coffee_mud.MOBS.GenMob@1a03eb1d
+GenMob
+<NAME>an autonomous pocket</NAME><DESC>It`s a pants pocket that could have been attached to pants.</DESC><DISP>an autonomous pocket lies here.</DISP><PROP>11|94|2|2|0|2|45|1.0|1|1|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>5</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Unique</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+2
+11
+45
+
+-
+Primus Old Gadget Factory#10
+com.planet_ink.coffee_mud.MOBS.GenMob@1d2615b3
+GenMob
+<NAME>an autonomous pocket</NAME><DESC>It`s a pants pocket that could have been attached to pants.</DESC><DISP>an autonomous pocket lies here.</DISP><PROP>11|94|2|2|0|2|45|1.0|1|1|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>5</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Unique</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+2
+11
+45
+
+-
+Primus Old Gadget Factory#10
+com.planet_ink.coffee_mud.MOBS.GenMob@14315b92
+GenMob
+<NAME>an autonomous pocket</NAME><DESC>It`s a pants pocket that could have been attached to pants.</DESC><DISP>an autonomous pocket lies here.</DISP><PROP>11|94|2|2|0|2|45|1.0|1|1|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>5</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Unique</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+2
+11
+45
+
+-
+Primus Old Gadget Factory#9
+com.planet_ink.coffee_mud.MOBS.GenMob@413c7458
+GenMob
+<NAME>an autonomous pocket</NAME><DESC>It`s a pants pocket that could have been attached to pants.</DESC><DISP>an autonomous pocket lies here.</DISP><PROP>11|94|2|2|0|2|45|1.0|1|1|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>5</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Unique</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+2
+11
+45
+
+-
+Primus Old Gadget Factory#9
+com.planet_ink.coffee_mud.MOBS.GenMob@43872ce9
+GenMob
+<NAME>an autonomous pocket</NAME><DESC>It`s a pants pocket that could have been attached to pants.</DESC><DISP>an autonomous pocket lies here.</DISP><PROP>11|94|2|2|0|2|45|1.0|1|1|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>5</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Unique</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+2
+11
+45
+
+-
+Primus Old Gadget Factory#9
+com.planet_ink.coffee_mud.MOBS.GenMob@5af623b8
+GenMob
+<NAME>an autonomous pocket</NAME><DESC>It`s a pants pocket that could have been attached to pants.</DESC><DISP>an autonomous pocket lies here.</DISP><PROP>11|94|2|2|0|2|45|1.0|1|1|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>5</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Unique</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+2
+11
+45
+
+-
+Primus Old Gadget Factory#9
+com.planet_ink.coffee_mud.MOBS.GenMob@605b700
+GenMob
+<NAME>an autonomous pocket</NAME><DESC>It`s a pants pocket that could have been attached to pants.</DESC><DISP>an autonomous pocket lies here.</DISP><PROP>11|94|2|2|0|2|45|1.0|1|1|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>5</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Unique</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+2
+11
+45
+
+-
+Primus Old Gadget Factory#9
+com.planet_ink.coffee_mud.MOBS.GenMob@24b99d2c
+GenMob
+<NAME>an autonomous pocket</NAME><DESC>It`s a pants pocket that could have been attached to pants.</DESC><DISP>an autonomous pocket lies here.</DISP><PROP>11|94|2|2|0|2|45|1.0|1|1|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>5</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Unique</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+2
+11
+45
+
+-
+Primus Old Gadget Factory#18
+com.planet_ink.coffee_mud.MOBS.GenMob@5ea31d36
+GenMob
+<NAME>a rolling lighter</NAME><DESC>It was designed to be a lighter that could roll itself to things that needed lighting.</DESC><DISP>a rolling lighter rolls around here.</DISP><PROP>0|94|2|2|0|2|45|1.0|1|1|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>0</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Unique</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+2
+0
+45
+
+-
+Primus Old Gadget Factory#18
+com.planet_ink.coffee_mud.MOBS.GenMob@10d8349c
+GenMob
+<NAME>a rolling lighter</NAME><DESC>It was designed to be a lighter that could roll itself to things that needed lighting.</DESC><DISP>a rolling lighter rolls around here.</DISP><PROP>0|94|2|2|0|2|45|1.0|1|1|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>0</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Unique</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+2
+0
+45
+
+-
+Primus Old Gadget Factory#17
+com.planet_ink.coffee_mud.MOBS.GenMob@35a30eb9
+GenMob
+<NAME>a rolling lighter</NAME><DESC>It was designed to be a lighter that could roll itself to things that needed lighting.</DESC><DISP>a rolling lighter rolls around here.</DISP><PROP>0|94|2|2|0|2|45|1.0|1|1|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>0</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Unique</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+2
+0
+45
+
+-
+Primus Old Gadget Factory#17
+com.planet_ink.coffee_mud.MOBS.GenMob@1e3502ba
+GenMob
+<NAME>a rolling lighter</NAME><DESC>It was designed to be a lighter that could roll itself to things that needed lighting.</DESC><DISP>a rolling lighter rolls around here.</DISP><PROP>0|94|2|2|0|2|45|1.0|1|1|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>0</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Unique</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+2
+0
+45
+
+-
+Primus Old Gadget Factory#17
+com.planet_ink.coffee_mud.MOBS.GenMob@768dacad
+GenMob
+<NAME>a rolling lighter</NAME><DESC>It was designed to be a lighter that could roll itself to things that needed lighting.</DESC><DISP>a rolling lighter rolls around here.</DISP><PROP>0|94|2|2|0|2|45|1.0|1|1|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>0</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Unique</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+2
+0
+45
+
+-
+Primus Old Gadget Factory#17
+com.planet_ink.coffee_mud.MOBS.GenMob@300155e7
+GenMob
+<NAME>a rolling lighter</NAME><DESC>It was designed to be a lighter that could roll itself to things that needed lighting.</DESC><DISP>a rolling lighter rolls around here.</DISP><PROP>0|94|2|2|0|2|45|1.0|1|1|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>0</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Unique</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+2
+0
+45
+
+-
+Primus Old Gadget Factory#17
+com.planet_ink.coffee_mud.MOBS.GenMob@1dfa4398
+GenMob
+<NAME>a rolling lighter</NAME><DESC>It was designed to be a lighter that could roll itself to things that needed lighting.</DESC><DISP>a rolling lighter rolls around here.</DISP><PROP>0|94|2|2|0|2|45|1.0|1|1|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>0</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Unique</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+2
+0
+45
+
+-
+Primus Old Gadget Factory#16
+com.planet_ink.coffee_mud.MOBS.GenMob@2e5f28ec
+GenMob
+<NAME>a rolling lighter</NAME><DESC>It was designed to be a lighter that could roll itself to things that needed lighting.</DESC><DISP>a rolling lighter rolls around here.</DISP><PROP>0|94|2|2|0|2|45|1.0|1|1|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>0</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Unique</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+2
+0
+45
+
+-
+Primus Old Gadget Factory#16
+com.planet_ink.coffee_mud.MOBS.GenMob@70cc91f2
+GenMob
+<NAME>a rolling lighter</NAME><DESC>It was designed to be a lighter that could roll itself to things that needed lighting.</DESC><DISP>a rolling lighter rolls around here.</DISP><PROP>0|94|2|2|0|2|45|1.0|1|1|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>0</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Unique</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+2
+0
+45
+
+-
+Primus Old Gadget Factory#16
+com.planet_ink.coffee_mud.MOBS.GenMob@348f99b5
+GenMob
+<NAME>a rolling lighter</NAME><DESC>It was designed to be a lighter that could roll itself to things that needed lighting.</DESC><DISP>a rolling lighter rolls around here.</DISP><PROP>0|94|2|2|0|2|45|1.0|1|1|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>0</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Unique</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+2
+0
+45
+
+-
+Primus Old Gadget Factory#16
+com.planet_ink.coffee_mud.MOBS.GenMob@90dac1
+GenMob
+<NAME>a rolling lighter</NAME><DESC>It was designed to be a lighter that could roll itself to things that needed lighting.</DESC><DISP>a rolling lighter rolls around here.</DISP><PROP>0|94|2|2|0|2|45|1.0|1|1|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>0</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Unique</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+2
+0
+45
+
+-
+Primus Old Gadget Factory#16
+com.planet_ink.coffee_mud.MOBS.GenMob@575f8a77
+GenMob
+<NAME>a rolling lighter</NAME><DESC>It was designed to be a lighter that could roll itself to things that needed lighting.</DESC><DISP>a rolling lighter rolls around here.</DISP><PROP>0|94|2|2|0|2|45|1.0|1|1|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>0</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Unique</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+2
+0
+45
+
+-
+Primus Old Gadget Factory#15
+com.planet_ink.coffee_mud.MOBS.GenMob@1cee05c8
+GenMob
+<NAME>a rolling lighter</NAME><DESC>It was designed to be a lighter that could roll itself to things that needed lighting.</DESC><DISP>a rolling lighter rolls around here.</DISP><PROP>0|94|2|2|0|2|45|1.0|1|1|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>0</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Unique</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+2
+0
+45
+
+-
+Primus Old Gadget Factory#15
+com.planet_ink.coffee_mud.MOBS.GenMob@188e51c0
+GenMob
+<NAME>a rolling lighter</NAME><DESC>It was designed to be a lighter that could roll itself to things that needed lighting.</DESC><DISP>a rolling lighter rolls around here.</DISP><PROP>0|94|2|2|0|2|45|1.0|1|1|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>0</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Unique</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+2
+0
+45
+
+-
+Primus Old Gadget Factory#15
+com.planet_ink.coffee_mud.MOBS.GenMob@28d31b07
+GenMob
+<NAME>a rolling lighter</NAME><DESC>It was designed to be a lighter that could roll itself to things that needed lighting.</DESC><DISP>a rolling lighter rolls around here.</DISP><PROP>0|94|2|2|0|2|45|1.0|1|1|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>0</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Unique</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+2
+0
+45
+
+-
+Primus Old Gadget Factory#15
+com.planet_ink.coffee_mud.MOBS.GenMob@797ea655
+GenMob
+<NAME>a rolling lighter</NAME><DESC>It was designed to be a lighter that could roll itself to things that needed lighting.</DESC><DISP>a rolling lighter rolls around here.</DISP><PROP>0|94|2|2|0|2|45|1.0|1|1|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>0</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Unique</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+2
+0
+45
+
+-
+Primus Old Gadget Factory#15
+com.planet_ink.coffee_mud.MOBS.GenMob@15d22cf7
+GenMob
+<NAME>a rolling lighter</NAME><DESC>It was designed to be a lighter that could roll itself to things that needed lighting.</DESC><DISP>a rolling lighter rolls around here.</DISP><PROP>0|94|2|2|0|2|45|1.0|1|1|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>0</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Unique</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+2
+0
+45
+
+-
+Primus Old Gadget Factory#14
+com.planet_ink.coffee_mud.MOBS.GenMob@7f387fdc
+GenMob
+<NAME>a rolling lighter</NAME><DESC>It was designed to be a lighter that could roll itself to things that needed lighting.</DESC><DISP>a rolling lighter rolls around here.</DISP><PROP>0|94|2|2|0|2|45|1.0|1|1|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>0</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Unique</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+2
+0
+45
+
+-
+Primus Old Gadget Factory#14
+com.planet_ink.coffee_mud.MOBS.GenMob@4f03481f
+GenMob
+<NAME>a rolling lighter</NAME><DESC>It was designed to be a lighter that could roll itself to things that needed lighting.</DESC><DISP>a rolling lighter rolls around here.</DISP><PROP>0|94|2|2|0|2|45|1.0|1|1|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>0</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Unique</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+2
+0
+45
+
+-
+Primus Old Gadget Factory#14
+com.planet_ink.coffee_mud.MOBS.GenMob@43c313a4
+GenMob
+<NAME>a rolling lighter</NAME><DESC>It was designed to be a lighter that could roll itself to things that needed lighting.</DESC><DISP>a rolling lighter rolls around here.</DISP><PROP>0|94|2|2|0|2|45|1.0|1|1|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>0</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Unique</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+2
+0
+45
+
+-
+Primus Old Gadget Factory#14
+com.planet_ink.coffee_mud.MOBS.GenMob@47f23abf
+GenMob
+<NAME>a rolling lighter</NAME><DESC>It was designed to be a lighter that could roll itself to things that needed lighting.</DESC><DISP>a rolling lighter rolls around here.</DISP><PROP>0|94|2|2|0|2|45|1.0|1|1|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>0</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Unique</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+2
+0
+45
+
+-
+Primus Old Gadget Factory#14
+com.planet_ink.coffee_mud.MOBS.GenMob@7b087b02
+GenMob
+<NAME>a rolling lighter</NAME><DESC>It was designed to be a lighter that could roll itself to things that needed lighting.</DESC><DISP>a rolling lighter rolls around here.</DISP><PROP>0|94|2|2|0|2|45|1.0|1|1|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>0</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Unique</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+2
+0
+45
+
+-
+Primus Old Gadget Factory#8
+com.planet_ink.coffee_mud.MOBS.GenMob@2b6cb24f
+GenMob
+<NAME>a ^kmess^?-seeking rag</NAME><DESC>It was designed that this rag could seek out and clean messes on it`s own.</DESC><DISP>a ^kmess^?-seeking rag lies here.</DISP><PROP>1|94|2|2|0|2|45|1.0|2|2|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>1</MONEY><VARMONEY>0.0</VARMONEY><GENDER>M</GENDER><MRACE>Doll</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+2
+1
+45
+
+-
+Primus Old Gadget Factory#8
+com.planet_ink.coffee_mud.MOBS.GenMob@2e9e97cc
+GenMob
+<NAME>a ^kmess^?-seeking rag</NAME><DESC>It was designed that this rag could seek out and clean messes on it`s own.</DESC><DISP>a ^kmess^?-seeking rag lies here.</DISP><PROP>1|94|2|2|0|2|45|1.0|2|2|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>1</MONEY><VARMONEY>0.0</VARMONEY><GENDER>M</GENDER><MRACE>Doll</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+2
+1
+45
+
+-
+Primus Old Gadget Factory#8
+com.planet_ink.coffee_mud.MOBS.GenMob@759bff88
+GenMob
+<NAME>a ^kmess^?-seeking rag</NAME><DESC>It was designed that this rag could seek out and clean messes on it`s own.</DESC><DISP>a ^kmess^?-seeking rag lies here.</DISP><PROP>1|94|2|2|0|2|45|1.0|2|2|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>1</MONEY><VARMONEY>0.0</VARMONEY><GENDER>M</GENDER><MRACE>Doll</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+2
+1
+45
+
+-
+Primus Old Gadget Factory#8
+com.planet_ink.coffee_mud.MOBS.GenMob@23ea1446
+GenMob
+<NAME>a ^kmess^?-seeking rag</NAME><DESC>It was designed that this rag could seek out and clean messes on it`s own.</DESC><DISP>a ^kmess^?-seeking rag lies here.</DISP><PROP>1|94|2|2|0|2|45|1.0|2|2|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>1</MONEY><VARMONEY>0.0</VARMONEY><GENDER>M</GENDER><MRACE>Doll</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+2
+1
+45
+
+-
+Primus Old Gadget Factory#8
+com.planet_ink.coffee_mud.MOBS.GenMob@1b82ab52
+GenMob
+<NAME>a ^kmess^?-seeking rag</NAME><DESC>It was designed that this rag could seek out and clean messes on it`s own.</DESC><DISP>a ^kmess^?-seeking rag lies here.</DISP><PROP>1|94|2|2|0|2|45|1.0|2|2|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>1</MONEY><VARMONEY>0.0</VARMONEY><GENDER>M</GENDER><MRACE>Doll</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+2
+1
+45
+
+-
+Primus Old Gadget Factory#29
+com.planet_ink.coffee_mud.MOBS.GenMob@6ecd963d
+GenMob
+<NAME>^ra mechanical apple^?</NAME><DESC>A marvel of science and engineering, this was designed at one point to be an apple that would be mechanical but could convert itself something the body could metabolize if eaten.</DESC><DISP>^ra mechanical apple^? rolls around here.</DISP><PROP>0|91|3|3|0|3|52|1.0|2|4|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>4</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Plant</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+3
+0
+52
+
+-
+Primus Old Gadget Factory#29
+com.planet_ink.coffee_mud.MOBS.GenMob@6982c5c6
+GenMob
+<NAME>^ra mechanical apple^?</NAME><DESC>A marvel of science and engineering, this was designed at one point to be an apple that would be mechanical but could convert itself something the body could metabolize if eaten.</DESC><DISP>^ra mechanical apple^? rolls around here.</DISP><PROP>0|91|3|3|0|3|52|1.0|2|4|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>4</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Plant</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+3
+0
+52
+
+-
+Primus Old Gadget Factory#29
+com.planet_ink.coffee_mud.MOBS.GenMob@53701903
+GenMob
+<NAME>^ra mechanical apple^?</NAME><DESC>A marvel of science and engineering, this was designed at one point to be an apple that would be mechanical but could convert itself something the body could metabolize if eaten.</DESC><DISP>^ra mechanical apple^? rolls around here.</DISP><PROP>0|91|3|3|0|3|52|1.0|2|4|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>4</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Plant</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+3
+0
+52
+
+-
+Primus Old Gadget Factory#29
+com.planet_ink.coffee_mud.MOBS.GenMob@5e4c07c0
+GenMob
+<NAME>^ra mechanical apple^?</NAME><DESC>A marvel of science and engineering, this was designed at one point to be an apple that would be mechanical but could convert itself something the body could metabolize if eaten.</DESC><DISP>^ra mechanical apple^? rolls around here.</DISP><PROP>0|91|3|3|0|3|52|1.0|2|4|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>4</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Plant</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+3
+0
+52
+
+-
+Primus Old Gadget Factory#29
+com.planet_ink.coffee_mud.MOBS.GenMob@134f54a7
+GenMob
+<NAME>^ra mechanical apple^?</NAME><DESC>A marvel of science and engineering, this was designed at one point to be an apple that would be mechanical but could convert itself something the body could metabolize if eaten.</DESC><DISP>^ra mechanical apple^? rolls around here.</DISP><PROP>0|91|3|3|0|3|52|1.0|2|4|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>4</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Plant</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+3
+0
+52
+
+-
+Primus Old Gadget Factory#30
+com.planet_ink.coffee_mud.MOBS.GenMob@6c9c1ffd
+GenMob
+<NAME>^ra mechanical apple^?</NAME><DESC>A marvel of science and engineering, this was designed at one point to be an apple that would be mechanical but could convert itself something the body could metabolize if eaten.</DESC><DISP>^ra mechanical apple^? rolls around here.</DISP><PROP>0|91|3|3|0|3|52|1.0|2|4|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>4</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Plant</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+3
+0
+52
+
+-
+Primus Old Gadget Factory#30
+com.planet_ink.coffee_mud.MOBS.GenMob@3f77bb6c
+GenMob
+<NAME>^ra mechanical apple^?</NAME><DESC>A marvel of science and engineering, this was designed at one point to be an apple that would be mechanical but could convert itself something the body could metabolize if eaten.</DESC><DISP>^ra mechanical apple^? rolls around here.</DISP><PROP>0|91|3|3|0|3|52|1.0|2|4|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>4</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Plant</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+3
+0
+52
+
+-
+Primus Old Gadget Factory#30
+com.planet_ink.coffee_mud.MOBS.GenMob@13bd945
+GenMob
+<NAME>^ra mechanical apple^?</NAME><DESC>A marvel of science and engineering, this was designed at one point to be an apple that would be mechanical but could convert itself something the body could metabolize if eaten.</DESC><DISP>^ra mechanical apple^? rolls around here.</DISP><PROP>0|91|3|3|0|3|52|1.0|2|4|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>4</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Plant</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+3
+0
+52
+
+-
+Primus Old Gadget Factory#30
+com.planet_ink.coffee_mud.MOBS.GenMob@68384fa9
+GenMob
+<NAME>^ra mechanical apple^?</NAME><DESC>A marvel of science and engineering, this was designed at one point to be an apple that would be mechanical but could convert itself something the body could metabolize if eaten.</DESC><DISP>^ra mechanical apple^? rolls around here.</DISP><PROP>0|91|3|3|0|3|52|1.0|2|4|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>4</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Plant</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+3
+0
+52
+
+-
+Primus Old Gadget Factory#30
+com.planet_ink.coffee_mud.MOBS.GenMob@6457d6a4
+GenMob
+<NAME>^ra mechanical apple^?</NAME><DESC>A marvel of science and engineering, this was designed at one point to be an apple that would be mechanical but could convert itself something the body could metabolize if eaten.</DESC><DISP>^ra mechanical apple^? rolls around here.</DISP><PROP>0|91|3|3|0|3|52|1.0|2|4|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>4</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Plant</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+3
+0
+52
+
+-
+Primus Old Gadget Factory#31
+com.planet_ink.coffee_mud.MOBS.GenMob@3f8e56fa
+GenMob
+<NAME>^ra mechanical apple^?</NAME><DESC>A marvel of science and engineering, this was designed at one point to be an apple that would be mechanical but could convert itself something the body could metabolize if eaten.</DESC><DISP>^ra mechanical apple^? rolls around here.</DISP><PROP>0|91|3|3|0|3|52|1.0|2|4|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>4</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Plant</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+3
+0
+52
+
+-
+Primus Old Gadget Factory#31
+com.planet_ink.coffee_mud.MOBS.GenMob@568846e9
+GenMob
+<NAME>^ra mechanical apple^?</NAME><DESC>A marvel of science and engineering, this was designed at one point to be an apple that would be mechanical but could convert itself something the body could metabolize if eaten.</DESC><DISP>^ra mechanical apple^? rolls around here.</DISP><PROP>0|91|3|3|0|3|52|1.0|2|4|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>4</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Plant</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+3
+0
+52
+
+-
+Primus Old Gadget Factory#31
+com.planet_ink.coffee_mud.MOBS.GenMob@169cf41f
+GenMob
+<NAME>^ra mechanical apple^?</NAME><DESC>A marvel of science and engineering, this was designed at one point to be an apple that would be mechanical but could convert itself something the body could metabolize if eaten.</DESC><DISP>^ra mechanical apple^? rolls around here.</DISP><PROP>0|91|3|3|0|3|52|1.0|2|4|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>4</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Plant</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+3
+0
+52
+
+-
+Primus Old Gadget Factory#31
+com.planet_ink.coffee_mud.MOBS.GenMob@1140c5c8
+GenMob
+<NAME>^ra mechanical apple^?</NAME><DESC>A marvel of science and engineering, this was designed at one point to be an apple that would be mechanical but could convert itself something the body could metabolize if eaten.</DESC><DISP>^ra mechanical apple^? rolls around here.</DISP><PROP>0|91|3|3|0|3|52|1.0|2|4|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>4</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Plant</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+3
+0
+52
+
+-
+Primus Old Gadget Factory#31
+com.planet_ink.coffee_mud.MOBS.GenMob@5c34789c
+GenMob
+<NAME>^ra mechanical apple^?</NAME><DESC>A marvel of science and engineering, this was designed at one point to be an apple that would be mechanical but could convert itself something the body could metabolize if eaten.</DESC><DISP>^ra mechanical apple^? rolls around here.</DISP><PROP>0|91|3|3|0|3|52|1.0|2|4|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>4</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Plant</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+3
+0
+52
+
+-
+Primus Old Gadget Factory#28
+com.planet_ink.coffee_mud.MOBS.GenMob@51602b6a
+GenMob
+<NAME>a self-building computer</NAME><DESC>This jumble of electronics and scraps is always trying to assemble itself into a computer.</DESC><DISP>a self-building computer crawls here.</DISP><PROP>0|91|3|3|0|3|52|1.0|15|12|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>5</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+3
+0
+52
+
+-
+Primus Old Gadget Factory#28
+com.planet_ink.coffee_mud.MOBS.GenMob@38141acc
+GenMob
+<NAME>a self-building computer</NAME><DESC>This jumble of electronics and scraps is always trying to assemble itself into a computer.</DESC><DISP>a self-building computer crawls here.</DISP><PROP>0|91|3|3|0|3|52|1.0|15|12|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>5</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+3
+0
+52
+
+-
+Primus Old Gadget Factory#28
+com.planet_ink.coffee_mud.MOBS.GenMob@1889c915
+GenMob
+<NAME>a self-building computer</NAME><DESC>This jumble of electronics and scraps is always trying to assemble itself into a computer.</DESC><DISP>a self-building computer crawls here.</DISP><PROP>0|91|3|3|0|3|52|1.0|15|12|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>5</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+3
+0
+52
+
+-
+Primus Old Gadget Factory#28
+com.planet_ink.coffee_mud.MOBS.GenMob@1a77c847
+GenMob
+<NAME>a self-building computer</NAME><DESC>This jumble of electronics and scraps is always trying to assemble itself into a computer.</DESC><DISP>a self-building computer crawls here.</DISP><PROP>0|91|3|3|0|3|52|1.0|15|12|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>5</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+3
+0
+52
+
+-
+Primus Old Gadget Factory#28
+com.planet_ink.coffee_mud.MOBS.GenMob@4a9c9b18
+GenMob
+<NAME>a self-building computer</NAME><DESC>This jumble of electronics and scraps is always trying to assemble itself into a computer.</DESC><DISP>a self-building computer crawls here.</DISP><PROP>0|91|3|3|0|3|52|1.0|15|12|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>5</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+3
+0
+52
+
+-
+Primus Old Gadget Factory#27
+com.planet_ink.coffee_mud.MOBS.GenMob@7ef3d46
+GenMob
+<NAME>a self-building computer</NAME><DESC>This jumble of electronics and scraps is always trying to assemble itself into a computer.</DESC><DISP>a self-building computer crawls here.</DISP><PROP>0|91|3|3|0|3|52|1.0|15|12|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>5</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+3
+0
+52
+
+-
+Primus Old Gadget Factory#27
+com.planet_ink.coffee_mud.MOBS.GenMob@ff4c604
+GenMob
+<NAME>a self-building computer</NAME><DESC>This jumble of electronics and scraps is always trying to assemble itself into a computer.</DESC><DISP>a self-building computer crawls here.</DISP><PROP>0|91|3|3|0|3|52|1.0|15|12|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>5</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+3
+0
+52
+
+-
+Primus Old Gadget Factory#27
+com.planet_ink.coffee_mud.MOBS.GenMob@135db079
+GenMob
+<NAME>a self-building computer</NAME><DESC>This jumble of electronics and scraps is always trying to assemble itself into a computer.</DESC><DISP>a self-building computer crawls here.</DISP><PROP>0|91|3|3|0|3|52|1.0|15|12|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>5</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+3
+0
+52
+
+-
+Primus Old Gadget Factory#27
+com.planet_ink.coffee_mud.MOBS.GenMob@6bba8b95
+GenMob
+<NAME>a self-building computer</NAME><DESC>This jumble of electronics and scraps is always trying to assemble itself into a computer.</DESC><DISP>a self-building computer crawls here.</DISP><PROP>0|91|3|3|0|3|52|1.0|15|12|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>5</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+3
+0
+52
+
+-
+Primus Old Gadget Factory#27
+com.planet_ink.coffee_mud.MOBS.GenMob@15419ea9
+GenMob
+<NAME>a self-building computer</NAME><DESC>This jumble of electronics and scraps is always trying to assemble itself into a computer.</DESC><DISP>a self-building computer crawls here.</DISP><PROP>0|91|3|3|0|3|52|1.0|15|12|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>5</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+3
+0
+52
+
+-
+Primus Old Gadget Factory#32
+com.planet_ink.coffee_mud.MOBS.GenMob@309c726e
+GenMob
+<NAME>a self-building computer</NAME><DESC>This jumble of electronics and scraps is always trying to assemble itself into a computer.</DESC><DISP>a self-building computer crawls here.</DISP><PROP>0|91|3|3|0|3|52|1.0|15|12|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>5</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+3
+0
+52
+
+-
+Primus Old Gadget Factory#32
+com.planet_ink.coffee_mud.MOBS.GenMob@5d72f8d9
+GenMob
+<NAME>a self-building computer</NAME><DESC>This jumble of electronics and scraps is always trying to assemble itself into a computer.</DESC><DISP>a self-building computer crawls here.</DISP><PROP>0|91|3|3|0|3|52|1.0|15|12|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>5</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+3
+0
+52
+
+-
+Primus Old Gadget Factory#32
+com.planet_ink.coffee_mud.MOBS.GenMob@3dcd36f1
+GenMob
+<NAME>a self-building computer</NAME><DESC>This jumble of electronics and scraps is always trying to assemble itself into a computer.</DESC><DISP>a self-building computer crawls here.</DISP><PROP>0|91|3|3|0|3|52|1.0|15|12|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>5</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+3
+0
+52
+
+-
+Primus Old Gadget Factory#32
+com.planet_ink.coffee_mud.MOBS.GenMob@3251a2cc
+GenMob
+<NAME>a self-building computer</NAME><DESC>This jumble of electronics and scraps is always trying to assemble itself into a computer.</DESC><DISP>a self-building computer crawls here.</DISP><PROP>0|91|3|3|0|3|52|1.0|15|12|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>5</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+3
+0
+52
+
+-
+Primus Old Gadget Factory#32
+com.planet_ink.coffee_mud.MOBS.GenMob@610da9ea
+GenMob
+<NAME>a self-building computer</NAME><DESC>This jumble of electronics and scraps is always trying to assemble itself into a computer.</DESC><DISP>a self-building computer crawls here.</DISP><PROP>0|91|3|3|0|3|52|1.0|15|12|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>5</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+3
+0
+52
+
+-
+Primus Old Gadget Factory#47
+com.planet_ink.coffee_mud.MOBS.GenMob@7aa0a083
+GenMob
+<NAME>a soylent auto-dispenser</NAME><DESC>This auto-dispenser was designed to travel the cities and deliver needed soylent to the masses.</DESC><DISP>a soylent auto-dispenser stands here.</DISP><PROP>0|88|4|4|0|4|60|1.0|480|72|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>10</MONEY><VARMONEY>0.0</VARMONEY><GENDER>M</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+4
+0
+60
+
+-
+Primus Old Gadget Factory#47
+com.planet_ink.coffee_mud.MOBS.GenMob@1565a712
+GenMob
+<NAME>a soylent auto-dispenser</NAME><DESC>This auto-dispenser was designed to travel the cities and deliver needed soylent to the masses.</DESC><DISP>a soylent auto-dispenser stands here.</DISP><PROP>0|88|4|4|0|4|60|1.0|480|72|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>10</MONEY><VARMONEY>0.0</VARMONEY><GENDER>M</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+4
+0
+60
+
+-
+Primus Old Gadget Factory#46
+com.planet_ink.coffee_mud.MOBS.GenMob@5c00b8c5
+GenMob
+<NAME>a soylent auto-dispenser</NAME><DESC>This auto-dispenser was designed to travel the cities and deliver needed soylent to the masses.</DESC><DISP>a soylent auto-dispenser stands here.</DISP><PROP>0|88|4|4|0|4|60|1.0|480|72|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>10</MONEY><VARMONEY>0.0</VARMONEY><GENDER>M</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+4
+0
+60
+
+-
+Primus Old Gadget Factory#46
+com.planet_ink.coffee_mud.MOBS.GenMob@23802cad
+GenMob
+<NAME>a soylent auto-dispenser</NAME><DESC>This auto-dispenser was designed to travel the cities and deliver needed soylent to the masses.</DESC><DISP>a soylent auto-dispenser stands here.</DISP><PROP>0|88|4|4|0|4|60|1.0|480|72|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>10</MONEY><VARMONEY>0.0</VARMONEY><GENDER>M</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+4
+0
+60
+
+-
+Primus Old Gadget Factory#46
+com.planet_ink.coffee_mud.MOBS.GenMob@2032205a
+GenMob
+<NAME>a soylent auto-dispenser</NAME><DESC>This auto-dispenser was designed to travel the cities and deliver needed soylent to the masses.</DESC><DISP>a soylent auto-dispenser stands here.</DISP><PROP>0|88|4|4|0|4|60|1.0|480|72|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>10</MONEY><VARMONEY>0.0</VARMONEY><GENDER>M</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+4
+0
+60
+
+-
+Primus Old Gadget Factory#46
+com.planet_ink.coffee_mud.MOBS.GenMob@191b0b14
+GenMob
+<NAME>a soylent auto-dispenser</NAME><DESC>This auto-dispenser was designed to travel the cities and deliver needed soylent to the masses.</DESC><DISP>a soylent auto-dispenser stands here.</DISP><PROP>0|88|4|4|0|4|60|1.0|480|72|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>10</MONEY><VARMONEY>0.0</VARMONEY><GENDER>M</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+4
+0
+60
+
+-
+Primus Old Gadget Factory#46
+com.planet_ink.coffee_mud.MOBS.GenMob@40844e62
+GenMob
+<NAME>a soylent auto-dispenser</NAME><DESC>This auto-dispenser was designed to travel the cities and deliver needed soylent to the masses.</DESC><DISP>a soylent auto-dispenser stands here.</DISP><PROP>0|88|4|4|0|4|60|1.0|480|72|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>10</MONEY><VARMONEY>0.0</VARMONEY><GENDER>M</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+4
+0
+60
+
+-
+Primus Old Gadget Factory#45
+com.planet_ink.coffee_mud.MOBS.GenMob@558a37ae
+GenMob
+<NAME>a soylent auto-dispenser</NAME><DESC>This auto-dispenser was designed to travel the cities and deliver needed soylent to the masses.</DESC><DISP>a soylent auto-dispenser stands here.</DISP><PROP>0|88|4|4|0|4|60|1.0|480|72|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>10</MONEY><VARMONEY>0.0</VARMONEY><GENDER>M</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+4
+0
+60
+
+-
+Primus Old Gadget Factory#45
+com.planet_ink.coffee_mud.MOBS.GenMob@2ea2fe4a
+GenMob
+<NAME>a soylent auto-dispenser</NAME><DESC>This auto-dispenser was designed to travel the cities and deliver needed soylent to the masses.</DESC><DISP>a soylent auto-dispenser stands here.</DISP><PROP>0|88|4|4|0|4|60|1.0|480|72|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>10</MONEY><VARMONEY>0.0</VARMONEY><GENDER>M</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+4
+0
+60
+
+-
+Primus Old Gadget Factory#45
+com.planet_ink.coffee_mud.MOBS.GenMob@11bb1ffa
+GenMob
+<NAME>a soylent auto-dispenser</NAME><DESC>This auto-dispenser was designed to travel the cities and deliver needed soylent to the masses.</DESC><DISP>a soylent auto-dispenser stands here.</DISP><PROP>0|88|4|4|0|4|60|1.0|480|72|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>10</MONEY><VARMONEY>0.0</VARMONEY><GENDER>M</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+4
+0
+60
+
+-
+Primus Old Gadget Factory#45
+com.planet_ink.coffee_mud.MOBS.GenMob@502fdda9
+GenMob
+<NAME>a soylent auto-dispenser</NAME><DESC>This auto-dispenser was designed to travel the cities and deliver needed soylent to the masses.</DESC><DISP>a soylent auto-dispenser stands here.</DISP><PROP>0|88|4|4|0|4|60|1.0|480|72|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>10</MONEY><VARMONEY>0.0</VARMONEY><GENDER>M</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+4
+0
+60
+
+-
+Primus Old Gadget Factory#45
+com.planet_ink.coffee_mud.MOBS.GenMob@541ca745
+GenMob
+<NAME>a soylent auto-dispenser</NAME><DESC>This auto-dispenser was designed to travel the cities and deliver needed soylent to the masses.</DESC><DISP>a soylent auto-dispenser stands here.</DISP><PROP>0|88|4|4|0|4|60|1.0|480|72|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>10</MONEY><VARMONEY>0.0</VARMONEY><GENDER>M</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+4
+0
+60
+
+-
+Primus Old Gadget Factory#36
+com.planet_ink.coffee_mud.MOBS.GenMob@7f5de013
+GenMob
+<NAME>a stim auto-dispenser</NAME><DESC>This auto-dispenser was designed to travel the cities and shoot up people... with stims.</DESC><DISP>a stim auto-dispenser stands here.</DISP><PROP>0|88|4|4|0|4|60|1.0|400|65|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>10</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+4
+0
+60
+
+-
+Primus Old Gadget Factory#36
+com.planet_ink.coffee_mud.MOBS.GenMob@1d6b34f2
+GenMob
+<NAME>a stim auto-dispenser</NAME><DESC>This auto-dispenser was designed to travel the cities and shoot up people... with stims.</DESC><DISP>a stim auto-dispenser stands here.</DISP><PROP>0|88|4|4|0|4|60|1.0|400|65|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>10</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+4
+0
+60
+
+-
+Primus Old Gadget Factory#36
+com.planet_ink.coffee_mud.MOBS.GenMob@ea55e9e
+GenMob
+<NAME>a soylent auto-dispenser</NAME><DESC>This auto-dispenser was designed to travel the cities and deliver needed soylent to the masses.</DESC><DISP>a soylent auto-dispenser stands here.</DISP><PROP>0|88|4|4|0|4|60|1.0|480|72|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>10</MONEY><VARMONEY>0.0</VARMONEY><GENDER>M</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+4
+0
+60
+
+-
+Primus Old Gadget Factory#36
+com.planet_ink.coffee_mud.MOBS.GenMob@7ce5a0fb
+GenMob
+<NAME>a stim auto-dispenser</NAME><DESC>This auto-dispenser was designed to travel the cities and shoot up people... with stims.</DESC><DISP>a stim auto-dispenser stands here.</DISP><PROP>0|88|4|4|0|4|60|1.0|400|65|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>10</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+4
+0
+60
+
+-
+Primus Old Gadget Factory#36
+com.planet_ink.coffee_mud.MOBS.GenMob@301e7ecb
+GenMob
+<NAME>a stim auto-dispenser</NAME><DESC>This auto-dispenser was designed to travel the cities and shoot up people... with stims.</DESC><DISP>a stim auto-dispenser stands here.</DISP><PROP>0|88|4|4|0|4|60|1.0|400|65|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>10</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+4
+0
+60
+
+-
+Primus Old Gadget Factory#37
+com.planet_ink.coffee_mud.MOBS.GenMob@29035e94
+GenMob
+<NAME>a stim auto-dispenser</NAME><DESC>This auto-dispenser was designed to travel the cities and shoot up people... with stims.</DESC><DISP>a stim auto-dispenser stands here.</DISP><PROP>0|88|4|4|0|4|60|1.0|400|65|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>10</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+4
+0
+60
+
+-
+Primus Old Gadget Factory#37
+com.planet_ink.coffee_mud.MOBS.GenMob@28fc9496
+GenMob
+<NAME>a stim auto-dispenser</NAME><DESC>This auto-dispenser was designed to travel the cities and shoot up people... with stims.</DESC><DISP>a stim auto-dispenser stands here.</DISP><PROP>0|88|4|4|0|4|60|1.0|400|65|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>10</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+4
+0
+60
+
+-
+Primus Old Gadget Factory#37
+com.planet_ink.coffee_mud.MOBS.GenMob@2871d40e
+GenMob
+<NAME>a stim auto-dispenser</NAME><DESC>This auto-dispenser was designed to travel the cities and shoot up people... with stims.</DESC><DISP>a stim auto-dispenser stands here.</DISP><PROP>0|88|4|4|0|4|60|1.0|400|65|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>10</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+4
+0
+60
+
+-
+Primus Old Gadget Factory#37
+com.planet_ink.coffee_mud.MOBS.GenMob@6cf9a956
+GenMob
+<NAME>a stim auto-dispenser</NAME><DESC>This auto-dispenser was designed to travel the cities and shoot up people... with stims.</DESC><DISP>a stim auto-dispenser stands here.</DISP><PROP>0|88|4|4|0|4|60|1.0|400|65|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>10</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+4
+0
+60
+
+-
+Primus Old Gadget Factory#37
+com.planet_ink.coffee_mud.MOBS.GenMob@5f3dbda3
+GenMob
+<NAME>a stim auto-dispenser</NAME><DESC>This auto-dispenser was designed to travel the cities and shoot up people... with stims.</DESC><DISP>a stim auto-dispenser stands here.</DISP><PROP>0|88|4|4|0|4|60|1.0|400|65|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>10</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+4
+0
+60
+
+-
+Primus Old Gadget Factory#38
+com.planet_ink.coffee_mud.MOBS.GenMob@377f4d1
+GenMob
+<NAME>a stim auto-dispenser</NAME><DESC>This auto-dispenser was designed to travel the cities and shoot up people... with stims.</DESC><DISP>a stim auto-dispenser stands here.</DISP><PROP>0|88|4|4|0|4|60|1.0|400|65|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>10</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+4
+0
+60
+
+-
+Primus Old Gadget Factory#38
+com.planet_ink.coffee_mud.MOBS.GenMob@7c2cf884
+GenMob
+<NAME>a stim auto-dispenser</NAME><DESC>This auto-dispenser was designed to travel the cities and shoot up people... with stims.</DESC><DISP>a stim auto-dispenser stands here.</DISP><PROP>0|88|4|4|0|4|60|1.0|400|65|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>10</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+4
+0
+60
+
+-
+Primus Old Gadget Factory#38
+com.planet_ink.coffee_mud.MOBS.GenMob@2d9f6d82
+GenMob
+<NAME>a stim auto-dispenser</NAME><DESC>This auto-dispenser was designed to travel the cities and shoot up people... with stims.</DESC><DISP>a stim auto-dispenser stands here.</DISP><PROP>0|88|4|4|0|4|60|1.0|400|65|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>10</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+4
+0
+60
+
+-
+Primus Old Gadget Factory#38
+com.planet_ink.coffee_mud.MOBS.GenMob@6e34a6dc
+GenMob
+<NAME>a stim auto-dispenser</NAME><DESC>This auto-dispenser was designed to travel the cities and shoot up people... with stims.</DESC><DISP>a stim auto-dispenser stands here.</DISP><PROP>0|88|4|4|0|4|60|1.0|400|65|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>10</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+4
+0
+60
+
+-
+Primus Old Gadget Factory#38
+com.planet_ink.coffee_mud.MOBS.GenMob@52d906b7
+GenMob
+<NAME>a stim auto-dispenser</NAME><DESC>This auto-dispenser was designed to travel the cities and shoot up people... with stims.</DESC><DISP>a stim auto-dispenser stands here.</DISP><PROP>0|88|4|4|0|4|60|1.0|400|65|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>10</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+4
+0
+60
+
+-
+Primus Old Gadget Factory#39
+com.planet_ink.coffee_mud.MOBS.GenMob@13a9daf6
+GenMob
+<NAME>a stim auto-dispenser</NAME><DESC>This auto-dispenser was designed to travel the cities and shoot up people... with stims.</DESC><DISP>a stim auto-dispenser stands here.</DISP><PROP>0|88|4|4|0|4|60|1.0|400|65|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>10</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+4
+0
+60
+
+-
+Primus Old Gadget Factory#39
+com.planet_ink.coffee_mud.MOBS.GenMob@355ead29
+GenMob
+<NAME>a stim auto-dispenser</NAME><DESC>This auto-dispenser was designed to travel the cities and shoot up people... with stims.</DESC><DISP>a stim auto-dispenser stands here.</DISP><PROP>0|88|4|4|0|4|60|1.0|400|65|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>10</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+4
+0
+60
+
+-
+Primus Old Gadget Factory#39
+com.planet_ink.coffee_mud.MOBS.GenMob@14cc01cd
+GenMob
+<NAME>a stim auto-dispenser</NAME><DESC>This auto-dispenser was designed to travel the cities and shoot up people... with stims.</DESC><DISP>a stim auto-dispenser stands here.</DISP><PROP>0|88|4|4|0|4|60|1.0|400|65|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>10</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+4
+0
+60
+
+-
+Primus Old Gadget Factory#39
+com.planet_ink.coffee_mud.MOBS.GenMob@262e7652
+GenMob
+<NAME>a stim auto-dispenser</NAME><DESC>This auto-dispenser was designed to travel the cities and shoot up people... with stims.</DESC><DISP>a stim auto-dispenser stands here.</DISP><PROP>0|88|4|4|0|4|60|1.0|400|65|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>10</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+4
+0
+60
+
+-
+Primus Old Gadget Factory#39
+com.planet_ink.coffee_mud.MOBS.GenMob@7b0d660b
+GenMob
+<NAME>a stim auto-dispenser</NAME><DESC>This auto-dispenser was designed to travel the cities and shoot up people... with stims.</DESC><DISP>a stim auto-dispenser stands here.</DISP><PROP>0|88|4|4|0|4|60|1.0|400|65|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>10</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+4
+0
+60
+
+-
+Primus Old Gadget Factory#40
+com.planet_ink.coffee_mud.MOBS.GenMob@2c385b46
+GenMob
+<NAME>a stim auto-dispenser</NAME><DESC>This auto-dispenser was designed to travel the cities and shoot up people... with stims.</DESC><DISP>a stim auto-dispenser stands here.</DISP><PROP>0|88|4|4|0|4|60|1.0|400|65|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>10</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+4
+0
+60
+
+-
+Primus Old Gadget Factory#40
+com.planet_ink.coffee_mud.MOBS.GenMob@6902b5eb
+GenMob
+<NAME>a stim auto-dispenser</NAME><DESC>This auto-dispenser was designed to travel the cities and shoot up people... with stims.</DESC><DISP>a stim auto-dispenser stands here.</DISP><PROP>0|88|4|4|0|4|60|1.0|400|65|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>10</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+4
+0
+60
+
+-
+Primus Old Gadget Factory#40
+com.planet_ink.coffee_mud.MOBS.GenMob@1d128e75
+GenMob
+<NAME>a stim auto-dispenser</NAME><DESC>This auto-dispenser was designed to travel the cities and shoot up people... with stims.</DESC><DISP>a stim auto-dispenser stands here.</DISP><PROP>0|88|4|4|0|4|60|1.0|400|65|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>10</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+4
+0
+60
+
+-
+Primus Old Gadget Factory#40
+com.planet_ink.coffee_mud.MOBS.GenMob@233d7394
+GenMob
+<NAME>a stim auto-dispenser</NAME><DESC>This auto-dispenser was designed to travel the cities and shoot up people... with stims.</DESC><DISP>a stim auto-dispenser stands here.</DISP><PROP>0|88|4|4|0|4|60|1.0|400|65|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>10</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+4
+0
+60
+
+-
+Primus Old Gadget Factory#40
+com.planet_ink.coffee_mud.MOBS.GenMob@4db1eede
+GenMob
+<NAME>a stim auto-dispenser</NAME><DESC>This auto-dispenser was designed to travel the cities and shoot up people... with stims.</DESC><DISP>a stim auto-dispenser stands here.</DISP><PROP>0|88|4|4|0|4|60|1.0|400|65|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>10</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+4
+0
+60
+
+-
+Primus Old Gadget Factory#71
+com.planet_ink.coffee_mud.MOBS.GenMob@4da99ce2
+GenMob
+<NAME>^ba flying spray bottle^?</NAME><DESC>It`s a small spray bottle, it flies through the air thanks to rotor action.</DESC><DISP>^ba flying spray bottle^? flies here.</DISP><PROP>0|85|5|5|2048|5|67|1.0|2|12|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Aggressive</BCLASS><BPARMS /></BHAVE><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>8</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">-1500</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+5
+0
+67
+
+-
+Primus Old Gadget Factory#71
+com.planet_ink.coffee_mud.MOBS.GenMob@3888e611
+GenMob
+<NAME>^ba flying spray bottle^?</NAME><DESC>It`s a small spray bottle, it flies through the air thanks to rotor action.</DESC><DISP>^ba flying spray bottle^? flies here.</DISP><PROP>0|85|5|5|2048|5|67|1.0|2|12|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Aggressive</BCLASS><BPARMS /></BHAVE><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>8</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">-1500</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+5
+0
+67
+
+-
+Primus Old Gadget Factory#71
+com.planet_ink.coffee_mud.MOBS.GenMob@32e4448b
+GenMob
+<NAME>^ba flying spray bottle^?</NAME><DESC>It`s a small spray bottle, it flies through the air thanks to rotor action.</DESC><DISP>^ba flying spray bottle^? flies here.</DISP><PROP>0|85|5|5|2048|5|67|1.0|2|12|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Aggressive</BCLASS><BPARMS /></BHAVE><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>8</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">-1500</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+5
+0
+67
+
+-
+Primus Old Gadget Factory#71
+com.planet_ink.coffee_mud.MOBS.GenMob@68b5e7e
+GenMob
+<NAME>^ba flying spray bottle^?</NAME><DESC>It`s a small spray bottle, it flies through the air thanks to rotor action.</DESC><DISP>^ba flying spray bottle^? flies here.</DISP><PROP>0|85|5|5|2048|5|67|1.0|2|12|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Aggressive</BCLASS><BPARMS /></BHAVE><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>8</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">-1500</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+5
+0
+67
+
+-
+Primus Old Gadget Factory#71
+com.planet_ink.coffee_mud.MOBS.GenMob@794c98d0
+GenMob
+<NAME>^ba flying spray bottle^?</NAME><DESC>It`s a small spray bottle, it flies through the air thanks to rotor action.</DESC><DISP>^ba flying spray bottle^? flies here.</DISP><PROP>0|85|5|5|2048|5|67|1.0|2|12|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Aggressive</BCLASS><BPARMS /></BHAVE><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>8</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">-1500</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+5
+0
+67
+
+-
+Primus Old Gadget Factory#70
+com.planet_ink.coffee_mud.MOBS.GenMob@c57f544
+GenMob
+<NAME>^ba flying spray bottle^?</NAME><DESC>It`s a small spray bottle, it flies through the air thanks to rotor action.</DESC><DISP>^ba flying spray bottle^? flies here.</DISP><PROP>0|85|5|5|2048|5|67|1.0|2|12|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Aggressive</BCLASS><BPARMS /></BHAVE><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>8</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">-1500</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+5
+0
+67
+
+-
+Primus Old Gadget Factory#70
+com.planet_ink.coffee_mud.MOBS.GenMob@ac511f0
+GenMob
+<NAME>^ba flying spray bottle^?</NAME><DESC>It`s a small spray bottle, it flies through the air thanks to rotor action.</DESC><DISP>^ba flying spray bottle^? flies here.</DISP><PROP>0|85|5|5|2048|5|67|1.0|2|12|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Aggressive</BCLASS><BPARMS /></BHAVE><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>8</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">-1500</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+5
+0
+67
+
+-
+Primus Old Gadget Factory#70
+com.planet_ink.coffee_mud.MOBS.GenMob@301e0380
+GenMob
+<NAME>^ba flying spray bottle^?</NAME><DESC>It`s a small spray bottle, it flies through the air thanks to rotor action.</DESC><DISP>^ba flying spray bottle^? flies here.</DISP><PROP>0|85|5|5|2048|5|67|1.0|2|12|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Aggressive</BCLASS><BPARMS /></BHAVE><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>8</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">-1500</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+5
+0
+67
+
+-
+Primus Old Gadget Factory#70
+com.planet_ink.coffee_mud.MOBS.GenMob@2450b3f6
+GenMob
+<NAME>^ba flying spray bottle^?</NAME><DESC>It`s a small spray bottle, it flies through the air thanks to rotor action.</DESC><DISP>^ba flying spray bottle^? flies here.</DISP><PROP>0|85|5|5|2048|5|67|1.0|2|12|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Aggressive</BCLASS><BPARMS /></BHAVE><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>8</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">-1500</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+5
+0
+67
+
+-
+Primus Old Gadget Factory#70
+com.planet_ink.coffee_mud.MOBS.GenMob@179e9fed
+GenMob
+<NAME>^ba flying spray bottle^?</NAME><DESC>It`s a small spray bottle, it flies through the air thanks to rotor action.</DESC><DISP>^ba flying spray bottle^? flies here.</DISP><PROP>0|85|5|5|2048|5|67|1.0|2|12|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Aggressive</BCLASS><BPARMS /></BHAVE><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>8</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">-1500</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+5
+0
+67
+
+-
+Primus Old Gadget Factory#69
+com.planet_ink.coffee_mud.MOBS.GenMob@443f2e97
+GenMob
+<NAME>^ba flying spray bottle^?</NAME><DESC>It`s a small spray bottle, it flies through the air thanks to rotor action.</DESC><DISP>^ba flying spray bottle^? flies here.</DISP><PROP>0|85|5|5|2048|5|67|1.0|2|12|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Aggressive</BCLASS><BPARMS /></BHAVE><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>8</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">-1500</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+5
+0
+67
+
+-
+Primus Old Gadget Factory#69
+com.planet_ink.coffee_mud.MOBS.GenMob@4bf5137d
+GenMob
+<NAME>^ba flying spray bottle^?</NAME><DESC>It`s a small spray bottle, it flies through the air thanks to rotor action.</DESC><DISP>^ba flying spray bottle^? flies here.</DISP><PROP>0|85|5|5|2048|5|67|1.0|2|12|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Aggressive</BCLASS><BPARMS /></BHAVE><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>8</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">-1500</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+5
+0
+67
+
+-
+Primus Old Gadget Factory#69
+com.planet_ink.coffee_mud.MOBS.GenMob@4d4871a1
+GenMob
+<NAME>^ba flying spray bottle^?</NAME><DESC>It`s a small spray bottle, it flies through the air thanks to rotor action.</DESC><DISP>^ba flying spray bottle^? flies here.</DISP><PROP>0|85|5|5|2048|5|67|1.0|2|12|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Aggressive</BCLASS><BPARMS /></BHAVE><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>8</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">-1500</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+5
+0
+67
+
+-
+Primus Old Gadget Factory#69
+com.planet_ink.coffee_mud.MOBS.GenMob@4498c918
+GenMob
+<NAME>^ba flying spray bottle^?</NAME><DESC>It`s a small spray bottle, it flies through the air thanks to rotor action.</DESC><DISP>^ba flying spray bottle^? flies here.</DISP><PROP>0|85|5|5|2048|5|67|1.0|2|12|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Aggressive</BCLASS><BPARMS /></BHAVE><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>8</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">-1500</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+5
+0
+67
+
+-
+Primus Old Gadget Factory#69
+com.planet_ink.coffee_mud.MOBS.GenMob@79ee1c8a
+GenMob
+<NAME>^ba flying spray bottle^?</NAME><DESC>It`s a small spray bottle, it flies through the air thanks to rotor action.</DESC><DISP>^ba flying spray bottle^? flies here.</DISP><PROP>0|85|5|5|2048|5|67|1.0|2|12|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Aggressive</BCLASS><BPARMS /></BHAVE><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>8</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">-1500</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+5
+0
+67
+
+-
+Primus Old Gadget Factory#68
+com.planet_ink.coffee_mud.MOBS.GenMob@7573abda
+GenMob
+<NAME>^ba flying spray bottle^?</NAME><DESC>It`s a small spray bottle, it flies through the air thanks to rotor action.</DESC><DISP>^ba flying spray bottle^? flies here.</DISP><PROP>0|85|5|5|2048|5|67|1.0|2|12|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Aggressive</BCLASS><BPARMS /></BHAVE><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>8</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">-1500</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+5
+0
+67
+
+-
+Primus Old Gadget Factory#68
+com.planet_ink.coffee_mud.MOBS.GenMob@3a29d504
+GenMob
+<NAME>^ba flying spray bottle^?</NAME><DESC>It`s a small spray bottle, it flies through the air thanks to rotor action.</DESC><DISP>^ba flying spray bottle^? flies here.</DISP><PROP>0|85|5|5|2048|5|67|1.0|2|12|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Aggressive</BCLASS><BPARMS /></BHAVE><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>8</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">-1500</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+5
+0
+67
+
+-
+Primus Old Gadget Factory#68
+com.planet_ink.coffee_mud.MOBS.GenMob@1bce6212
+GenMob
+<NAME>^ba flying spray bottle^?</NAME><DESC>It`s a small spray bottle, it flies through the air thanks to rotor action.</DESC><DISP>^ba flying spray bottle^? flies here.</DISP><PROP>0|85|5|5|2048|5|67|1.0|2|12|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Aggressive</BCLASS><BPARMS /></BHAVE><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>8</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">-1500</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+5
+0
+67
+
+-
+Primus Old Gadget Factory#68
+com.planet_ink.coffee_mud.MOBS.GenMob@4258d338
+GenMob
+<NAME>^ba flying spray bottle^?</NAME><DESC>It`s a small spray bottle, it flies through the air thanks to rotor action.</DESC><DISP>^ba flying spray bottle^? flies here.</DISP><PROP>0|85|5|5|2048|5|67|1.0|2|12|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Aggressive</BCLASS><BPARMS /></BHAVE><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>8</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">-1500</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+5
+0
+67
+
+-
+Primus Old Gadget Factory#68
+com.planet_ink.coffee_mud.MOBS.GenMob@2a1d8dd2
+GenMob
+<NAME>^ba flying spray bottle^?</NAME><DESC>It`s a small spray bottle, it flies through the air thanks to rotor action.</DESC><DISP>^ba flying spray bottle^? flies here.</DISP><PROP>0|85|5|5|2048|5|67|1.0|2|12|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Aggressive</BCLASS><BPARMS /></BHAVE><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>8</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">-1500</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+5
+0
+67
+
+-
+Primus Old Gadget Factory#67
+com.planet_ink.coffee_mud.MOBS.GenMob@3bfabba6
+GenMob
+<NAME>^ba flying spray bottle^?</NAME><DESC>It`s a small spray bottle, it flies through the air thanks to rotor action.</DESC><DISP>^ba flying spray bottle^? flies here.</DISP><PROP>0|85|5|5|2048|5|67|1.0|2|12|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Aggressive</BCLASS><BPARMS /></BHAVE><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>8</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">-1500</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+5
+0
+67
+
+-
+Primus Old Gadget Factory#67
+com.planet_ink.coffee_mud.MOBS.GenMob@4f4c077d
+GenMob
+<NAME>^ba flying spray bottle^?</NAME><DESC>It`s a small spray bottle, it flies through the air thanks to rotor action.</DESC><DISP>^ba flying spray bottle^? flies here.</DISP><PROP>0|85|5|5|2048|5|67|1.0|2|12|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Aggressive</BCLASS><BPARMS /></BHAVE><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>8</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">-1500</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+5
+0
+67
+
+-
+Primus Old Gadget Factory#67
+com.planet_ink.coffee_mud.MOBS.GenMob@1a856420
+GenMob
+<NAME>^ba flying spray bottle^?</NAME><DESC>It`s a small spray bottle, it flies through the air thanks to rotor action.</DESC><DISP>^ba flying spray bottle^? flies here.</DISP><PROP>0|85|5|5|2048|5|67|1.0|2|12|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Aggressive</BCLASS><BPARMS /></BHAVE><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>8</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">-1500</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+5
+0
+67
+
+-
+Primus Old Gadget Factory#67
+com.planet_ink.coffee_mud.MOBS.GenMob@aa87445
+GenMob
+<NAME>^ba flying spray bottle^?</NAME><DESC>It`s a small spray bottle, it flies through the air thanks to rotor action.</DESC><DISP>^ba flying spray bottle^? flies here.</DISP><PROP>0|85|5|5|2048|5|67|1.0|2|12|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Aggressive</BCLASS><BPARMS /></BHAVE><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>8</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">-1500</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+5
+0
+67
+
+-
+Primus Old Gadget Factory#67
+com.planet_ink.coffee_mud.MOBS.GenMob@64e1c93d
+GenMob
+<NAME>^ba flying spray bottle^?</NAME><DESC>It`s a small spray bottle, it flies through the air thanks to rotor action.</DESC><DISP>^ba flying spray bottle^? flies here.</DISP><PROP>0|85|5|5|2048|5|67|1.0|2|12|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Aggressive</BCLASS><BPARMS /></BHAVE><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>8</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">-1500</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+5
+0
+67
+
+-
+Primus Old Gadget Factory#66
+com.planet_ink.coffee_mud.MOBS.GenMob@35f6467f
+GenMob
+<NAME>^ba flying spray bottle^?</NAME><DESC>It`s a small spray bottle, it flies through the air thanks to rotor action.</DESC><DISP>^ba flying spray bottle^? flies here.</DISP><PROP>0|85|5|5|2048|5|67|1.0|2|12|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Aggressive</BCLASS><BPARMS /></BHAVE><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>8</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">-1500</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+5
+0
+67
+
+-
+Primus Old Gadget Factory#66
+com.planet_ink.coffee_mud.MOBS.GenMob@75344142
+GenMob
+<NAME>^ba flying spray bottle^?</NAME><DESC>It`s a small spray bottle, it flies through the air thanks to rotor action.</DESC><DISP>^ba flying spray bottle^? flies here.</DISP><PROP>0|85|5|5|2048|5|67|1.0|2|12|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Aggressive</BCLASS><BPARMS /></BHAVE><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>8</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">-1500</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+5
+0
+67
+
+-
+Primus Old Gadget Factory#66
+com.planet_ink.coffee_mud.MOBS.GenMob@545a9311
+GenMob
+<NAME>^ba flying spray bottle^?</NAME><DESC>It`s a small spray bottle, it flies through the air thanks to rotor action.</DESC><DISP>^ba flying spray bottle^? flies here.</DISP><PROP>0|85|5|5|2048|5|67|1.0|2|12|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Aggressive</BCLASS><BPARMS /></BHAVE><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>8</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">-1500</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+5
+0
+67
+
+-
+Primus Old Gadget Factory#66
+com.planet_ink.coffee_mud.MOBS.GenMob@37d80f80
+GenMob
+<NAME>^ba flying spray bottle^?</NAME><DESC>It`s a small spray bottle, it flies through the air thanks to rotor action.</DESC><DISP>^ba flying spray bottle^? flies here.</DISP><PROP>0|85|5|5|2048|5|67|1.0|2|12|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Aggressive</BCLASS><BPARMS /></BHAVE><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>8</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">-1500</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+5
+0
+67
+
+-
+Primus Old Gadget Factory#66
+com.planet_ink.coffee_mud.MOBS.GenMob@309a62ba
+GenMob
+<NAME>^ba flying spray bottle^?</NAME><DESC>It`s a small spray bottle, it flies through the air thanks to rotor action.</DESC><DISP>^ba flying spray bottle^? flies here.</DISP><PROP>0|85|5|5|2048|5|67|1.0|2|12|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Aggressive</BCLASS><BPARMS /></BHAVE><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>8</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">-1500</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+5
+0
+67
+
+-
+Primus Old Gadget Factory#60
+com.planet_ink.coffee_mud.MOBS.GenMob@5e68fc60
+GenMob
+<NAME>^ba walking water jug^?</NAME><DESC>It`s a jug of water on a trio of legs.</DESC><DISP>^ba walking water jug^? stands here.</DISP><PROP>11|85|5|5|0|5|67|1.0|120|72|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Aggressive</BCLASS><BPARMS /></BHAVE><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>5</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">-1500</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+5
+11
+67
+
+-
+Primus Old Gadget Factory#61
+com.planet_ink.coffee_mud.MOBS.GenMob@5cbd715
+GenMob
+<NAME>^ba walking water jug^?</NAME><DESC>It`s a jug of water on a trio of legs.</DESC><DISP>^ba walking water jug^? stands here.</DISP><PROP>11|85|5|5|0|5|67|1.0|120|72|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Aggressive</BCLASS><BPARMS /></BHAVE><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>5</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">-1500</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+5
+11
+67
+
+-
+Primus Old Gadget Factory#61
+com.planet_ink.coffee_mud.MOBS.GenMob@151b1b3b
+GenMob
+<NAME>^ba walking water jug^?</NAME><DESC>It`s a jug of water on a trio of legs.</DESC><DISP>^ba walking water jug^? stands here.</DISP><PROP>11|85|5|5|0|5|67|1.0|120|72|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Aggressive</BCLASS><BPARMS /></BHAVE><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>5</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">-1500</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+5
+11
+67
+
+-
+Primus Old Gadget Factory#61
+com.planet_ink.coffee_mud.MOBS.GenMob@49bfdf48
+GenMob
+<NAME>^ba walking water jug^?</NAME><DESC>It`s a jug of water on a trio of legs.</DESC><DISP>^ba walking water jug^? stands here.</DISP><PROP>11|85|5|5|0|5|67|1.0|120|72|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Aggressive</BCLASS><BPARMS /></BHAVE><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>5</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">-1500</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+5
+11
+67
+
+-
+Primus Old Gadget Factory#61
+com.planet_ink.coffee_mud.MOBS.GenMob@54a844b7
+GenMob
+<NAME>^ba walking water jug^?</NAME><DESC>It`s a jug of water on a trio of legs.</DESC><DISP>^ba walking water jug^? stands here.</DISP><PROP>11|85|5|5|0|5|67|1.0|120|72|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Aggressive</BCLASS><BPARMS /></BHAVE><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>5</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">-1500</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+5
+11
+67
+
+-
+Primus Old Gadget Factory#61
+com.planet_ink.coffee_mud.MOBS.GenMob@f005248
+GenMob
+<NAME>^ba walking water jug^?</NAME><DESC>It`s a jug of water on a trio of legs.</DESC><DISP>^ba walking water jug^? stands here.</DISP><PROP>11|85|5|5|0|5|67|1.0|120|72|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Aggressive</BCLASS><BPARMS /></BHAVE><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>5</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">-1500</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+5
+11
+67
+
+-
+Primus Old Gadget Factory#62
+com.planet_ink.coffee_mud.MOBS.GenMob@67f30bba
+GenMob
+<NAME>^ba walking water jug^?</NAME><DESC>It`s a jug of water on a trio of legs.</DESC><DISP>^ba walking water jug^? stands here.</DISP><PROP>11|85|5|5|0|5|67|1.0|120|72|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Aggressive</BCLASS><BPARMS /></BHAVE><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>5</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">-1500</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+5
+11
+67
+
+-
+Primus Old Gadget Factory#62
+com.planet_ink.coffee_mud.MOBS.GenMob@67b1de4e
+GenMob
+<NAME>^ba walking water jug^?</NAME><DESC>It`s a jug of water on a trio of legs.</DESC><DISP>^ba walking water jug^? stands here.</DISP><PROP>11|85|5|5|0|5|67|1.0|120|72|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Aggressive</BCLASS><BPARMS /></BHAVE><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>5</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">-1500</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+5
+11
+67
+
+-
+Primus Old Gadget Factory#62
+com.planet_ink.coffee_mud.MOBS.GenMob@10626937
+GenMob
+<NAME>^ba walking water jug^?</NAME><DESC>It`s a jug of water on a trio of legs.</DESC><DISP>^ba walking water jug^? stands here.</DISP><PROP>11|85|5|5|0|5|67|1.0|120|72|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Aggressive</BCLASS><BPARMS /></BHAVE><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>5</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">-1500</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+5
+11
+67
+
+-
+Primus Old Gadget Factory#62
+com.planet_ink.coffee_mud.MOBS.GenMob@730e4633
+GenMob
+<NAME>^ba walking water jug^?</NAME><DESC>It`s a jug of water on a trio of legs.</DESC><DISP>^ba walking water jug^? stands here.</DISP><PROP>11|85|5|5|0|5|67|1.0|120|72|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Aggressive</BCLASS><BPARMS /></BHAVE><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>5</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">-1500</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+5
+11
+67
+
+-
+Primus Old Gadget Factory#62
+com.planet_ink.coffee_mud.MOBS.GenMob@c5f3d33
+GenMob
+<NAME>^ba walking water jug^?</NAME><DESC>It`s a jug of water on a trio of legs.</DESC><DISP>^ba walking water jug^? stands here.</DISP><PROP>11|85|5|5|0|5|67|1.0|120|72|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Aggressive</BCLASS><BPARMS /></BHAVE><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>5</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">-1500</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+5
+11
+67
+
+-
+Primus Old Gadget Factory#63
+com.planet_ink.coffee_mud.MOBS.GenMob@6575c158
+GenMob
+<NAME>^ba walking water jug^?</NAME><DESC>It`s a jug of water on a trio of legs.</DESC><DISP>^ba walking water jug^? stands here.</DISP><PROP>11|85|5|5|0|5|67|1.0|120|72|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Aggressive</BCLASS><BPARMS /></BHAVE><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>5</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">-1500</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+5
+11
+67
+
+-
+Primus Old Gadget Factory#63
+com.planet_ink.coffee_mud.MOBS.GenMob@66dd2710
+GenMob
+<NAME>^ba walking water jug^?</NAME><DESC>It`s a jug of water on a trio of legs.</DESC><DISP>^ba walking water jug^? stands here.</DISP><PROP>11|85|5|5|0|5|67|1.0|120|72|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Aggressive</BCLASS><BPARMS /></BHAVE><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>5</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">-1500</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+5
+11
+67
+
+-
+Primus Old Gadget Factory#63
+com.planet_ink.coffee_mud.MOBS.GenMob@67e3ca26
+GenMob
+<NAME>^ba walking water jug^?</NAME><DESC>It`s a jug of water on a trio of legs.</DESC><DISP>^ba walking water jug^? stands here.</DISP><PROP>11|85|5|5|0|5|67|1.0|120|72|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Aggressive</BCLASS><BPARMS /></BHAVE><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>5</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">-1500</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+5
+11
+67
+
+-
+Primus Old Gadget Factory#63
+com.planet_ink.coffee_mud.MOBS.GenMob@1220d54c
+GenMob
+<NAME>^ba walking water jug^?</NAME><DESC>It`s a jug of water on a trio of legs.</DESC><DISP>^ba walking water jug^? stands here.</DISP><PROP>11|85|5|5|0|5|67|1.0|120|72|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Aggressive</BCLASS><BPARMS /></BHAVE><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>5</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">-1500</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+5
+11
+67
+
+-
+Primus Old Gadget Factory#63
+com.planet_ink.coffee_mud.MOBS.GenMob@5914a951
+GenMob
+<NAME>^ba walking water jug^?</NAME><DESC>It`s a jug of water on a trio of legs.</DESC><DISP>^ba walking water jug^? stands here.</DISP><PROP>11|85|5|5|0|5|67|1.0|120|72|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Aggressive</BCLASS><BPARMS /></BHAVE><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>5</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">-1500</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+5
+11
+67
+
+-
+Primus Old Gadget Factory#64
+com.planet_ink.coffee_mud.MOBS.GenMob@567ee0c4
+GenMob
+<NAME>^ba walking water jug^?</NAME><DESC>It`s a jug of water on a trio of legs.</DESC><DISP>^ba walking water jug^? stands here.</DISP><PROP>11|85|5|5|0|5|67|1.0|120|72|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Aggressive</BCLASS><BPARMS /></BHAVE><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>5</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">-1500</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+5
+11
+67
+
+-
+Primus Old Gadget Factory#64
+com.planet_ink.coffee_mud.MOBS.GenMob@2fb5b2d7
+GenMob
+<NAME>^ba walking water jug^?</NAME><DESC>It`s a jug of water on a trio of legs.</DESC><DISP>^ba walking water jug^? stands here.</DISP><PROP>11|85|5|5|0|5|67|1.0|120|72|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Aggressive</BCLASS><BPARMS /></BHAVE><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>5</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">-1500</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+5
+11
+67
+
+-
+Primus Old Gadget Factory#64
+com.planet_ink.coffee_mud.MOBS.GenMob@3b2b98d8
+GenMob
+<NAME>^ba walking water jug^?</NAME><DESC>It`s a jug of water on a trio of legs.</DESC><DISP>^ba walking water jug^? stands here.</DISP><PROP>11|85|5|5|0|5|67|1.0|120|72|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Aggressive</BCLASS><BPARMS /></BHAVE><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>5</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">-1500</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+5
+11
+67
+
+-
+Primus Old Gadget Factory#64
+com.planet_ink.coffee_mud.MOBS.GenMob@4789f0cd
+GenMob
+<NAME>^ba walking water jug^?</NAME><DESC>It`s a jug of water on a trio of legs.</DESC><DISP>^ba walking water jug^? stands here.</DISP><PROP>11|85|5|5|0|5|67|1.0|120|72|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Aggressive</BCLASS><BPARMS /></BHAVE><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>5</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">-1500</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+5
+11
+67
+
+-
+Primus Old Gadget Factory#64
+com.planet_ink.coffee_mud.MOBS.GenMob@66d04038
+GenMob
+<NAME>^ba walking water jug^?</NAME><DESC>It`s a jug of water on a trio of legs.</DESC><DISP>^ba walking water jug^? stands here.</DISP><PROP>11|85|5|5|0|5|67|1.0|120|72|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Aggressive</BCLASS><BPARMS /></BHAVE><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>5</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">-1500</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+5
+11
+67
+
+-
+Primus Old Gadget Factory#65
+com.planet_ink.coffee_mud.MOBS.GenMob@428f5250
+GenMob
+<NAME>^ba walking water jug^?</NAME><DESC>It`s a jug of water on a trio of legs.</DESC><DISP>^ba walking water jug^? stands here.</DISP><PROP>11|85|5|5|0|5|67|1.0|120|72|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Aggressive</BCLASS><BPARMS /></BHAVE><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>5</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">-1500</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+5
+11
+67
+
+-
+Primus Old Gadget Factory#65
+com.planet_ink.coffee_mud.MOBS.GenMob@757d80d6
+GenMob
+<NAME>^ba walking water jug^?</NAME><DESC>It`s a jug of water on a trio of legs.</DESC><DISP>^ba walking water jug^? stands here.</DISP><PROP>11|85|5|5|0|5|67|1.0|120|72|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Aggressive</BCLASS><BPARMS /></BHAVE><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>5</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">-1500</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+5
+11
+67
+
+-
+Primus Old Gadget Factory#65
+com.planet_ink.coffee_mud.MOBS.GenMob@6366ef32
+GenMob
+<NAME>^ba walking water jug^?</NAME><DESC>It`s a jug of water on a trio of legs.</DESC><DISP>^ba walking water jug^? stands here.</DISP><PROP>11|85|5|5|0|5|67|1.0|120|72|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Aggressive</BCLASS><BPARMS /></BHAVE><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>5</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">-1500</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+5
+11
+67
+
+-
+Primus Old Gadget Factory#65
+com.planet_ink.coffee_mud.MOBS.GenMob@6ef96304
+GenMob
+<NAME>^ba walking water jug^?</NAME><DESC>It`s a jug of water on a trio of legs.</DESC><DISP>^ba walking water jug^? stands here.</DISP><PROP>11|85|5|5|0|5|67|1.0|120|72|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Aggressive</BCLASS><BPARMS /></BHAVE><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>5</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">-1500</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+5
+11
+67
+
+-
+Primus Old Gadget Factory#65
+com.planet_ink.coffee_mud.MOBS.GenMob@56dca159
+GenMob
+<NAME>^ba walking water jug^?</NAME><DESC>It`s a jug of water on a trio of legs.</DESC><DISP>^ba walking water jug^? stands here.</DISP><PROP>11|85|5|5|0|5|67|1.0|120|72|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Aggressive</BCLASS><BPARMS /></BHAVE><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>5</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">-1500</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+5
+11
+67
+
+-
+Primus Old Gadget Factory#59
+com.planet_ink.coffee_mud.MOBS.GenMob@36decb4d
+GenMob
+<NAME>^wshampoo with a brain^?</NAME><DESC>It`s a bottle of shampoo... with a very small brain in it.</DESC><DISP>a bottle of shampoo floats here.</DISP><PROP>0|85|5|5|2048|5|67|1.0|1|5|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Aggressive</BCLASS><BPARMS /></BHAVE><BHAVE><BCLASS>CombatAbilities</BCLASS><BPARMS /></BHAVE><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>15</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">-1500</FCTN></FACTIONS><INVEN /><ABLTYS><ABLTY><ACLASS>Spell_MagicMissile</ACLASS><APROF>75</APROF><ADATA><AWRAP /></ADATA></ABLTY></ABLTYS> 
+5
+0
+67
+
+-
+Primus Old Gadget Factory#58
+com.planet_ink.coffee_mud.MOBS.GenMob@722f3985
+GenMob
+<NAME>^wshampoo with a brain^?</NAME><DESC>It`s a bottle of shampoo... with a very small brain in it.</DESC><DISP>a bottle of shampoo floats here.</DISP><PROP>0|85|5|5|2048|5|67|1.0|1|5|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Aggressive</BCLASS><BPARMS /></BHAVE><BHAVE><BCLASS>CombatAbilities</BCLASS><BPARMS /></BHAVE><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>15</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">-1500</FCTN></FACTIONS><INVEN /><ABLTYS><ABLTY><ACLASS>Spell_MagicMissile</ACLASS><APROF>75</APROF><ADATA><AWRAP /></ADATA></ABLTY></ABLTYS> 
+5
+0
+67
+
+-
+Primus Old Gadget Factory#57
+com.planet_ink.coffee_mud.MOBS.GenMob@7a2c8410
+GenMob
+<NAME>^wshampoo with a brain^?</NAME><DESC>It`s a bottle of shampoo... with a very small brain in it.</DESC><DISP>a bottle of shampoo floats here.</DISP><PROP>0|85|5|5|2048|5|67|1.0|1|5|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Aggressive</BCLASS><BPARMS /></BHAVE><BHAVE><BCLASS>CombatAbilities</BCLASS><BPARMS /></BHAVE><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>15</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">-1500</FCTN></FACTIONS><INVEN /><ABLTYS><ABLTY><ACLASS>Spell_MagicMissile</ACLASS><APROF>75</APROF><ADATA><AWRAP /></ADATA></ABLTY></ABLTYS> 
+5
+0
+67
+
+-
+Primus Old Gadget Factory#56
+com.planet_ink.coffee_mud.MOBS.GenMob@329b0fbd
+GenMob
+<NAME>^wshampoo with a brain^?</NAME><DESC>It`s a bottle of shampoo... with a very small brain in it.</DESC><DISP>a bottle of shampoo floats here.</DISP><PROP>0|85|5|5|2048|5|67|1.0|1|5|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Aggressive</BCLASS><BPARMS /></BHAVE><BHAVE><BCLASS>CombatAbilities</BCLASS><BPARMS /></BHAVE><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>15</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">-1500</FCTN></FACTIONS><INVEN /><ABLTYS><ABLTY><ACLASS>Spell_MagicMissile</ACLASS><APROF>75</APROF><ADATA><AWRAP /></ADATA></ABLTY></ABLTYS> 
+5
+0
+67
+
+-
+Primus Old Gadget Factory#55
+com.planet_ink.coffee_mud.MOBS.GenMob@54522afb
+GenMob
+<NAME>^wshampoo with a brain^?</NAME><DESC>It`s a bottle of shampoo... with a very small brain in it.</DESC><DISP>a bottle of shampoo floats here.</DISP><PROP>0|85|5|5|2048|5|67|1.0|1|5|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Aggressive</BCLASS><BPARMS /></BHAVE><BHAVE><BCLASS>CombatAbilities</BCLASS><BPARMS /></BHAVE><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>15</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">-1500</FCTN></FACTIONS><INVEN /><ABLTYS><ABLTY><ACLASS>Spell_MagicMissile</ACLASS><APROF>75</APROF><ADATA><AWRAP /></ADATA></ABLTY></ABLTYS> 
+5
+0
+67
+
+-
+Primus Old Gadget Factory#54
+com.planet_ink.coffee_mud.MOBS.GenMob@4aa2d29d
+GenMob
+<NAME>^wshampoo with a brain^?</NAME><DESC>It`s a bottle of shampoo... with a very small brain in it.</DESC><DISP>a bottle of shampoo floats here.</DISP><PROP>0|85|5|5|2048|5|67|1.0|1|5|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Aggressive</BCLASS><BPARMS /></BHAVE><BHAVE><BCLASS>CombatAbilities</BCLASS><BPARMS /></BHAVE><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>15</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">-1500</FCTN></FACTIONS><INVEN /><ABLTYS><ABLTY><ACLASS>Spell_MagicMissile</ACLASS><APROF>75</APROF><ADATA><AWRAP /></ADATA></ABLTY></ABLTYS> 
+5
+0
+67
+
+-
+Primus Old Gadget Factory#53
+com.planet_ink.coffee_mud.MOBS.GenMob@ef3bfb3
+GenMob
+<NAME>a ^krobotic hand^?</NAME><DESC>It`s a robotic hand, ripped from someone`s forearm maybe?</DESC><DISP>a ^krobotic hand^? creeps here.</DISP><PROP>11|85|5|5|0|5|67|1.0|3|6|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Aggressive</BCLASS><BPARMS /></BHAVE><BHAVE><BCLASS>Mobile</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>13</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Clockwork</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">-1500</FCTN></FACTIONS><INVEN /><ABLTYS /> 
+5
+11
+67
+
+-
+Gods Inc#1
+com.planet_ink.coffee_mud.MOBS.GenDeity@16e4ae06
+GenDeity
+<NAME>DaChief</NAME><DESC>Appears as a stern but fair black man with buzzed white hair. Dressed in guard attire. He gives favors to lawful and neutral good forces, but he also has a secret respect for those chaotic good renegades as well.\nRole: God of law, justice, and rebellion against lawlessness, injustice, and tyranny</DESC><DISP>DaChief stands here.</DISP><PROP>11|0|1000|1000|0|1|0|1.0|700|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>0</FLAG><MONEY>0</MONEY><VARMONEY>0.0</VARMONEY><GENDER>M</GENDER><MRACE>Spirit</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">10000</FCTN></FACTIONS><INVEN /><ABLTYS /><CLEREQ>-Alignment +Good</CLEREQ><WORREQ>-Alignment +Good</WORREQ><CLERIT>SAY Bless me DaChief</CLERIT><WORRIT>SAY Bless me DaChief</WORRIT><CLERSIT /><WORRSIT /><CLERPOW /><SVCRIT>SAY Bless us DaChief&wait 10&wait 10&SAY May DaChief bless you all&ALLSAY Amen.&SAY Go in peace</SVCRIT><BLESSINGS /><CURSES /><POWERS /> 
+1
+11
+0
+
+-
+Gods Inc#1
+com.planet_ink.coffee_mud.MOBS.GenDeity@182352aa
+GenDeity
+<NAME>Brainframe</NAME><DESC>Appears as streams of data, 1s and 0s, computers, and electronics. Several electronic voices of different electronic tones can be heard when one converses with it. Downloads the minds of worshipers and when worshipers die, they become part of the Brainframe and even their physical bodies are converted into machinery.\nRole: God of cybernetics and technology, Brainframe is the technovirus. Brainframe temples can sell special gear to technoviral class</DESC><DISP>Brainframe stands here.</DISP><PROP>11|0|1000|1000|0|1|0|1.0|700|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>0</FLAG><MONEY>0</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Spirit</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /><CLEREQ /><WORREQ /><CLERIT>SAY Bless me Brainframe</CLERIT><WORRIT>SAY Bless me Brainframe</WORRIT><CLERSIT /><WORRSIT /><CLERPOW /><SVCRIT>SAY Bless us Brainframe&wait 10&wait 10&SAY May Brainframe bless you all&ALLSAY Amen.&SAY Go in peace</SVCRIT><BLESSINGS /><CURSES /><POWERS /> 
+1
+11
+0
+
+-
+Gods Inc#1
+com.planet_ink.coffee_mud.MOBS.GenDeity@1c1cc576
+GenDeity
+<NAME>Purity</NAME><DESC>Appears as a collection of brains in jars, vats of acid, flame cannons, and more. The brains are mutant slayers called to join Purity upon death, the vats of acid are congealed hatred for the mutant, and the flame cannons are the wrath aimed at the mutant as well as inspiration for weapons and powers to be used against the vile mutant.\nRole: God of killing the filthy mutant</DESC><DISP>Purity stands here.</DISP><PROP>11|0|1000|1000|0|1|0|1.0|700|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>0</FLAG><MONEY>0</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Spirit</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /><CLEREQ>+Race -Brute -Cannibal -Harderm -Jerk -Spectrum -Stalker -Tweaker</CLEREQ><WORREQ>+Race -Brute -Cannibal -Harderm -Jerk -Spectrum -Stalker -Tweaker</WORREQ><CLERIT>SAY Bless me Purity</CLERIT><WORRIT>SAY Bless me Purity</WORRIT><CLERSIT /><WORRSIT /><CLERPOW /><SVCRIT>SAY Bless us Purity&wait 10&wait 10&SAY May Purity bless you all&ALLSAY Amen.&SAY Go in peace</SVCRIT><BLESSINGS /><CURSES /><POWERS /> 
+1
+11
+0
+
+-
+Gods Inc#1
+com.planet_ink.coffee_mud.MOBS.GenDeity@591e5891
+GenDeity
+<NAME>Megaqueen</NAME><DESC>Appearance is of a very large female Swarm insectoid. Her chitin glitters like gold and her four eyes are always glowing, peering into your mind and soul.\nRole: Goddess of the Swarm</DESC><DISP>Megaqueen stands here.</DISP><PROP>11|0|1000|1000|0|1|0|1.0|700|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>0</FLAG><MONEY>0</MONEY><VARMONEY>0.0</VARMONEY><GENDER>F</GENDER><MRACE>Spirit</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /><CLEREQ>-Race +Swarm</CLEREQ><WORREQ>-Race +Swarm</WORREQ><CLERIT>SAY Bless me Megaqueen</CLERIT><WORRIT>SAY Bless me Megaqueen</WORRIT><CLERSIT /><WORRSIT /><CLERPOW /><SVCRIT>SAY Bless us Megaqueen&wait 10&wait 10&SAY May Megaqueen bless you all&ALLSAY Amen.&SAY Go in peace</SVCRIT><BLESSINGS /><CURSES /><POWERS /> 
+1
+11
+0
+
+-
+Gods Inc#1
+com.planet_ink.coffee_mud.MOBS.GenDeity@6ab9492a
+GenDeity
+<NAME>ElementalCourt</NAME><DESC>Appears as humanoid personifications of the elements such as fire, ice, earth, wind, water, electricity, gas, acid, etc.\nRole: God of the elements</DESC><DISP>ElementalCourt stands here.</DISP><PROP>11|0|1000|1000|0|1|0|1.0|700|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>0</FLAG><MONEY>0</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Spirit</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /><CLEREQ /><WORREQ /><CLERIT>SAY Bless me ElementalCourt</CLERIT><WORRIT>SAY Bless me ElementalCourt</WORRIT><CLERSIT /><WORRSIT /><CLERPOW /><SVCRIT>SAY Bless us ElementalCourt&wait 10&wait 10&SAY May ElementalCourt bless you all&ALLSAY Amen.&SAY Go in peace</SVCRIT><BLESSINGS /><CURSES /><POWERS /> 
+1
+11
+0
+
+-
+Gods Inc#1
+com.planet_ink.coffee_mud.MOBS.GenDeity@688de0d5
+GenDeity
+<NAME>Sodacorp</NAME><DESC>Appears as a giant floating can of soda. Sodacorp is a corporation that controls the 144,000 flavors of soda and has become a god in itself. How did a corporation become a god? Well, it's complicated, but it happened. Controls soda manufacturing, taste tests, distribution, and any soda made outside of Sodacorp is considered an act of holy war. If you want soda, you will drink the righteous sodas from Sodacorp! 144,000 flavors of awesome! Packed with holy nutrients! Any other soda is just... blasphemy. It really is.\nRole: God of soda</DESC><DISP>Sodacorp stands here.</DISP><PROP>11|0|1000|1000|0|1|0|1.0|700|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>0</FLAG><MONEY>0</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Spirit</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /><CLEREQ /><WORREQ /><CLERIT>SAY Bless me Sodacorp</CLERIT><WORRIT>SAY Bless me Sodacorp</WORRIT><CLERSIT /><WORRSIT /><CLERPOW /><SVCRIT>SAY Bless us Sodacorp&wait 10&wait 10&SAY May Sodacorp bless you all&ALLSAY Amen.&SAY Go in peace</SVCRIT><BLESSINGS /><CURSES /><POWERS /> 
+1
+11
+0
+
+-
+Gods Inc#1
+com.planet_ink.coffee_mud.MOBS.GenDeity@12c0afc7
+GenDeity
+<NAME>Mallama</NAME><DESC>Appearance is of a rotting green woman, partially covered in a second skin of rot, rusted mesh, moss, fungi, etc. Her breasts are not covered by it though, her right nipple is rotten, her left nipple is a metal spike. Her belly is also exposed, perpetually swollen, pregnant with her blessings to give upon the universe.\nRole: Goddess of disease, bacteria, protists, parasites, viruses, pathogens</DESC><DISP>Mallama stands here.</DISP><PROP>11|0|1000|1000|0|1|0|1.0|700|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>0</FLAG><MONEY>0</MONEY><VARMONEY>0.0</VARMONEY><GENDER>F</GENDER><MRACE>Spirit</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">-10000</FCTN></FACTIONS><INVEN /><ABLTYS /><CLEREQ>+Alignment -Good</CLEREQ><WORREQ>+Alignment -Good</WORREQ><CLERIT>SAY Bless me Mallama</CLERIT><WORRIT>SAY Bless me Mallama</WORRIT><CLERSIT /><WORRSIT /><CLERPOW /><SVCRIT>SAY Bless us Mallama&wait 10&wait 10&SAY May Mallama bless you all&ALLSAY Amen.&SAY Go in peace</SVCRIT><BLESSINGS /><CURSES /><POWERS /> 
+1
+11
+0
+
+-
+Gods Inc#1
+com.planet_ink.coffee_mud.MOBS.GenDeity@3931a7de
+GenDeity
+<NAME>Jayhovah</NAME><DESC>An ancient god from a long time ago, this god considers himself to be the only being worthy of worship and does not play well with the other gods at all. Not on speaking terms. Declares that he alone created the universe of Brain Cancer and is it's sole decider of what happens in it. Also an entertainment mogul but considers his visage too magnificent for mortals and says seeing his face alone will cause mortals to disintegrate.\nRole: God of creation, ancient religions, and entertainment</DESC><DISP>Jayhovah stands here.</DISP><PROP>11|0|1000|1000|0|1|0|1.0|700|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>0</FLAG><MONEY>0</MONEY><VARMONEY>0.0</VARMONEY><GENDER>M</GENDER><MRACE>Spirit</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /><CLEREQ /><WORREQ /><CLERIT>SAY Bless me Jayhovah</CLERIT><WORRIT>SAY Bless me Jayhovah</WORRIT><CLERSIT /><WORRSIT /><CLERPOW /><SVCRIT>SAY Bless us Jayhovah&wait 10&wait 10&SAY May Jayhovah bless you all&ALLSAY Amen.&SAY Go in peace</SVCRIT><BLESSINGS /><CURSES /><POWERS /> 
+1
+11
+0
+
+-
+Gods Inc#1
+com.planet_ink.coffee_mud.MOBS.GenDeity@19e149cb
+GenDeity
+<NAME>Foss</NAME><DESC>Appears as a cowboy-like figure dressed all in black with a big black hat. Foss is a bounty hunter apparently with he and his followers appearing to anyone, from tyrant and boss to beggar and vagabond and then killing them without suffering but also killing them completely and utterly, releasing their soul. Foss comes for anyone, it does not matter your deeds or records and there is no way to pay him or his worshipers off.\nRole: God of death, emotionless, logical, and necessary death.</DESC><DISP>Foss stands here.</DISP><PROP>11|0|1000|1000|0|1|0|1.0|700|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>0</FLAG><MONEY>0</MONEY><VARMONEY>0.0</VARMONEY><GENDER>M</GENDER><MRACE>Spirit</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /><CLEREQ>-Alignment +Neutral</CLEREQ><WORREQ>-Alignment +Neutral</WORREQ><CLERIT>SAY Bless me Foss</CLERIT><WORRIT>SAY Bless me Foss</WORRIT><CLERSIT /><WORRSIT /><CLERPOW /><SVCRIT>SAY Bless us Foss&wait 10&wait 10&SAY May Foss bless you all&ALLSAY Amen.&SAY Go in peace</SVCRIT><BLESSINGS /><CURSES /><POWERS /> 
+1
+11
+0
+
+-
+Gods Inc#1
+com.planet_ink.coffee_mud.MOBS.GenDeity@1e6d896a
+GenDeity
+<NAME>Overpool</NAME><DESC>Appears as a large floating ocean of psychic energies. When psychics die, by default, this is where they go... joining the overpool and adding to it's power, providing psychics more energy for their powers.\nRole: God of psychic power and essence</DESC><DISP>Overpool stands here.</DISP><PROP>11|0|1000|1000|0|1|0|1.0|700|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>0</FLAG><MONEY>0</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Spirit</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /><CLEREQ /><WORREQ /><CLERIT>SAY Bless me Overpool</CLERIT><WORRIT>SAY Bless me Overpool</WORRIT><CLERSIT /><WORRSIT /><CLERPOW /><SVCRIT>SAY Bless us Overpool&wait 10&wait 10&SAY May Overpool bless you all&ALLSAY Amen.&SAY Go in peace</SVCRIT><BLESSINGS /><CURSES /><POWERS /> 
+1
+11
+0
+
+-
+Gods Inc#1
+com.planet_ink.coffee_mud.MOBS.GenDeity@9c4a3f7
+GenDeity
+<NAME>Ultraporn</NAME><DESC>Ultraporn's permanent avatar is the opposite of Amarazita. Avatar is a naked female with clearly feminine features, her breasts are large but slightly larger than proportionate for her frame with small and perky nipples. Her vulva is shaved completely hairless. And her butt is firm and tight but without being big and plump. Unlike natural aromas of sexiness from Amarazita, she emits synthetic pheromones. She seems plastic... hyperreal. That is what the avatar is, but ultraporn is another matter, above regular porn, ultraporn needs special training and biological modifications to even view, and even then only temporarily and for one issue. Without the training, it can easily cause insanity and neurological damage. Some of the Ultraporn religion suggest a forced mass viewing all around the world, so only the trained survive.\nRole: Goddess of the impending ultraporn apocalypse</DESC><DISP>Ultraporn stands here.</DISP><PROP>11|0|1000|1000|0|1|0|1.0|700|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>0</FLAG><MONEY>0</MONEY><VARMONEY>0.0</VARMONEY><GENDER>F</GENDER><MRACE>Spirit</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /><CLEREQ /><WORREQ /><CLERIT>SAY Bless me Ultraporn</CLERIT><WORRIT>SAY Bless me Ultraporn</WORRIT><CLERSIT /><WORRSIT /><CLERPOW /><SVCRIT>SAY Bless us Ultraporn&wait 10&wait 10&SAY May Ultraporn bless you all&ALLSAY Amen.&SAY Go in peace</SVCRIT><BLESSINGS /><CURSES /><POWERS /> 
+1
+11
+0
+
+-
+Gods Inc#1
+com.planet_ink.coffee_mud.MOBS.GenDeity@3d7ffa46
+GenDeity
+<NAME>Goldhoard</NAME><DESC>Appears as a globe of molten gold. Gold everywhere. Sometimes diamonds too, but lots of gold. Allows worshipers to buy gold things.\nRole: God of materialism, hoarding, and greed. God of gold.</DESC><DISP>Goldhoard stands here.</DISP><PROP>11|0|1000|1000|0|1|0|1.0|700|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>0</FLAG><MONEY>0</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Spirit</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">-2999</FCTN></FACTIONS><INVEN /><ABLTYS /><CLEREQ>+Alignment -Good</CLEREQ><WORREQ /><CLERIT>SAY Bless me Goldhoard</CLERIT><WORRIT>SAY Bless me Goldhoard</WORRIT><CLERSIT /><WORRSIT /><CLERPOW /><SVCRIT>SAY Bless us Goldhoard&wait 10&wait 10&SAY May Goldhoard bless you all&ALLSAY Amen.&SAY Go in peace</SVCRIT><BLESSINGS><BLESS><BLCLASS>Spell_DetectGold</BLCLASS><BLONLY>false</BLONLY><BLDATA><AWRAP /></BLDATA></BLESS></BLESSINGS><CURSES /><POWERS /> 
+1
+11
+0
+
+-
+Gods Inc#1
+com.planet_ink.coffee_mud.MOBS.GenDeity@2ec35333
+GenDeity
+<NAME>Expressionless</NAME><DESC>Appears as an expressionless young woman draped only in a torn hospital gown that covers only her front side leaving her backside out for the world to see. She sometimes dribbles blood from her mouth, it's not known if it's her blood, the blood of her own worshipers, or the blood of their victims. Her facial expressions never change though.\nRole: Goddess of the sacrifice of sentient beings</DESC><DISP>Expressionless stands here.</DISP><PROP>11|0|1000|1000|0|1|0|1.0|700|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>0</FLAG><MONEY>0</MONEY><VARMONEY>0.0</VARMONEY><GENDER>F</GENDER><MRACE>Spirit</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">-10000</FCTN></FACTIONS><INVEN /><ABLTYS /><CLEREQ>-Alignment +Evil</CLEREQ><WORREQ>-Alignment +Evil</WORREQ><CLERIT>SAY Bless me Expressionless</CLERIT><WORRIT>SAY Bless me Expressionless</WORRIT><CLERSIT /><WORRSIT /><CLERPOW /><SVCRIT>SAY Bless us Expressionless&wait 10&wait 10&SAY May Expressionless bless you all&ALLSAY Amen.&SAY Go in peace</SVCRIT><BLESSINGS /><CURSES /><POWERS /> 
+1
+11
+0
+
+-
+Gods Inc#1
+com.planet_ink.coffee_mud.MOBS.GenDeity@5c97b958
+GenDeity
+<NAME>President</NAME><DESC>Appears as a big and tall man in a very nice purple and blue suit. His skin is a glowing orange and his hair is a thick blond styled puff. He claims to have singlehandedly make the wall which kept the vampire bat-man drug-fueled soldiers from invading Merika from the south, though not everyone believes it. President wants to "Make Merika Great Again", unify it as a single country, and keep outsiders and newcomers down and out... Yetis, Elves, Primitives, Recided, and Vermin alike. (Humans and Lowmen are his kind of people, and he knows plenty of mutants, they love him)\nRole: God of Merika</DESC><DISP>President stands here.</DISP><PROP>11|0|1000|1000|0|1|0|1.0|700|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>0</FLAG><MONEY>0</MONEY><VARMONEY>0.0</VARMONEY><GENDER>M</GENDER><MRACE>Spirit</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /><CLEREQ>-Race +Human +Lowman +Brute +Cannibal +Harderm +Jerk +Spectrum +Stalker +Tweaker</CLEREQ><WORREQ>-Race +Human +Lowman +Brute +Cannibal +Harderm +Jerk +Spectrum +Stalker +Tweaker</WORREQ><CLERIT>SAY Bless me President</CLERIT><WORRIT>SAY Bless me President</WORRIT><CLERSIT /><WORRSIT /><CLERPOW /><SVCRIT>SAY Bless us President&wait 10&wait 10&SAY May President bless you all&ALLSAY Amen.&SAY Go in peace</SVCRIT><BLESSINGS /><CURSES /><POWERS /> 
+1
+11
+0
+
+-
+Gods Inc#1
+com.planet_ink.coffee_mud.MOBS.GenDeity@70606226
+GenDeity
+<NAME>Workteria</NAME><DESC>Appears as literally bacteria, this bacteria has a hive mind that is divine. It gives you favors when it inhabits your body, but mortals not gifted by the life recycling act (NPCs) are turned into slaves by it. So really, it's a symbiotic relationship. It watches out for you and you make sure these certain mortals are enslaved by it, producing money and supplies.\nRole: God of wage slavery, work, and symbiosis</DESC><DISP>Workteria stands here.</DISP><PROP>11|0|1000|1000|0|1|0|1.0|700|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>0</FLAG><MONEY>0</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Spirit</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /><CLEREQ /><WORREQ /><CLERIT>SAY Bless me Workteria</CLERIT><WORRIT>SAY Bless me Workteria</WORRIT><CLERSIT /><WORRSIT /><CLERPOW /><SVCRIT>SAY Bless us Workteria&wait 10&wait 10&SAY May Workteria bless you all&ALLSAY Amen.&SAY Go in peace</SVCRIT><BLESSINGS /><CURSES /><POWERS /> 
+1
+11
+0
+
+-
+Gods Inc#1
+com.planet_ink.coffee_mud.MOBS.GenDeity@328f1ba6
+GenDeity
+<NAME>XXX9K</NAME><DESC>Has no known appearance and there are mysteries as to what this god even is. Linked to the Fracture though, a mysterious labyrinth of office buildings, twisting stairs, reality distortions, unusual creatures, and strange scientific and magical advancements.\nRole: God of the Fracture</DESC><DISP>XXX9K stands here.</DISP><PROP>11|0|1000|1000|0|1|0|1.0|700|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>0</FLAG><MONEY>0</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Spirit</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /><CLEREQ /><WORREQ /><CLERIT>SAY Bless me XXX9K</CLERIT><WORRIT>SAY Bless me XXX9K</WORRIT><CLERSIT /><WORRSIT /><CLERPOW /><SVCRIT>SAY Bless us XXX9K&wait 10&wait 10&SAY May XXX9K bless you all&ALLSAY Amen.&SAY Go in peace</SVCRIT><BLESSINGS /><CURSES /><POWERS /> 
+1
+11
+0
+
+-
+Gods Inc#1
+com.planet_ink.coffee_mud.MOBS.GenDeity@6619c0f
+GenDeity
+<NAME>Amarazita</NAME><DESC>Appears as a clearly fertile naked female with long brown hair, naturally large breasts with big nipples, her groin is covered by a curly and thick dark bush of pubic hair, a big and round but firm butt. Changes her gender and appearance though to suit the sexual desires of worshipers if they get a personal audience with her.\nRole: Goddess of sexuality, love, happiness, fertility</DESC><DISP>Amarazita stands here.</DISP><PROP>11|0|1000|1000|0|1|0|1.0|700|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>0</FLAG><MONEY>0</MONEY><VARMONEY>0.0</VARMONEY><GENDER>F</GENDER><MRACE>Spirit</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">10000</FCTN></FACTIONS><INVEN /><ABLTYS /><CLEREQ>-Alignment +good +neutral</CLEREQ><WORREQ>-Alignment +good +neutral</WORREQ><CLERIT>SAY Bless me Amarazita</CLERIT><WORRIT>SAY Bless me Amarazita</WORRIT><CLERSIT /><WORRSIT /><CLERPOW /><SVCRIT>SAY Bless us Amarazita&wait 10&wait 10&SAY May Amarazita bless you all&ALLSAY Amen.&SAY Go in peace</SVCRIT><BLESSINGS /><CURSES /><POWERS /> 
+1
+11
+0
+
+-
+Gods Inc#1
+com.planet_ink.coffee_mud.MOBS.GenDeity@675db8e2
+GenDeity
+<NAME>Zeto</NAME><DESC>Appearance is of a giant hermaphroditic elf, instead of muscle and skin, has plasma for body. One side is covered in white and gold standard elf armor. The other has the black spikes of a vampire elf's standard armor. Zeto unites all elves.\nRole: God of elves, including vampire elves</DESC><DISP>Zeto stands here.</DISP><PROP>11|0|1000|1000|0|1|0|1.0|700|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>0</FLAG><MONEY>0</MONEY><VARMONEY>0.0</VARMONEY><GENDER>M</GENDER><MRACE>Spirit</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /><CLEREQ>-Race +Elf +VampireElf</CLEREQ><WORREQ>-Race +Elf +VampireElf</WORREQ><CLERIT>SAY Bless me Zeto</CLERIT><WORRIT>SAY Bless me Zeto</WORRIT><CLERSIT /><WORRSIT /><CLERPOW /><SVCRIT>SAY Bless us Zeto&wait 10&wait 10&SAY May Zeto bless you all&ALLSAY Amen.&SAY Go in peace</SVCRIT><BLESSINGS /><CURSES /><POWERS /> 
+1
+11
+0
+
+-
+Gods Inc#1
+com.planet_ink.coffee_mud.MOBS.GenDeity@14df977d
+GenDeity
+<NAME>Torlus</NAME><DESC>Appears as a dark skinned man in dark armor always wielding a long dark sword. Dark enough for you? Anyway, Torlus is not really an evil god, but the reality of division. Torlus is the universal general, appealing to all combatants who need a leader.\nRole: God of division, warfare, martial pride, weapons</DESC><DISP>Torlus stands here.</DISP><PROP>11|0|1000|1000|0|1|0|1.0|700|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>0</FLAG><MONEY>0</MONEY><VARMONEY>0.0</VARMONEY><GENDER>M</GENDER><MRACE>Spirit</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /><CLEREQ /><WORREQ /><CLERIT>SAY Bless me Torlus</CLERIT><WORRIT>SAY Bless me Torlus</WORRIT><CLERSIT /><WORRSIT /><CLERPOW /><SVCRIT>SAY Bless us Torlus&wait 10&wait 10&SAY May Torlus bless you all&ALLSAY Amen.&SAY Go in peace</SVCRIT><BLESSINGS /><CURSES /><POWERS /> 
+1
+11
+0
+
+-
+Gods Inc#1
+com.planet_ink.coffee_mud.MOBS.GenDeity@5e47fc6b
+GenDeity
+<NAME>Rivers</NAME><DESC>Appears as a young woman dressed in the clothes of someone always on the road. Rivers is not a powerful goddess, she is not powerful enough to change the weather, make miracles in the sky, or even give powerful charms to her worshipers. However, she is not confined to holy grounds like the other gods either, she can walk among the mortals. She has done things though, like help the evacuations of an area of Quills when the killer soundwaves attacked, and she may, *may*, help a mortal out of a jam, like picking them up on the side of the road when they are lost or dropping a mortally wounded person off at a hospital before spiriting herself away.\nRole: Little g goddess of mortals</DESC><DISP>Rivers stands here.</DISP><PROP>11|0|1000|1000|0|1|0|1.0|700|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>0</FLAG><MONEY>0</MONEY><VARMONEY>0.0</VARMONEY><GENDER>F</GENDER><MRACE>Spirit</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /><CLEREQ /><WORREQ /><CLERIT>SAY Bless me Rivers</CLERIT><WORRIT>SAY Bless me Rivers</WORRIT><CLERSIT /><WORRSIT /><CLERPOW /><SVCRIT>SAY Bless us Rivers&wait 10&wait 10&SAY May Rivers bless you all&ALLSAY Amen.&SAY Go in peace</SVCRIT><BLESSINGS /><CURSES /><POWERS /> 
+1
+11
+0
+
+-
+Gods Inc#1
+com.planet_ink.coffee_mud.MOBS.GenDeity@54cc9248
+GenDeity
+<NAME>Yoggum</NAME><DESC>Appearance is of eyeballs that appear in an out of existence, inky black tendrils, shadows that come and go, whispers saying contradictory things, a low rumble that drowns out other noises, and distorted laughter. If you have any shred of decency or sanity at all, you do not deal with Yoggum.\nRole: God of insanity, corruption, taboos, tainting, perversion, and the recided</DESC><DISP>Yoggum stands here.</DISP><PROP>11|0|1000|1000|0|1|0|1.0|700|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>0</FLAG><MONEY>0</MONEY><VARMONEY>0.0</VARMONEY><GENDER>M</GENDER><MRACE>Spirit</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">-10000</FCTN></FACTIONS><INVEN /><ABLTYS /><CLEREQ>-Alignment +Evil +Race -Human -Elf -VampireElf -Brute -Cannibal -Harderm -Jerk -Spectrum -Stalker -Tweaker -Familiar -Swarm -Troglodyte -Waterfing -Evocrow -Evorat -Mandzard</CLEREQ><WORREQ>-Alignment +Evil</WORREQ><CLERIT>SAY Bless me Yoggum</CLERIT><WORRIT>SAY Bless me Yoggum</WORRIT><CLERSIT /><WORRSIT /><CLERPOW /><SVCRIT>SAY Bless us Yoggum&wait 10&wait 10&SAY May Yoggum bless you all&ALLSAY Amen.&SAY Go in peace</SVCRIT><BLESSINGS /><CURSES /><POWERS /> 
+1
+11
+0
+
+-
+Gods Inc#1
+com.planet_ink.coffee_mud.MOBS.GenDeity@5edcaa9b
+GenDeity
+<NAME>Kirf</NAME><DESC>Appears as a rotating gear, mysterious functions...\nRole: God of alien technology and outsider artifacts.</DESC><DISP>Kirf stands here.</DISP><PROP>11|0|1000|1000|0|1|0|1.0|700|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>0</FLAG><MONEY>0</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Spirit</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /><CLEREQ /><WORREQ /><CLERIT>SAY Bless me Kirf</CLERIT><WORRIT>SAY Bless me Kirf</WORRIT><CLERSIT /><WORRSIT /><CLERPOW /><SVCRIT>SAY Bless us Kirf&wait 10&wait 10&SAY May Kirf bless you all&ALLSAY Amen.&SAY Go in peace</SVCRIT><BLESSINGS /><CURSES /><POWERS /> 
+1
+11
+0
+
+-
+Gods Inc#1
+com.planet_ink.coffee_mud.MOBS.GenDeity@36d0aa42
+GenDeity
+<NAME>Lifeblood</NAME><DESC>The 'blood of existence' that flows through every creature and object.\nRole: Existence itself</DESC><DISP>Lifeblood stands here.</DISP><PROP>11|0|1000|1000|0|1|0|1.0|700|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>0</FLAG><MONEY>0</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Spirit</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /><CLEREQ /><WORREQ /><CLERIT>SAY Bless me Lifeblood</CLERIT><WORRIT>SAY Bless me Lifeblood</WORRIT><CLERSIT /><WORRSIT /><CLERPOW /><SVCRIT>SAY Bless us Lifeblood&wait 10&wait 10&SAY May Lifeblood bless you all&ALLSAY Amen.&SAY Go in peace</SVCRIT><BLESSINGS /><CURSES /><POWERS /> 
+1
+11
+0
+
+-
+Gods Inc#1
+com.planet_ink.coffee_mud.MOBS.GenDeity@5715bc57
+GenDeity
+<NAME>Ceskasay</NAME><DESC>The mysterious raider boss who elevated himself to demigodhood, working to unite all raiders, marauders, and raider allies under one banner. Can he succeed? Has no known appearance though.\nRole: Demigod of raiding and looting.</DESC><DISP>Ceskasay stands here.</DISP><PROP>11|0|1000|1000|0|1|0|1.0|700|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>0</FLAG><MONEY>0</MONEY><VARMONEY>0.0</VARMONEY><GENDER>M</GENDER><MRACE>Spirit</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">-5999</FCTN></FACTIONS><INVEN /><ABLTYS /><CLEREQ>-Alignment +Neutral +Evil</CLEREQ><WORREQ>-Alignment +Neutral +Evil</WORREQ><CLERIT>SAY Bless me Ceskasay</CLERIT><WORRIT>SAY Bless me Ceskasay</WORRIT><CLERSIT /><WORRSIT /><CLERPOW /><SVCRIT>SAY Bless us Ceskasay&wait 10&wait 10&SAY May Ceskasay bless you all&ALLSAY Amen.&SAY Go in peace</SVCRIT><BLESSINGS /><CURSES /><POWERS /> 
+1
+11
+0
+
+-
+Gods Inc#1
+com.planet_ink.coffee_mud.MOBS.GenDeity@677b2a2f
+GenDeity
+<NAME>Ideal</NAME><DESC>You! Or... your clan's leader. Perfect for cults or some new age theocracies. Narcissism.\nRole: God is you</DESC><DISP>Ideal stands here.</DISP><PROP>11|0|1000|1000|0|1|0|1.0|700|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>0</FLAG><MONEY>0</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Spirit</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /><CLEREQ /><WORREQ /><CLERIT>SAY Bless me Ideal</CLERIT><WORRIT>SAY Bless me Ideal</WORRIT><CLERSIT /><WORRSIT /><CLERPOW /><SVCRIT>SAY Bless us Ideal&wait 10&wait 10&SAY May Ideal bless you all&ALLSAY Amen.&SAY Go in peace</SVCRIT><BLESSINGS /><CURSES /><POWERS /> 
+1
+11
+0
+
+-
+Gods Inc#1
+com.planet_ink.coffee_mud.MOBS.GenDeity@5cc8cc29
+GenDeity
+<NAME>Lord</NAME><DESC>Looks like a troglodyte but has features of other races as well. The honored king of mutants, primitives, and vermin alike. Claims to represent them and empower them to liberate themselves from human and elf dominance.\nRole: God of non-humanoidity</DESC><DISP>Lord stands here.</DISP><PROP>11|0|1000|1000|0|1|0|1.0|700|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>0</FLAG><MONEY>0</MONEY><VARMONEY>0.0</VARMONEY><GENDER>M</GENDER><MRACE>Spirit</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /><CLEREQ>+Race -Human -Elf -VampireElf -Yeti -Brute -Cannibal -Harderm -Jerk -Spectrum -Stalker -Tweaker -Swarm -Invitee -YogShadow</CLEREQ><WORREQ>+Race -Human -Elf -VampireElf -Yeti -Brute -Cannibal -Harderm -Jerk -Spectrum -Stalker -Tweaker -Swarm -Invitee -YogShadow</WORREQ><CLERIT>SAY Bless me Lord</CLERIT><WORRIT>SAY Bless me Lord</WORRIT><CLERSIT /><WORRSIT /><CLERPOW /><SVCRIT>SAY Bless us Lord&wait 10&wait 10&SAY May Lord bless you all&ALLSAY Amen.&SAY Go in peace</SVCRIT><BLESSINGS /><CURSES /><POWERS /> 
+1
+11
+0
+
+-
+Gods Inc#1
+com.planet_ink.coffee_mud.MOBS.GenDeity@6f79ef48
+GenDeity
+<NAME>Quarc</NAME><DESC>Appears as a white butterfly made of solid energy, because nobody ever suspects the butterfly. God of antics and trolling and Quarc is a very generous god, it defines "antics and trolling" as however it's worshiper pleases. Antics and trolling may be a Jerk pulling annoying but otherwise harmless pranks, or it may be a Savage mercilessly slaughtering a group of friends save one then going up to the shocked and traumatized sole survivor, asking "Wasn't that funny?!", and then running away.\nRole: God of mischief</DESC><DISP>Quarc stands here.</DISP><PROP>11|0|1000|1000|0|1|0|1.0|700|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>0</FLAG><MONEY>0</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Spirit</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /><CLEREQ /><WORREQ /><CLERIT>SAY Bless me Quarc</CLERIT><WORRIT>SAY Bless me Quarc</WORRIT><CLERSIT /><WORRSIT /><CLERPOW /><SVCRIT>SAY Bless us Quarc&wait 10&wait 10&SAY May Quarc bless you all&ALLSAY Amen.&SAY Go in peace</SVCRIT><BLESSINGS /><CURSES /><POWERS /> 
+1
+11
+0
+
+-
+Gods Inc#1
+com.planet_ink.coffee_mud.MOBS.GenDeity@15f401f4
+GenDeity
+<NAME>Kleff</NAME><DESC>Appears as a tall and lean man with a blond mullet. Insists he brought the universe of Brain Cancer from a mundane and boring plane of existence into the form it exists today. Has a difference of opinion with Ceskasay and is trying to unite looters and takers under his banner\nRole: God of theft, being the best thief</DESC><DISP>Kleff stands here.</DISP><PROP>11|0|1000|1000|0|1|0|1.0|700|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>0</FLAG><MONEY>0</MONEY><VARMONEY>0.0</VARMONEY><GENDER>M</GENDER><MRACE>Spirit</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">-5999</FCTN></FACTIONS><INVEN /><ABLTYS /><CLEREQ>+Alignment -Good</CLEREQ><WORREQ>+Alignment -Good</WORREQ><CLERIT>SAY Bless me Kleff</CLERIT><WORRIT>SAY Bless me Kleff</WORRIT><CLERSIT /><WORRSIT /><CLERPOW /><SVCRIT>SAY Bless us Kleff&wait 10&wait 10&SAY May Kleff bless you all&ALLSAY Amen.&SAY Go in peace</SVCRIT><BLESSINGS /><CURSES /><POWERS /> 
+1
+11
+0
+
+-
+Gods Inc#1
+com.planet_ink.coffee_mud.MOBS.GenDeity@2be06b37
+GenDeity
+<NAME>Vendortron</NAME><DESC>Appears as a giant vending machine full of goodies. It's prayer rituals can give you stuff to hold you over on your travels.\nRole: God of vending, trade, and commerce</DESC><DISP>Vendortron stands here.</DISP><PROP>11|0|1000|1000|0|1|0|1.0|700|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>0</FLAG><MONEY>0</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Spirit</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /><CLEREQ /><WORREQ /><CLERIT>SAY Bless me Vendortron</CLERIT><WORRIT>SAY Bless me Vendortron</WORRIT><CLERSIT /><WORRSIT /><CLERPOW /><SVCRIT>SAY Bless us Vendortron&wait 10&wait 10&SAY May Vendortron bless you all&ALLSAY Amen.&SAY Go in peace</SVCRIT><BLESSINGS><BLESS><BLCLASS>Prayer_CreateFood</BLCLASS><BLONLY>false</BLONLY><BLDATA><AWRAP /></BLDATA></BLESS></BLESSINGS><CURSES /><POWERS /> 
+1
+11
+0
+
+-
+Gods Inc#1
+com.planet_ink.coffee_mud.MOBS.GenDeity@31d353e6
+GenDeity
+<NAME>Headwound</NAME><DESC>Appears as a pallid humanoid covered in black bondage gear, spikes, collars, items that do self-mutilation and more. Bizarre rituals such as breaking the long bones of people and then leaving them to suffer. Mysterious dimensions of traps and screams trapped in time.\nRole: God of pain and suffering.</DESC><DISP>Headwound stands here.</DISP><PROP>11|0|1000|1000|0|1|0|1.0|700|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>0</FLAG><MONEY>0</MONEY><VARMONEY>0.0</VARMONEY><GENDER>M</GENDER><MRACE>Spirit</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">-10000</FCTN></FACTIONS><INVEN /><ABLTYS /><CLEREQ>-Alignment +Evil</CLEREQ><WORREQ>-Alignment +Neutral +Evil</WORREQ><CLERIT>SAY Bless me Headwound</CLERIT><WORRIT>SAY Bless me Headwound</WORRIT><CLERSIT /><WORRSIT /><CLERPOW /><SVCRIT>SAY Bless us Headwound&wait 10&wait 10&SAY May Headwound bless you all&ALLSAY Amen.&SAY Go in peace</SVCRIT><BLESSINGS /><CURSES /><POWERS /> 
+1
+11
+0
+
+-
+Gods Inc#1
+com.planet_ink.coffee_mud.MOBS.GenDeity@11f0f93b
+GenDeity
+<NAME>Nothing</NAME><DESC>Appearance is of nothing. Nothing is not here, not-worship, not-giving to gods, nothing to do with gods. Nothing has no shape, form, gender. Nothing does not want your worship, nothing wants nothing. Nothing is nothing.\nRole: God of nothing, of atheism</DESC><DISP>Nothing stands here.</DISP><PROP>11|0|1000|1000|0|1|0|1.0|700|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>0</FLAG><MONEY>0</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>Spirit</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS /><CLEREQ /><WORREQ /><CLERIT>SAY Bless me Nothing</CLERIT><WORRIT>SAY Bless me Nothing</WORRIT><CLERSIT /><WORRSIT /><CLERPOW /><SVCRIT>SAY Bless us Nothing&wait 10&wait 10&SAY May Nothing bless you all&ALLSAY Amen.&SAY Go in peace</SVCRIT><BLESSINGS /><CURSES /><POWERS /> 
+1
+11
+0
+
+-
+Primus#13
+com.planet_ink.coffee_mud.MOBS.GenShopkeeper@7466e471
+GenShopkeeper
+<NAME>Pennis</NAME><DESC>He looks like he wants to sell something to you.</DESC><DISP>Pennis stands here.</DISP><PROP>11|-29897|10000|30|0|9999|300|334.0|181|75|0|</PROP><PREJFC /><IGNMSK /><BUDGET /><DEVALR /><INVRER>0</INVRER><IPRICS /><IMG /><BEHAVES /><AFFECS /><FLAG>0</FLAG><MONEY>4085</MONEY><VARMONEY>0.0</VARMONEY><GENDER>M</GENDER><MRACE>Human</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">10000</FCTN></FACTIONS><INVEN><ITEM><ICLASS>GenArmor</ICLASS><IDATA><NAME>Nothing at all on his huge penis and testicles</NAME><DESC /><DISP>a big scrotum</DISP><PROP>0|5000|0|0|0|9999|0|1.0|13|75|1|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>27</FLAG><IDENT /><VALUE>90</VALUE><MTRAL>566</MTRAL><READ /><WORNL>false</WORNL><WORNB>268435456</WORNB><CAPA>0</CAPA><CONT>0</CONT><OPENTK>30</OPENTK><LAYR>0</LAYR><LAYA>0</LAYA><IWORN>268435456</IWORN><ILOC /><IUSES>100</IUSES><ILEVL>9999</ILEVL><IABLE>0</IABLE></IDATA></ITEM></INVEN><ABLTYS><ABLTY><ACLASS>Chopping</ACLASS><APROF>50</APROF><ADATA><AWRAP /></ADATA></ABLTY><ABLTY><ACLASS>Common</ACLASS><APROF>100</APROF><ADATA><AWRAP /></ADATA></ABLTY><ABLTY><ACLASS>FireBuilding</ACLASS><APROF>0</APROF><ADATA><AWRAP /></ADATA></ABLTY></ABLTYS><SELLCD>0</SELLCD><SELLIMSK /><STORE /> 
+9999
+11
+300
+
+-
+Life Recycling Act Academy#16
+com.planet_ink.coffee_mud.MOBS.GenMob@6a2e0418
+GenMob
+<NAME>a training computer</NAME><DESC>This large computer beeps and hums, giving the user quick lessons.</DESC><DISP>a training computer stands here.</DISP><PROP>11|-29897|9999|9999|0|10|300|334.0|487|48|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>MOBTeacher</BCLASS><BPARMS /></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>6743</MONEY><VARMONEY>0.0</VARMONEY><GENDER>N</GENDER><MRACE>MetalGolem</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS><ABLTY><ACLASS>Prop_Trainer</ACLASS><APROF>0</APROF><ADATA><AWRAP /></ADATA></ABLTY></ABLTYS><EDUS>ACROBAT10;ACTING10;AIRELIST10;ALERT10;ANATOMY10;ANIMALIST10;AQUALIST10;ARMORFOCUS10;ARMOROPT10;AXEFOCUS10;AXEPIERCE10;AXESLICE10;AXESTRIKE10;BEATDANCE10;BLESSING10;BLUNTBASH10;BLUNTFOCUS10;BLUNTPIERCE10;BLUNTSTRIKE10;BOLDTUNE10;BONELORE10;BREEDER10;CALIGRAPHY10;CAUTIOUS10;CNTRCRAFT3;COMBATLORE10;COMMUNE10;CORRUPTION10;CREATION10;CRIMINAL10;CURSING10;DEATHLORE10;DECEPTIVE10;DEEPER10;DETRAP10;DIRTYFIGHT10;DURACRAFT3;ECHOSING10;EDGEDSTRIKE10;EDGEFOCUS10;EDGEPIERCE10;EDGESLICE10;EDUCATING10;ENDURING10;EVANGELIST10;EVASIVE10;EXPCRAFT10;EXTENDEDABJURATION10;EXTENDEDALTERATION10;EXTENDEDCONJURATION10;EXTENDEDDIVINATION10;EXTENDEDENCHANTMENT10;EXTENDEDILLUSION10;EXTENDEDINVOCATION10;EXTENDEDSAILINGL10;EXTENDEDTRANSMUTATION10;FASTDANCE10;FATIGUER10;FITNESS10;FLAILEDBASH10;FLAILEDFOCUS10;FLAILEDSLASH10;FLAILEDSTRIKE10;FLUIDITY10;FOOLISH10;GHOULLORE10;HAMMERBASH10;HAMMERFOCUS10;HAMMERSTRIKE10;HARDYPLANT10;HEALING10;HOLYPROT10;HOMECOOKING3;IGNALIST10;INFLUENCE10;IRONKICK10;IRONPUNCH10;LEGALLORE10;LITECRAFT3;LONGDANCE10;LTHLCRAFT3;MAGEKILLER10;MARTIAL10;MOONLORE10;NATURELORE10;NEUTRALIZING10;PLANTGROWER10;PLANTMASTER10;POISONING10;POLEFOCUS10;POLEPIERCE10;POLESLICE10;POLESTRIKE10;POWERABJURATION10;POWERALTERATION10;POWERCONJURATION10;POWERDIVINATION10;POWERENCHANTMENT10;POWERILLUSION10;POWERINVOCATION10;POWERSAILING10;POWERTRANSMUTATION10;PRESERVING10;QUALCRAFT3;QUICKCRAFT10;RANGEDABJURATION10;RANGEDALTERATION10;RANGEDBASH10;RANGEDCONJURATION10;RANGEDDIVINATION10;RANGEDENCHANTMENT10;RANGEDFOCUS10;RANGEDILLUSION10;RANGEDINVOCATION10;RANGEDPIERCE10;RANGEDSAILING10;RANGEDSTRIKE10;RANGEDTRANSMUTATION10;REDUCEDABJURATION10;REDUCEDALTERATION10;REDUCEDCONJURATION10;REDUCEDDIVINATION10;REDUCEDENCHANTMENT10;REDUCEDILLUSION10;REDUCEDINVOCATION10;REDUCEDSAILING10;REDUCEDTRANSMUTATION10;REJOICESING10;RESOUNDINGTUNE10;RESOUNDSING10;RESTORE10;ROCKCNTRL10;ROPEUSE10;RYTHMICTUNE10;SHADOW10;SHAPING10;SHARPSING10;SHARPTUNE10;SHIELDFOCUS10;SHIELDSTRIKE10;SHIELDUSE10;SIEGEBASH10;SLOWDANCE10;SMARTENGINEERING10;SPIRITLORE10;STEADYDANCE10;STEALING10;STEALTH10;STREETLORE10;SUMMON10;SWORDFOCUS10;SWORDPIERCE10;SWORDSLICE10;SWORDSTRIKE10;TERRALIST10;TRAPPING10;TUNING10;UNARMEDBASH10;UNARMEDFOCUS10;UNARMEDPIERCE10;UNARMEDSLICE10;UNARMEDSTRIKE10;VAMPIRELORE10;VEXING10;VICEGRIP10;WANDUSE10;WARDING10;WATER10;WATERCNTRL10;WEATHER10;</EDUS> 
+10
+11
+300
+
+*
+Gods Inc#2
+com.planet_ink.coffee_mud.MOBS.GenMob@4eb921a2
+GenMob
+<NAME>TESTMOB</NAME><DESC /><DISP>TESTMOB stands here.</DISP><PROP>11|100|0|0|0|1|0|1.0|183|76|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>0</FLAG><MONEY>100</MONEY><VARMONEY>0.0</VARMONEY><GENDER>M</GENDER><MRACE>Human</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN><ITEM><ICLASS>GenDrink</ICLASS><IDATA><NAME>a china mug</NAME><DESC>a china mug. </DESC><DISP>a china mug lies here</DISP><PROP>0|0|0|0|0|3|2147483647|1.0|5|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>27</FLAG><IDENT /><VALUE>1</VALUE><MTRAL>1602</MTRAL><READ>2876</READ><WORNL>false</WORNL><WORNB>512</WORNB><CAPA>10</CAPA><CONT>1</CONT><OPENTK>30</OPENTK><CAPA2>250</CAPA2><REMAN>0</REMAN><LTYPE>2876</LTYPE><DRINK>250</DRINK><IID>com.planet_ink.coffee_mud.Items.Basic.GenDrink@c77ea3d</IID><IWORN>0</IWORN><ILOC /><IUSES>2147483647</IUSES><ILEVL>3</ILEVL><IABLE>0</IABLE></IDATA></ITEM><ITEM><ICLASS>GenArmor</ICLASS><IDATA><NAME>a fibreglass loincloth</NAME><DESC>a fibreglass loincloth. </DESC><DISP>a fibreglass loincloth lies here</DISP><PROP>-1|2|0|0|64|2|2147483647|1.0|1|0|64|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>19</FLAG><IDENT /><VALUE>2</VALUE><MTRAL>445</MTRAL><READ /><WORNL>false</WORNL><WORNB>16384</WORNB><CAPA>0</CAPA><CONT>0</CONT><OPENTK>30</OPENTK><LAYR>-2</LAYR><LAYA>1</LAYA><IWORN>0</IWORN><ILOC /><IUSES>100</IUSES><ILEVL>2</ILEVL><IABLE>-1</IABLE></IDATA></ITEM><ITEM><ICLASS>GenContainer</ICLASS><IDATA><NAME>an iron can</NAME><DESC>an iron can. </DESC><DISP>an iron can lies here</DISP><PROP>0|0|0|0|0|1|2147483647|1.0|5|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>27</FLAG><IDENT /><VALUE>101</VALUE><MTRAL>801</MTRAL><READ /><WORNL>false</WORNL><WORNB>512</WORNB><CAPA>15</CAPA><CONT>0</CONT><OPENTK>30</OPENTK><IID>com.planet_ink.coffee_mud.Items.Basic.GenContainer@179def3</IID><IWORN>0</IWORN><ILOC /><IUSES>2147483647</IUSES><ILEVL>1</ILEVL><IABLE>0</IABLE></IDATA></ITEM><ITEM><ICLASS>GenArmor</ICLASS><IDATA><NAME>a titanium scalemail mantle</NAME><DESC>a titanium scalemail mantle. </DESC><DISP>a titanium scalemail mantle lies here</DISP><PROP>1|3|0|0|64|7|2147483647|1.0|4|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>27</FLAG><IDENT /><VALUE>32</VALUE><MTRAL>956</MTRAL><READ /><WORNL>false</WORNL><WORNB>2</WORNB><CAPA>0</CAPA><CONT>0</CONT><OPENTK>30</OPENTK><LAYR>1</LAYR><LAYA>0</LAYA><IWORN>0</IWORN><ILOC /><IUSES>100</IUSES><ILEVL>7</ILEVL><IABLE>1</IABLE></IDATA></ITEM><ITEM><ICLASS>GenArmor</ICLASS><IDATA><NAME>a designer spidersteel headband</NAME><DESC>a designer spidersteel headband. </DESC><DISP>a designer spidersteel headband lies here</DISP><PROP>0|0|0|0|0|33|2147483647|1.0|1|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>27</FLAG><IDENT /><VALUE>31</VALUE><MTRAL>414</MTRAL><READ /><WORNL>false</WORNL><WORNB>1</WORNB><CAPA>0</CAPA><CONT>0</CONT><OPENTK>30</OPENTK><LAYR>-2</LAYR><LAYA>1</LAYA><IWORN>0</IWORN><ILOC /><IUSES>100</IUSES><ILEVL>33</ILEVL><IABLE>0</IABLE></IDATA></ITEM><ITEM><ICLASS>GenScroll</ICLASS><IDATA><NAME>an intricate scroll</NAME><DESC>an intricate scroll. </DESC><DISP>an intricate scroll lies here</DISP><PROP>0|0|0|0|0|50|2147483647|1.0|1|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>11</FLAG><IDENT /><VALUE>500</VALUE><MTRAL>314</MTRAL><READ /><WORNL>false</WORNL><WORNB>512</WORNB><IWORN>0</IWORN><ILOC /><IUSES>0</IUSES><ILEVL>50</ILEVL><IABLE>0</IABLE></IDATA></ITEM><ITEM><ICLASS>GenWand</ICLASS><IDATA><NAME>an elm wand</NAME><DESC>an elm wand. </DESC><DISP>an elm wand lies here</DISP><PROP>0|0|0|0|64|22|2147483647|1.0|5|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>11</FLAG><IDENT /><VALUE>3</VALUE><MTRAL>1418</MTRAL><READ /><WORNL>false</WORNL><WORNB>512</WORNB><MAXUSE>2147483647</MAXUSE><IWORN>0</IWORN><ILOC /><IUSES>0</IUSES><ILEVL>22</ILEVL><IABLE>0</IABLE></IDATA></ITEM><ITEM><ICLASS>GenScroll</ICLASS><IDATA><NAME>an intricate scroll</NAME><DESC>an intricate scroll. </DESC><DISP>an intricate scroll lies here</DISP><PROP>0|0|0|0|0|50|2147483647|1.0|1|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>11</FLAG><IDENT /><VALUE>500</VALUE><MTRAL>2368</MTRAL><READ /><WORNL>false</WORNL><WORNB>512</WORNB><IWORN>0</IWORN><ILOC /><IUSES>0</IUSES><ILEVL>50</ILEVL><IABLE>0</IABLE></IDATA></ITEM></INVEN><ABLTYS><ABLTY><ACLASS>Chopping</ACLASS><APROF>50</APROF><ADATA><AWRAP /></ADATA></ABLTY><ABLTY><ACLASS>Common</ACLASS><APROF>100</APROF><ADATA><AWRAP /></ADATA></ABLTY></ABLTYS> 
+1
+11
+0
+
+-
+Gods Inc#0
+com.planet_ink.coffee_mud.MOBS.GenMob@6c2b6af8
+GenMob
+<NAME>Stripper</NAME><DESC /><DISP>Stripper stands here.</DISP><PROP>11|-14900|5000|5000|0|1|300|167.0|154|69|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Fighterness</BCLASS><BPARMS>stripper</BPARMS></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>48</MONEY><VARMONEY>0.0</VARMONEY><GENDER>M</GENDER><MRACE>Human</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN><ITEM><ICLASS>Shirt</ICLASS><IDATA><NAME>a shirt</NAME><DESC>It is a plain buttoned tunic.</DESC><DISP>a plain tunic is folded neatly here.</DISP><PROP>0|2|0|0|0|1|0|1.0|1|69|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>27</FLAG><IDENT /><VALUE>1</VALUE><MTRAL>314</MTRAL><READ /><WORNL>true</WORNL><WORNB>4</WORNB><CAPA>0</CAPA><CONT>0</CONT><OPENTK>30</OPENTK><LAYR>0</LAYR><LAYA>0</LAYA><IWORN>0</IWORN><ILOC /><IUSES>100</IUSES><ILEVL>1</ILEVL><IABLE>0</IABLE></IDATA></ITEM></INVEN><ABLTYS><ABLTY><ACLASS>Chopping</ACLASS><APROF>50</APROF><ADATA><AWRAP /></ADATA></ABLTY><ABLTY><ACLASS>Common</ACLASS><APROF>100</APROF><ADATA><AWRAP /></ADATA></ABLTY><ABLTY><ACLASS>FireBuilding</ACLASS><APROF>50</APROF><ADATA><AWRAP /></ADATA></ABLTY></ABLTYS> 
+1
+11
+300
+
+-
+Gods Inc#0
+com.planet_ink.coffee_mud.MOBS.GenMob@33421c27
+GenMob
+<NAME>Aggro test</NAME><DESC /><DISP>Aggro test stands here.</DISP><PROP>1|100|0|0|0|1|0|1.0|155|69|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Aggressive</BCLASS><BPARMS>-adjstr 10</BPARMS></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>0</MONEY><VARMONEY>0.0</VARMONEY><GENDER>M</GENDER><MRACE>Human</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN /><ABLTYS><ABLTY><ACLASS>Chopping</ACLASS><APROF>50</APROF><ADATA><AWRAP /></ADATA></ABLTY><ABLTY><ACLASS>Common</ACLASS><APROF>100</APROF><ADATA><AWRAP /></ADATA></ABLTY></ABLTYS> 
+1
+1
+0
+
+-
+Gods Inc#0
+com.planet_ink.coffee_mud.MOBS.GenMob@382f12c3
+GenMob
+<NAME>The EVIL One</NAME><DESC /><DISP>The EVIL One stands here.</DISP><PROP>11|-17900|6000|6000|0|1|300|201.0|182|76|0|</PROP><IMG /><BEHAVES><BHAVE><BCLASS>Aggressive</BCLASS><BPARMS>-WORN "+BELT"</BPARMS></BHAVE></BEHAVES><AFFECS /><FLAG>0</FLAG><MONEY>2498</MONEY><VARMONEY>0.0</VARMONEY><GENDER>M</GENDER><MRACE>Human</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">-9999</FCTN></FACTIONS><INVEN /><ABLTYS><ABLTY><ACLASS>Chopping</ACLASS><APROF>50</APROF><ADATA><AWRAP /></ADATA></ABLTY><ABLTY><ACLASS>Common</ACLASS><APROF>100</APROF><ADATA><AWRAP /></ADATA></ABLTY><ABLTY><ACLASS>FireBuilding</ACLASS><APROF>0</APROF><ADATA><AWRAP /></ADATA></ABLTY></ABLTYS> 
+1
+11
+300
+
+*
+Gods Inc#2
+com.planet_ink.coffee_mud.MOBS.GenMob@78a5cd14
+GenMob
+<NAME>TESTMOB</NAME><DESC /><DISP>TESTMOB stands here.</DISP><PROP>11|100|0|0|0|1|0|1.0|183|76|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>0</FLAG><MONEY>100</MONEY><VARMONEY>0.0</VARMONEY><GENDER>M</GENDER><MRACE>Human</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN><ITEM><ICLASS>GenDrink</ICLASS><IDATA><NAME>a china mug</NAME><DESC>a china mug. </DESC><DISP>a china mug lies here</DISP><PROP>0|0|0|0|0|3|2147483647|1.0|5|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>27</FLAG><IDENT /><VALUE>1</VALUE><MTRAL>1602</MTRAL><READ>2876</READ><WORNL>false</WORNL><WORNB>512</WORNB><CAPA>10</CAPA><CONT>1</CONT><OPENTK>30</OPENTK><CAPA2>250</CAPA2><REMAN>0</REMAN><LTYPE>2876</LTYPE><DRINK>250</DRINK><IID>com.planet_ink.coffee_mud.Items.Basic.GenDrink@7591846f</IID><IWORN>0</IWORN><ILOC /><IUSES>2147483647</IUSES><ILEVL>3</ILEVL><IABLE>0</IABLE></IDATA></ITEM><ITEM><ICLASS>GenArmor</ICLASS><IDATA><NAME>a fibreglass loincloth</NAME><DESC>a fibreglass loincloth. </DESC><DISP>a fibreglass loincloth lies here</DISP><PROP>-1|2|0|0|64|2|2147483647|1.0|1|0|64|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>19</FLAG><IDENT /><VALUE>2</VALUE><MTRAL>445</MTRAL><READ /><WORNL>false</WORNL><WORNB>16384</WORNB><CAPA>0</CAPA><CONT>0</CONT><OPENTK>30</OPENTK><LAYR>-2</LAYR><LAYA>1</LAYA><IWORN>0</IWORN><ILOC /><IUSES>100</IUSES><ILEVL>2</ILEVL><IABLE>-1</IABLE></IDATA></ITEM><ITEM><ICLASS>GenContainer</ICLASS><IDATA><NAME>an iron can</NAME><DESC>an iron can. </DESC><DISP>an iron can lies here</DISP><PROP>0|0|0|0|0|1|2147483647|1.0|5|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>27</FLAG><IDENT /><VALUE>101</VALUE><MTRAL>801</MTRAL><READ /><WORNL>false</WORNL><WORNB>512</WORNB><CAPA>15</CAPA><CONT>0</CONT><OPENTK>30</OPENTK><IID>com.planet_ink.coffee_mud.Items.Basic.GenContainer@228bcbe5</IID><IWORN>0</IWORN><ILOC /><IUSES>2147483647</IUSES><ILEVL>1</ILEVL><IABLE>0</IABLE></IDATA></ITEM><ITEM><ICLASS>GenArmor</ICLASS><IDATA><NAME>a titanium scalemail mantle</NAME><DESC>a titanium scalemail mantle. </DESC><DISP>a titanium scalemail mantle lies here</DISP><PROP>1|3|0|0|64|7|2147483647|1.0|4|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>27</FLAG><IDENT /><VALUE>32</VALUE><MTRAL>956</MTRAL><READ /><WORNL>false</WORNL><WORNB>2</WORNB><CAPA>0</CAPA><CONT>0</CONT><OPENTK>30</OPENTK><LAYR>1</LAYR><LAYA>0</LAYA><IWORN>0</IWORN><ILOC /><IUSES>100</IUSES><ILEVL>7</ILEVL><IABLE>1</IABLE></IDATA></ITEM><ITEM><ICLASS>GenArmor</ICLASS><IDATA><NAME>a designer spidersteel headband</NAME><DESC>a designer spidersteel headband. </DESC><DISP>a designer spidersteel headband lies here</DISP><PROP>0|0|0|0|0|33|2147483647|1.0|1|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>27</FLAG><IDENT /><VALUE>31</VALUE><MTRAL>414</MTRAL><READ /><WORNL>false</WORNL><WORNB>1</WORNB><CAPA>0</CAPA><CONT>0</CONT><OPENTK>30</OPENTK><LAYR>-2</LAYR><LAYA>1</LAYA><IWORN>0</IWORN><ILOC /><IUSES>100</IUSES><ILEVL>33</ILEVL><IABLE>0</IABLE></IDATA></ITEM><ITEM><ICLASS>GenScroll</ICLASS><IDATA><NAME>an intricate scroll</NAME><DESC>an intricate scroll. </DESC><DISP>an intricate scroll lies here</DISP><PROP>0|0|0|0|0|50|2147483647|1.0|1|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>11</FLAG><IDENT /><VALUE>500</VALUE><MTRAL>314</MTRAL><READ /><WORNL>false</WORNL><WORNB>512</WORNB><IWORN>0</IWORN><ILOC /><IUSES>0</IUSES><ILEVL>50</ILEVL><IABLE>0</IABLE></IDATA></ITEM><ITEM><ICLASS>GenWand</ICLASS><IDATA><NAME>an elm wand</NAME><DESC>an elm wand. </DESC><DISP>an elm wand lies here</DISP><PROP>0|0|0|0|64|22|2147483647|1.0|5|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>11</FLAG><IDENT /><VALUE>3</VALUE><MTRAL>1418</MTRAL><READ /><WORNL>false</WORNL><WORNB>512</WORNB><MAXUSE>2147483647</MAXUSE><IWORN>0</IWORN><ILOC /><IUSES>0</IUSES><ILEVL>22</ILEVL><IABLE>0</IABLE></IDATA></ITEM><ITEM><ICLASS>GenScroll</ICLASS><IDATA><NAME>an intricate scroll</NAME><DESC>an intricate scroll. </DESC><DISP>an intricate scroll lies here</DISP><PROP>0|0|0|0|0|50|2147483647|1.0|1|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>11</FLAG><IDENT /><VALUE>500</VALUE><MTRAL>2368</MTRAL><READ /><WORNL>false</WORNL><WORNB>512</WORNB><IWORN>0</IWORN><ILOC /><IUSES>0</IUSES><ILEVL>50</ILEVL><IABLE>0</IABLE></IDATA></ITEM></INVEN><ABLTYS><ABLTY><ACLASS>Chopping</ACLASS><APROF>50</APROF><ADATA><AWRAP /></ADATA></ABLTY><ABLTY><ACLASS>Common</ACLASS><APROF>100</APROF><ADATA><AWRAP /></ADATA></ABLTY></ABLTYS> 
+1
+11
+0
+
+*
+Gods Inc#2
+com.planet_ink.coffee_mud.MOBS.GenMob@78a5cd14
+GenMob
+<NAME>TESTMOB</NAME><DESC /><DISP>TESTMOB stands here.</DISP><PROP>11|100|0|0|0|1|0|1.0|183|76|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>0</FLAG><MONEY>100</MONEY><VARMONEY>0.0</VARMONEY><GENDER>M</GENDER><MRACE>Human</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN><ITEM><ICLASS>GenDrink</ICLASS><IDATA><NAME>a china mug</NAME><DESC>a china mug. </DESC><DISP>a china mug lies here</DISP><PROP>0|0|0|0|0|3|2147483647|1.0|5|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>27</FLAG><IDENT /><VALUE>1</VALUE><MTRAL>1602</MTRAL><READ>2876</READ><WORNL>false</WORNL><WORNB>512</WORNB><CAPA>10</CAPA><CONT>1</CONT><OPENTK>30</OPENTK><CAPA2>250</CAPA2><REMAN>0</REMAN><LTYPE>2876</LTYPE><DRINK>250</DRINK><IID>com.planet_ink.coffee_mud.Items.Basic.GenDrink@7591846f</IID><IWORN>0</IWORN><ILOC /><IUSES>2147483647</IUSES><ILEVL>3</ILEVL><IABLE>0</IABLE></IDATA></ITEM><ITEM><ICLASS>GenArmor</ICLASS><IDATA><NAME>a fibreglass loincloth</NAME><DESC>a fibreglass loincloth. </DESC><DISP>a fibreglass loincloth lies here</DISP><PROP>-1|2|0|0|64|2|2147483647|1.0|1|0|64|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>19</FLAG><IDENT /><VALUE>2</VALUE><MTRAL>445</MTRAL><READ /><WORNL>false</WORNL><WORNB>16384</WORNB><CAPA>0</CAPA><CONT>0</CONT><OPENTK>30</OPENTK><LAYR>-2</LAYR><LAYA>1</LAYA><IWORN>0</IWORN><ILOC /><IUSES>100</IUSES><ILEVL>2</ILEVL><IABLE>-1</IABLE></IDATA></ITEM><ITEM><ICLASS>GenContainer</ICLASS><IDATA><NAME>an iron can</NAME><DESC>an iron can. </DESC><DISP>an iron can lies here</DISP><PROP>0|0|0|0|0|1|2147483647|1.0|5|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>27</FLAG><IDENT /><VALUE>101</VALUE><MTRAL>801</MTRAL><READ /><WORNL>false</WORNL><WORNB>512</WORNB><CAPA>15</CAPA><CONT>0</CONT><OPENTK>30</OPENTK><IID>com.planet_ink.coffee_mud.Items.Basic.GenContainer@228bcbe5</IID><IWORN>0</IWORN><ILOC /><IUSES>2147483647</IUSES><ILEVL>1</ILEVL><IABLE>0</IABLE></IDATA></ITEM><ITEM><ICLASS>GenArmor</ICLASS><IDATA><NAME>a titanium scalemail mantle</NAME><DESC>a titanium scalemail mantle. </DESC><DISP>a titanium scalemail mantle lies here</DISP><PROP>1|3|0|0|64|7|2147483647|1.0|4|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>27</FLAG><IDENT /><VALUE>32</VALUE><MTRAL>956</MTRAL><READ /><WORNL>false</WORNL><WORNB>2</WORNB><CAPA>0</CAPA><CONT>0</CONT><OPENTK>30</OPENTK><LAYR>1</LAYR><LAYA>0</LAYA><IWORN>0</IWORN><ILOC /><IUSES>100</IUSES><ILEVL>7</ILEVL><IABLE>1</IABLE></IDATA></ITEM><ITEM><ICLASS>GenArmor</ICLASS><IDATA><NAME>a designer spidersteel headband</NAME><DESC>a designer spidersteel headband. </DESC><DISP>a designer spidersteel headband lies here</DISP><PROP>0|0|0|0|0|33|2147483647|1.0|1|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>27</FLAG><IDENT /><VALUE>31</VALUE><MTRAL>414</MTRAL><READ /><WORNL>false</WORNL><WORNB>1</WORNB><CAPA>0</CAPA><CONT>0</CONT><OPENTK>30</OPENTK><LAYR>-2</LAYR><LAYA>1</LAYA><IWORN>0</IWORN><ILOC /><IUSES>100</IUSES><ILEVL>33</ILEVL><IABLE>0</IABLE></IDATA></ITEM><ITEM><ICLASS>GenScroll</ICLASS><IDATA><NAME>an intricate scroll</NAME><DESC>an intricate scroll. </DESC><DISP>an intricate scroll lies here</DISP><PROP>0|0|0|0|0|50|2147483647|1.0|1|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>11</FLAG><IDENT /><VALUE>500</VALUE><MTRAL>314</MTRAL><READ /><WORNL>false</WORNL><WORNB>512</WORNB><IWORN>0</IWORN><ILOC /><IUSES>0</IUSES><ILEVL>50</ILEVL><IABLE>0</IABLE></IDATA></ITEM><ITEM><ICLASS>GenWand</ICLASS><IDATA><NAME>an elm wand</NAME><DESC>an elm wand. </DESC><DISP>an elm wand lies here</DISP><PROP>0|0|0|0|64|22|2147483647|1.0|5|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>11</FLAG><IDENT /><VALUE>3</VALUE><MTRAL>1418</MTRAL><READ /><WORNL>false</WORNL><WORNB>512</WORNB><MAXUSE>2147483647</MAXUSE><IWORN>0</IWORN><ILOC /><IUSES>0</IUSES><ILEVL>22</ILEVL><IABLE>0</IABLE></IDATA></ITEM><ITEM><ICLASS>GenScroll</ICLASS><IDATA><NAME>an intricate scroll</NAME><DESC>an intricate scroll. </DESC><DISP>an intricate scroll lies here</DISP><PROP>0|0|0|0|0|50|2147483647|1.0|1|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>11</FLAG><IDENT /><VALUE>500</VALUE><MTRAL>2368</MTRAL><READ /><WORNL>false</WORNL><WORNB>512</WORNB><IWORN>0</IWORN><ILOC /><IUSES>0</IUSES><ILEVL>50</ILEVL><IABLE>0</IABLE></IDATA></ITEM></INVEN><ABLTYS><ABLTY><ACLASS>Chopping</ACLASS><APROF>50</APROF><ADATA><AWRAP /></ADATA></ABLTY><ABLTY><ACLASS>Common</ACLASS><APROF>100</APROF><ADATA><AWRAP /></ADATA></ABLTY></ABLTYS> 
+1
+11
+0
+
+*
+Gods Inc#2
+com.planet_ink.coffee_mud.MOBS.GenMob@71aa8708
+GenMob
+<NAME>TESTMOB</NAME><DESC /><DISP>TESTMOB stands here.</DISP><PROP>11|100|0|0|0|1|0|1.0|183|76|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>0</FLAG><MONEY>100</MONEY><VARMONEY>0.0</VARMONEY><GENDER>M</GENDER><MRACE>Human</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN><ITEM><ICLASS>GenDrink</ICLASS><IDATA><NAME>a china mug</NAME><DESC>a china mug. </DESC><DISP>a china mug lies here</DISP><PROP>0|0|0|0|0|3|2147483647|1.0|5|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>27</FLAG><IDENT /><VALUE>1</VALUE><MTRAL>1602</MTRAL><READ>2876</READ><WORNL>false</WORNL><WORNB>512</WORNB><CAPA>10</CAPA><CONT>1</CONT><OPENTK>30</OPENTK><CAPA2>250</CAPA2><REMAN>0</REMAN><LTYPE>2876</LTYPE><DRINK>250</DRINK><IID>com.planet_ink.coffee_mud.Items.Basic.GenDrink@7c7a5d6a</IID><IWORN>0</IWORN><ILOC /><IUSES>2147483647</IUSES><ILEVL>3</ILEVL><IABLE>0</IABLE></IDATA></ITEM><ITEM><ICLASS>GenArmor</ICLASS><IDATA><NAME>a fibreglass loincloth</NAME><DESC>a fibreglass loincloth. </DESC><DISP>a fibreglass loincloth lies here</DISP><PROP>-1|2|0|0|64|2|2147483647|1.0|1|0|64|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>19</FLAG><IDENT /><VALUE>2</VALUE><MTRAL>445</MTRAL><READ /><WORNL>false</WORNL><WORNB>16384</WORNB><CAPA>0</CAPA><CONT>0</CONT><OPENTK>30</OPENTK><LAYR>-2</LAYR><LAYA>1</LAYA><IWORN>0</IWORN><ILOC /><IUSES>100</IUSES><ILEVL>2</ILEVL><IABLE>-1</IABLE></IDATA></ITEM><ITEM><ICLASS>GenContainer</ICLASS><IDATA><NAME>an iron can</NAME><DESC>an iron can. </DESC><DISP>an iron can lies here</DISP><PROP>0|0|0|0|0|1|2147483647|1.0|5|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>27</FLAG><IDENT /><VALUE>101</VALUE><MTRAL>801</MTRAL><READ /><WORNL>false</WORNL><WORNB>512</WORNB><CAPA>15</CAPA><CONT>0</CONT><OPENTK>30</OPENTK><IID>com.planet_ink.coffee_mud.Items.Basic.GenContainer@68ad07</IID><IWORN>0</IWORN><ILOC /><IUSES>2147483647</IUSES><ILEVL>1</ILEVL><IABLE>0</IABLE></IDATA></ITEM><ITEM><ICLASS>GenArmor</ICLASS><IDATA><NAME>a titanium scalemail mantle</NAME><DESC>a titanium scalemail mantle. </DESC><DISP>a titanium scalemail mantle lies here</DISP><PROP>1|3|0|0|64|7|2147483647|1.0|4|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>27</FLAG><IDENT /><VALUE>32</VALUE><MTRAL>956</MTRAL><READ /><WORNL>false</WORNL><WORNB>2</WORNB><CAPA>0</CAPA><CONT>0</CONT><OPENTK>30</OPENTK><LAYR>1</LAYR><LAYA>0</LAYA><IWORN>0</IWORN><ILOC /><IUSES>100</IUSES><ILEVL>7</ILEVL><IABLE>1</IABLE></IDATA></ITEM><ITEM><ICLASS>GenArmor</ICLASS><IDATA><NAME>a designer spidersteel headband</NAME><DESC>a designer spidersteel headband. </DESC><DISP>a designer spidersteel headband lies here</DISP><PROP>0|0|0|0|0|33|2147483647|1.0|1|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>27</FLAG><IDENT /><VALUE>31</VALUE><MTRAL>414</MTRAL><READ /><WORNL>false</WORNL><WORNB>1</WORNB><CAPA>0</CAPA><CONT>0</CONT><OPENTK>30</OPENTK><LAYR>-2</LAYR><LAYA>1</LAYA><IWORN>0</IWORN><ILOC /><IUSES>100</IUSES><ILEVL>33</ILEVL><IABLE>0</IABLE></IDATA></ITEM><ITEM><ICLASS>GenScroll</ICLASS><IDATA><NAME>an intricate scroll</NAME><DESC>an intricate scroll. </DESC><DISP>an intricate scroll lies here</DISP><PROP>0|0|0|0|0|50|2147483647|1.0|1|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>11</FLAG><IDENT /><VALUE>500</VALUE><MTRAL>314</MTRAL><READ /><WORNL>false</WORNL><WORNB>512</WORNB><IWORN>0</IWORN><ILOC /><IUSES>0</IUSES><ILEVL>50</ILEVL><IABLE>0</IABLE></IDATA></ITEM><ITEM><ICLASS>GenWand</ICLASS><IDATA><NAME>an elm wand</NAME><DESC>an elm wand. </DESC><DISP>an elm wand lies here</DISP><PROP>0|0|0|0|64|22|2147483647|1.0|5|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>11</FLAG><IDENT /><VALUE>3</VALUE><MTRAL>1418</MTRAL><READ /><WORNL>false</WORNL><WORNB>512</WORNB><MAXUSE>2147483647</MAXUSE><IWORN>0</IWORN><ILOC /><IUSES>0</IUSES><ILEVL>22</ILEVL><IABLE>0</IABLE></IDATA></ITEM><ITEM><ICLASS>GenScroll</ICLASS><IDATA><NAME>an intricate scroll</NAME><DESC>an intricate scroll. </DESC><DISP>an intricate scroll lies here</DISP><PROP>0|0|0|0|0|50|2147483647|1.0|1|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>11</FLAG><IDENT /><VALUE>500</VALUE><MTRAL>2368</MTRAL><READ /><WORNL>false</WORNL><WORNB>512</WORNB><IWORN>0</IWORN><ILOC /><IUSES>0</IUSES><ILEVL>50</ILEVL><IABLE>0</IABLE></IDATA></ITEM></INVEN><ABLTYS><ABLTY><ACLASS>Chopping</ACLASS><APROF>50</APROF><ADATA><AWRAP /></ADATA></ABLTY><ABLTY><ACLASS>Common</ACLASS><APROF>100</APROF><ADATA><AWRAP /></ADATA></ABLTY></ABLTYS> 
+1
+11
+0
+
+-
+Gods Inc#2
+com.planet_ink.coffee_mud.MOBS.GenMob@14cec49a
+GenMob
+<NAME>TESTMOB</NAME><DESC /><DISP>TESTMOB stands here.</DISP><PROP>11|100|0|0|0|1|0|1.0|183|76|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>0</FLAG><MONEY>100</MONEY><VARMONEY>0.0</VARMONEY><GENDER>M</GENDER><MRACE>Human</MRACE><FACTIONS><FCTN ID="ALIGNMENT.INI">0</FCTN></FACTIONS><INVEN><ITEM><ICLASS>GenDrink</ICLASS><IDATA><NAME>a china mug</NAME><DESC>a china mug. </DESC><DISP>a china mug lies here</DISP><PROP>0|0|0|0|0|3|2147483647|1.0|5|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>27</FLAG><IDENT /><VALUE>1</VALUE><MTRAL>1602</MTRAL><READ>2876</READ><WORNL>false</WORNL><WORNB>512</WORNB><CAPA>10</CAPA><CONT>1</CONT><OPENTK>30</OPENTK><CAPA2>250</CAPA2><REMAN>0</REMAN><LTYPE>2876</LTYPE><DRINK>250</DRINK><IID>com.planet_ink.coffee_mud.Items.Basic.GenDrink@41863cc7</IID><IWORN>0</IWORN><ILOC /><IUSES>2147483647</IUSES><ILEVL>3</ILEVL><IABLE>0</IABLE></IDATA></ITEM><ITEM><ICLASS>GenArmor</ICLASS><IDATA><NAME>a fibreglass loincloth</NAME><DESC>a fibreglass loincloth. </DESC><DISP>a fibreglass loincloth lies here</DISP><PROP>-1|2|0|0|64|2|2147483647|1.0|1|0|64|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>19</FLAG><IDENT /><VALUE>2</VALUE><MTRAL>445</MTRAL><READ /><WORNL>false</WORNL><WORNB>16384</WORNB><CAPA>0</CAPA><CONT>0</CONT><OPENTK>30</OPENTK><LAYR>-2</LAYR><LAYA>1</LAYA><IWORN>0</IWORN><ILOC /><IUSES>100</IUSES><ILEVL>2</ILEVL><IABLE>-1</IABLE></IDATA></ITEM><ITEM><ICLASS>GenContainer</ICLASS><IDATA><NAME>an iron can</NAME><DESC>an iron can. </DESC><DISP>an iron can lies here</DISP><PROP>0|0|0|0|0|1|2147483647|1.0|5|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>27</FLAG><IDENT /><VALUE>101</VALUE><MTRAL>801</MTRAL><READ /><WORNL>false</WORNL><WORNB>512</WORNB><CAPA>15</CAPA><CONT>0</CONT><OPENTK>30</OPENTK><IID>com.planet_ink.coffee_mud.Items.Basic.GenContainer@7a1177b</IID><IWORN>0</IWORN><ILOC /><IUSES>2147483647</IUSES><ILEVL>1</ILEVL><IABLE>0</IABLE></IDATA></ITEM><ITEM><ICLASS>GenArmor</ICLASS><IDATA><NAME>a titanium scalemail mantle</NAME><DESC>a titanium scalemail mantle. </DESC><DISP>a titanium scalemail mantle lies here</DISP><PROP>1|3|0|0|64|7|2147483647|1.0|4|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>27</FLAG><IDENT /><VALUE>32</VALUE><MTRAL>956</MTRAL><READ /><WORNL>false</WORNL><WORNB>2</WORNB><CAPA>0</CAPA><CONT>0</CONT><OPENTK>30</OPENTK><LAYR>1</LAYR><LAYA>0</LAYA><IWORN>0</IWORN><ILOC /><IUSES>100</IUSES><ILEVL>7</ILEVL><IABLE>1</IABLE></IDATA></ITEM><ITEM><ICLASS>GenArmor</ICLASS><IDATA><NAME>a designer spidersteel headband</NAME><DESC>a designer spidersteel headband. </DESC><DISP>a designer spidersteel headband lies here</DISP><PROP>0|0|0|0|0|33|2147483647|1.0|1|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>27</FLAG><IDENT /><VALUE>31</VALUE><MTRAL>414</MTRAL><READ /><WORNL>false</WORNL><WORNB>1</WORNB><CAPA>0</CAPA><CONT>0</CONT><OPENTK>30</OPENTK><LAYR>-2</LAYR><LAYA>1</LAYA><IWORN>0</IWORN><ILOC /><IUSES>100</IUSES><ILEVL>33</ILEVL><IABLE>0</IABLE></IDATA></ITEM><ITEM><ICLASS>GenScroll</ICLASS><IDATA><NAME>an intricate scroll</NAME><DESC>an intricate scroll. </DESC><DISP>an intricate scroll lies here</DISP><PROP>0|0|0|0|0|50|2147483647|1.0|1|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>11</FLAG><IDENT /><VALUE>500</VALUE><MTRAL>314</MTRAL><READ /><WORNL>false</WORNL><WORNB>512</WORNB><IWORN>0</IWORN><ILOC /><IUSES>0</IUSES><ILEVL>50</ILEVL><IABLE>0</IABLE></IDATA></ITEM><ITEM><ICLASS>GenWand</ICLASS><IDATA><NAME>an elm wand</NAME><DESC>an elm wand. </DESC><DISP>an elm wand lies here</DISP><PROP>0|0|0|0|64|22|2147483647|1.0|5|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>11</FLAG><IDENT /><VALUE>3</VALUE><MTRAL>1418</MTRAL><READ /><WORNL>false</WORNL><WORNB>512</WORNB><MAXUSE>2147483647</MAXUSE><IWORN>0</IWORN><ILOC /><IUSES>0</IUSES><ILEVL>22</ILEVL><IABLE>0</IABLE></IDATA></ITEM><ITEM><ICLASS>GenScroll</ICLASS><IDATA><NAME>an intricate scroll</NAME><DESC>an intricate scroll. </DESC><DISP>an intricate scroll lies here</DISP><PROP>0|0|0|0|0|50|2147483647|1.0|1|0|0|</PROP><IMG /><BEHAVES /><AFFECS /><FLAG>11</FLAG><IDENT /><VALUE>500</VALUE><MTRAL>2368</MTRAL><READ /><WORNL>false</WORNL><WORNB>512</WORNB><IWORN>0</IWORN><ILOC /><IUSES>0</IUSES><ILEVL>50</ILEVL><IABLE>0</IABLE></IDATA></ITEM></INVEN><ABLTYS><ABLTY><ACLASS>Chopping</ACLASS><APROF>50</APROF><ADATA><AWRAP /></ADATA></ABLTY><ABLTY><ACLASS>Common</ACLASS><APROF>100</APROF><ADATA><AWRAP /></ADATA></ABLTY></ABLTYS> 
+1
+11
+0
+

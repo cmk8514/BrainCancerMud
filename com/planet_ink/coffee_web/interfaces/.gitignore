@@ -1,0 +1,17 @@
+/FileManager.class
+/DataBuffers.class
+/FileCacheManager$CompressionType.class
+/FileCacheManager.class
+/HTTPFileGetter.class
+/HTTPIOHandler.class
+/HTTPOutputConverter.class
+/HTTPRequest.class
+/HTTPResponse.class
+/MimeConverterManager.class
+/ProtocolHandler.class
+/ServletSessionManager.class
+/SimpleServlet.class
+/SimpleServletManager.class
+/SimpleServletRequest.class
+/SimpleServletResponse.class
+/SimpleServletSession.class

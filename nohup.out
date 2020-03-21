@@ -1,0 +1,158 @@
+
+20181229.1049.33 info  MUD            CoffeeMud v5.9.6
+20181229.1049.33 info  MUD            (C) 2000-2017 Bo Zimmerman
+20181229.1049.33 info  MUD            http://www.coffeemud.org
+20181229.1049.34 info  HOST0          Disabled subsystems: DBERRORQUESTART, COMMAND_POSE, QUITREASON, RETIREREASON
+20181229.1049.34 info  MUD@4800       MUD Server started on port: 4800
+20181229.1049.34 info  HOST0          Connected to jdbc:fakedb:resources/fakedb
+20181229.1049.34 debug HOST0          SSL not configured.
+20181229.1049.34 debug HOST0          SSL not configured.
+20181229.1049.34 error SMTP           Set your coffeemud.ini parameter: DOMAIN
+20181229.1049.34 info  cweb-pub0      Started http pub0 on port 27744
+20181229.1049.34 info  cweb-admin0    Started http admin0 on port 27777
+20181229.1049.34 error cweb-pub0      Port 80: Permission denied
+20181229.1049.34 debug cweb-admin0Tim Timeout Thread started
+20181229.1049.34 debug cweb-pub0Timeo Timeout Thread started
+20181229.1049.34 info  HOST0          WebMacros loaded  : 177
+20181229.1049.35 info  HOST0          MOB Types loaded  : 135
+20181229.1049.35 info  HOST0          Exit Types loaded : 29
+20181229.1049.35 info  HOST0          Area Types loaded : 14
+20181229.1049.35 info  HOST0          Locales loaded    : 113
+20181229.1049.35 info  HOST0          Fighter Skills    : 121
+20181229.1049.35 info  HOST0          Chants loaded     : 293
+20181229.1049.35 info  HOST0          Languages loaded  : 55
+20181229.1049.35 info  HOST0          Properties loaded : 245
+20181229.1049.36 info  HOST0          Prayers loaded    : 276
+20181229.1049.36 info  HOST0          Thief Skills      : 151
+20181229.1049.36 info  HOST0          Skills loaded     : 252
+20181229.1049.36 info  HOST0          Songs loaded      : 149
+20181229.1049.36 info  HOST0          Spells loaded     : 373
+20181229.1049.36 info  HOST0          Heroics loaded    : 6
+20181229.1049.36 info  HOST0          Tech Skills loaded: 2
+20181229.1049.36 info  HOST0          Traps loaded      : 76
+20181229.1049.36 info  HOST0          GenAbles loaded   : 4
+20181229.1049.37 info  HOST0          Basic Items loaded: 117
+20181229.1049.37 info  HOST0          Weapons loaded    : 60
+20181229.1049.37 info  HOST0          Armor loaded      : 50
+20181229.1049.37 info  HOST0          Magic Items loaded: 43
+20181229.1049.37 info  HOST0          Clan Items loaded : 19
+20181229.1049.37 info  HOST0          Electronics loaded: 76
+20181229.1049.37 info  HOST0          Behaviors loaded  : 96
+20181229.1049.37 info  HOST0          Commands loaded   : 274
+20181229.1049.37 info  HOST0          Races loaded      : 240
+20181229.1049.37 info  HOST0          Classes loaded    : 87
+20181229.1049.39 info  HOST0          Expertises defined: 1658
+20181229.1049.39 info  HOST0          Channels loaded   : 25
+20181229.1049.39 info  HOST0          Socials loaded    : 312
+20181229.1049.39 info  HOST0          Clans loaded      : 0
+20181229.1049.39 info  CM1Server0@277 Started CM1Server0@27733 on port 27733
+20181229.1049.39 info  I3Server       InterMud3 Core (c)1996 George Reese
+20181229.1049.39 error Intermud       Please set ADMINEMAIL in your coffeemud.ini file.
+20181229.1049.39 info  Intermud3      I3 client connection: 204.209.44.3@8080
+20181229.1049.39 info  I3Server       InterMud3 Server started on port 27766
+20181229.1049.39 info  HOST0          Loading catalog...
+20181229.1049.39 info  HOST0          Loading map...
+20181229.1049.40 info  HOST0          Preparing map...
+20181229.1049.40 info  HOST0          Mapped rooms      : 2359 in 44 areas
+20181229.1049.40 info  HOST0          Space objects     : 1
+20181229.1049.40 info  HOST0          Quests loaded     : 1
+20181229.1049.40 info  HOST0          Services and utilities started
+20181229.1049.40 info  HOST0          Host#0 initializated.
+20181229.1049.41 info  MUD            Initialization complete.
+20181229.1149.47 error Worker0#5      GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+	at com.planet_ink.coffee_mud.core.intermud.i3.server.ServerThread.getObjects(ServerThread.java:362)
+	at com.planet_ink.coffee_mud.core.intermud.i3.server.ServerThread.tick(ServerThread.java:232)
+	at com.planet_ink.coffee_mud.core.threads.StdTickClient.tickTicker(StdTickClient.java:151)
+	at com.planet_ink.coffee_mud.core.threads.StdTickGroup.run(StdTickGroup.java:342)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+20181229.1149.48 error Worker0#2      GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+	at com.planet_ink.coffee_mud.Locales.StdRoom.<init>(StdRoom.java:54)
+	at com.planet_ink.coffee_mud.Locales.InTheAir.<init>(InTheAir.java:45)
+	at sun.reflect.GeneratedConstructorAccessor69.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.lang.Class.newInstance(Class.java:442)
+	at com.planet_ink.coffee_mud.Locales.StdRoom.newInstance(StdRoom.java:102)
+	at com.planet_ink.coffee_mud.core.CMClass.getNewGlobal(CMClass.java:1707)
+	at com.planet_ink.coffee_mud.core.CMClass.getLocale(CMClass.java:874)
+	at com.planet_ink.coffee_mud.Locales.StdThinGrid.getMakeSingleGridRoom(StdThinGrid.java:316)
+	at com.planet_ink.coffee_mud.Locales.StdThinGrid.getMakeGridRoom(StdThinGrid.java:558)
+	at com.planet_ink.coffee_mud.Locales.StdThinGrid.getRandomGridChild(StdThinGrid.java:896)
+	at com.planet_ink.coffee_mud.Locales.StdThinGrid.getAllRoomsFilled(StdThinGrid.java:694)
+	at com.planet_ink.coffee_mud.Areas.StdArea.getFilledProperMap(StdArea.java:2124)
+	at com.planet_ink.coffee_mud.Libraries.CMMap$AllAreasRoomEnumerator.hasMoreElements(CMMap.java:2207)
+	at com.planet_ink.coffee_mud.Libraries.CMMap.roomMaintSweep(CMMap.java:3662)
+	at com.planet_ink.coffee_mud.Libraries.CMMap.tick(CMMap.java:3456)
+	at com.planet_ink.coffee_mud.core.threads.StdTickClient.tickTicker(StdTickClient.java:151)
+	at com.planet_ink.coffee_mud.core.threads.StdTickGroup.run(StdTickGroup.java:342)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+20181229.1403.06 error Worker0#1      GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+	at java.util.Arrays.copyOf(Arrays.java:3332)
+	at java.lang.AbstractStringBuilder.ensureCapacityInternal(AbstractStringBuilder.java:124)
+	at java.lang.AbstractStringBuilder.append(AbstractStringBuilder.java:649)
+	at java.lang.StringBuilder.append(StringBuilder.java:202)
+	at com.planet_ink.fakedb.Backend$FakeTable.getNextLine(Backend.java:681)
+	at com.planet_ink.fakedb.Backend$FakeTable.getRecord(Backend.java:625)
+	at com.planet_ink.fakedb.Backend$FakeTable.recordIterator(Backend.java:911)
+	at com.planet_ink.fakedb.Backend$FakeTable.updateRecord(Backend.java:969)
+	at com.planet_ink.fakedb.Backend.updateRecord(Backend.java:1537)
+	at com.planet_ink.fakedb.PreparedStatement.executeUpdate(PreparedStatement.java:142)
+	at com.planet_ink.coffee_mud.core.database.DBConnection.update(DBConnection.java:552)
+	at com.planet_ink.coffee_mud.core.database.DBConnections.updateWithClobs(DBConnections.java:183)
+	at com.planet_ink.coffee_mud.core.database.DBConnections.updateWithClobs(DBConnections.java:241)
+	at com.planet_ink.coffee_mud.core.database.DBConnector.updateWithClobs(DBConnector.java:188)
+	at com.planet_ink.coffee_mud.core.database.DBConnector.updateWithClobs(DBConnector.java:183)
+	at com.planet_ink.coffee_mud.core.database.VFSLoader.DBUpSert(VFSLoader.java:177)
+	at com.planet_ink.coffee_mud.core.database.DBInterface.DBUpSertVFSFile(DBInterface.java:1113)
+	at com.planet_ink.coffee_mud.core.CMFile$CMVFSFile.saveData(CMFile.java:362)
+	at com.planet_ink.coffee_mud.core.CMFile.saveRaw(CMFile.java:1311)
+	at com.planet_ink.coffee_mud.core.intermud.i3.IMudPeer.save(IMudPeer.java:119)
+	at com.planet_ink.coffee_mud.core.intermud.i3.packets.Intermud.save(Intermud.java:976)
+	at com.planet_ink.coffee_mud.core.intermud.i3.packets.Intermud$1.tick(Intermud.java:350)
+	at com.planet_ink.coffee_mud.core.threads.StdTickClient.tickTicker(StdTickClient.java:151)
+	at com.planet_ink.coffee_mud.core.threads.StdTickGroup.run(StdTickGroup.java:342)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+20181229.1404.41 error Worker0#3      GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+	at java.lang.String.toUpperCase(String.java:2753)
+	at java.lang.String.toUpperCase(String.java:2833)
+	at com.planet_ink.coffee_mud.Common.DefaultQuest.parseQuestScript(DefaultQuest.java:1502)
+	at com.planet_ink.coffee_mud.Common.DefaultQuest.startQuestInternal(DefaultQuest.java:3337)
+	at com.planet_ink.coffee_mud.Common.DefaultQuest.startQuestOnTime(DefaultQuest.java:4032)
+	at com.planet_ink.coffee_mud.Common.DefaultQuest.spawnQuest(DefaultQuest.java:3286)
+	at com.planet_ink.coffee_mud.Common.DefaultQuest.startQuestInternal(DefaultQuest.java:3329)
+	at com.planet_ink.coffee_mud.Common.DefaultQuest.startQuestOnTime(DefaultQuest.java:4032)
+	at com.planet_ink.coffee_mud.Common.DefaultQuest.tick(DefaultQuest.java:3989)
+	at com.planet_ink.coffee_mud.core.threads.StdTickClient.tickTicker(StdTickClient.java:151)
+	at com.planet_ink.coffee_mud.core.threads.StdTickGroup.run(StdTickGroup.java:342)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+20181229.1404.45 error Worker0#2      GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+20181229.1741.04 error Worker0#4      GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+20181229.1951.02 error Worker0#5      GC overhead limit exceeded
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+
+Exception: java.lang.OutOfMemoryError thrown from the UncaughtExceptionHandler in thread "Worker0#4"
+
+Exception: java.lang.OutOfMemoryError thrown from the UncaughtExceptionHandler in thread "Scheduler0"
+20190101.0038.41 info  Worker0#1      Connection from 71.10.153.110
+20190101.1324.12 info  Worker0#7      Connection from 71.10.153.110
+20190102.2357.48 info  Worker0#9      Connection from 71.91.198.83
+20190103.1435.54 info  Worker0#10     Connection from 71.10.153.110
+
+Exception: java.lang.OutOfMemoryError thrown from the UncaughtExceptionHandler in thread "Worker0#16"
+
+Exception: java.lang.OutOfMemoryError thrown from the UncaughtExceptionHandler in thread "Worker0#15"
+
