@@ -1,7 +1,6 @@
 package com.planet_ink.coffee_mud.core.collections;
 import java.util.Iterator;
 import java.util.NoSuchElementException;
-import java.util.Vector;
 /*
    Copyright 2010-2017 Bo Zimmerman
 

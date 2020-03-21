@@ -1,6 +1,5 @@
 package com.planet_ink.coffee_mud.core.collections;
 
-import java.util.*;
 /*
    Copyright 2012-2017 Bo Zimmerman
 
@@ -16,6 +15,12 @@ import java.util.*;
    See the License for the specific language governing permissions and
    limitations under the License.
  */
+import java.util.Collection;
+import java.util.Enumeration;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Set;
+import java.util.Vector;
 
 import com.planet_ink.coffee_mud.core.Log;
 /*

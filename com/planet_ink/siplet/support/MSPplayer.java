@@ -1,9 +1,9 @@
 package com.planet_ink.siplet.support;
 
-import com.planet_ink.siplet.applet.*;
-import java.applet.*;
-import java.util.*;
-import java.net.*;
+import java.applet.Applet;
+import java.applet.AudioClip;
+import java.net.MalformedURLException;
+import java.net.URL;
 
 /*
    Copyright 2000-2017 Bo Zimmerman

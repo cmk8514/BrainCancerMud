@@ -1,26 +1,18 @@
 package com.planet_ink.coffee_mud.Common.interfaces;
-import com.planet_ink.coffee_mud.core.interfaces.*;
-import com.planet_ink.coffee_mud.core.*;
-import com.planet_ink.coffee_mud.core.collections.*;
-import com.planet_ink.coffee_mud.Abilities.interfaces.*;
-import com.planet_ink.coffee_mud.Areas.interfaces.*;
-import com.planet_ink.coffee_mud.Behaviors.interfaces.*;
-import com.planet_ink.coffee_mud.CharClasses.interfaces.*;
-import com.planet_ink.coffee_mud.Commands.interfaces.*;
-import com.planet_ink.coffee_mud.Common.interfaces.*;
-import com.planet_ink.coffee_mud.Exits.interfaces.*;
-import com.planet_ink.coffee_mud.Items.interfaces.*;
-import com.planet_ink.coffee_mud.Libraries.interfaces.*;
-import com.planet_ink.coffee_mud.Libraries.interfaces.AbilityMapper.AbilityMapping;
-import com.planet_ink.coffee_mud.Libraries.interfaces.AchievementLibrary.Achievement;
-import com.planet_ink.coffee_mud.Libraries.interfaces.AchievementLibrary.ExpertiseAward;
-import com.planet_ink.coffee_mud.Libraries.interfaces.AchievementLibrary.Tracker;
-import com.planet_ink.coffee_mud.Libraries.interfaces.ExpertiseLibrary.ExpertiseDefinition;
-import com.planet_ink.coffee_mud.Locales.interfaces.*;
-import com.planet_ink.coffee_mud.MOBS.interfaces.*;
-import com.planet_ink.coffee_mud.Races.interfaces.*;
+import java.util.List;
+import java.util.Map;
 
-import java.util.*;
+import com.planet_ink.coffee_mud.Areas.interfaces.Area;
+import com.planet_ink.coffee_mud.CharClasses.interfaces.CharClass;
+import com.planet_ink.coffee_mud.Libraries.interfaces.AbilityMapper.AbilityMapping;
+import com.planet_ink.coffee_mud.Libraries.interfaces.ExpertiseLibrary.ExpertiseDefinition;
+import com.planet_ink.coffee_mud.Locales.interfaces.Room;
+import com.planet_ink.coffee_mud.MOBS.interfaces.MOB;
+import com.planet_ink.coffee_mud.Races.interfaces.Race;
+import com.planet_ink.coffee_mud.core.CMSecurity;
+import com.planet_ink.coffee_mud.core.interfaces.Contingent;
+import com.planet_ink.coffee_mud.core.interfaces.ItemCollection;
+import com.planet_ink.coffee_mud.core.interfaces.Modifiable;
 
 /*
    Copyright 2003-2017 Bo Zimmerman

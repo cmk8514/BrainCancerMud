@@ -1,5 +1,5 @@
 package com.planet_ink.coffee_mud.Common.interfaces;
-import com.planet_ink.coffee_mud.core.interfaces.*;
+import com.planet_ink.coffee_mud.core.interfaces.CMObject;
 /*
    Copyright 2006-2017 Bo Zimmerman
 

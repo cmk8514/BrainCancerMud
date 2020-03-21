@@ -4,13 +4,23 @@
  * ACTION TAKEN: Removed imported packages that were not used to remove warnings 
  */
 package com.planet_ink.coffee_mud.Abilities.Common;
-import com.planet_ink.coffee_mud.core.interfaces.*;
-import com.planet_ink.coffee_mud.core.*;
-import com.planet_ink.coffee_mud.Abilities.interfaces.*;
-import com.planet_ink.coffee_mud.Items.interfaces.*;
-import com.planet_ink.coffee_mud.Libraries.interfaces.*;
-import com.planet_ink.coffee_mud.MOBS.interfaces.*;
-import java.util.*;
+import java.util.List;
+
+import com.planet_ink.coffee_mud.Abilities.interfaces.Ability;
+import com.planet_ink.coffee_mud.Items.interfaces.Item;
+import com.planet_ink.coffee_mud.Items.interfaces.MagicDust;
+import com.planet_ink.coffee_mud.Items.interfaces.Perfume;
+import com.planet_ink.coffee_mud.Items.interfaces.RawMaterial;
+import com.planet_ink.coffee_mud.Libraries.interfaces.ExpertiseLibrary;
+import com.planet_ink.coffee_mud.MOBS.interfaces.MOB;
+import com.planet_ink.coffee_mud.core.CMClass;
+import com.planet_ink.coffee_mud.core.CMFile;
+import com.planet_ink.coffee_mud.core.CMLib;
+import com.planet_ink.coffee_mud.core.CMProps;
+import com.planet_ink.coffee_mud.core.Log;
+import com.planet_ink.coffee_mud.core.Resources;
+import com.planet_ink.coffee_mud.core.interfaces.Drink;
+import com.planet_ink.coffee_mud.core.interfaces.Physical;
 
 /*
    Copyright 2002-2017 Bo Zimmerman

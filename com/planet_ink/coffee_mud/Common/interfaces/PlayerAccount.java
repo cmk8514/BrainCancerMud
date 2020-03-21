@@ -1,10 +1,8 @@
 package com.planet_ink.coffee_mud.Common.interfaces;
 
 import java.util.Enumeration;
-import java.util.List;
 import java.util.Vector;
 
-import com.planet_ink.coffee_mud.Libraries.interfaces.AchievementLibrary.Award;
 import com.planet_ink.coffee_mud.Libraries.interfaces.PlayerLibrary;
 import com.planet_ink.coffee_mud.MOBS.interfaces.MOB;
 import com.planet_ink.coffee_mud.core.CMParms;

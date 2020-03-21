@@ -4,16 +4,30 @@
  * ACTION TAKEN: Removed imported packages that were not used to remove warnings 
  */
 package com.planet_ink.coffee_mud.Abilities.Common;
-import com.planet_ink.coffee_mud.core.interfaces.*;
-import com.planet_ink.coffee_mud.core.*;
-import com.planet_ink.coffee_mud.core.collections.*;
-import com.planet_ink.coffee_mud.Abilities.interfaces.*;
-import com.planet_ink.coffee_mud.Common.interfaces.*;
-import com.planet_ink.coffee_mud.Items.interfaces.*;
-import com.planet_ink.coffee_mud.Locales.interfaces.*;
-import com.planet_ink.coffee_mud.MOBS.interfaces.*;
-import com.planet_ink.coffee_mud.Races.interfaces.*;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Enumeration;
+import java.util.List;
+import java.util.Vector;
+
+import com.planet_ink.coffee_mud.Abilities.interfaces.Ability;
+import com.planet_ink.coffee_mud.Common.interfaces.CMMsg;
+import com.planet_ink.coffee_mud.Items.interfaces.Container;
+import com.planet_ink.coffee_mud.Items.interfaces.Item;
+import com.planet_ink.coffee_mud.Items.interfaces.RawMaterial;
+import com.planet_ink.coffee_mud.Items.interfaces.Recipe;
+import com.planet_ink.coffee_mud.Items.interfaces.Wearable;
+import com.planet_ink.coffee_mud.Locales.interfaces.Room;
+import com.planet_ink.coffee_mud.MOBS.interfaces.MOB;
+import com.planet_ink.coffee_mud.Races.interfaces.Race;
+import com.planet_ink.coffee_mud.core.CMClass;
+import com.planet_ink.coffee_mud.core.CMLib;
+import com.planet_ink.coffee_mud.core.CMParms;
+import com.planet_ink.coffee_mud.core.CMStrings;
+import com.planet_ink.coffee_mud.core.collections.XVector;
+import com.planet_ink.coffee_mud.core.interfaces.Drink;
+import com.planet_ink.coffee_mud.core.interfaces.Environmental;
+import com.planet_ink.coffee_mud.core.interfaces.LandTitle;
+import com.planet_ink.coffee_mud.core.interfaces.Physical;
 
 /*
    Copyright 2017-2017 Bo Zimmerman

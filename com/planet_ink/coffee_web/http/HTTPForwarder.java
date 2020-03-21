@@ -10,8 +10,8 @@ import java.util.concurrent.atomic.AtomicLong;
 import com.planet_ink.coffee_web.interfaces.DataBuffers;
 import com.planet_ink.coffee_web.interfaces.HTTPIOHandler;
 import com.planet_ink.coffee_web.server.WebServer;
-import com.planet_ink.coffee_web.util.CWDataBuffers;
 import com.planet_ink.coffee_web.util.CWConfig;
+import com.planet_ink.coffee_web.util.CWDataBuffers;
 
 /*
    Copyright 2012-2017 Bo Zimmerman

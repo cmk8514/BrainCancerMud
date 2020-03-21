@@ -1,12 +1,13 @@
 package com.planet_ink.coffee_mud.core;
 import java.io.UnsupportedEncodingException;
+import java.lang.reflect.Array;
+import java.lang.reflect.Field;
 import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
 import java.util.TreeMap;
-import java.lang.reflect.*;
 
 /*
    Copyright 2013-2017 Bo Zimmerman

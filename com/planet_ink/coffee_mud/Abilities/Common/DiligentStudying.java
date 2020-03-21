@@ -5,10 +5,11 @@
  */
 package com.planet_ink.coffee_mud.Abilities.Common;
 import com.planet_ink.coffee_mud.Abilities.StdAbility;
-import com.planet_ink.coffee_mud.core.interfaces.*;
-import com.planet_ink.coffee_mud.core.*;
-import com.planet_ink.coffee_mud.Abilities.interfaces.*;
-import com.planet_ink.coffee_mud.Common.interfaces.*;
+import com.planet_ink.coffee_mud.Abilities.interfaces.Ability;
+import com.planet_ink.coffee_mud.Common.interfaces.CMMsg;
+import com.planet_ink.coffee_mud.core.CMLib;
+import com.planet_ink.coffee_mud.core.CMath;
+import com.planet_ink.coffee_mud.core.interfaces.Environmental;
 /*
    Copyright 2016-2017 Bo Zimmerman
 

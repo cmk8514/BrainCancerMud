@@ -1,6 +1,5 @@
 package com.planet_ink.coffee_mud.core.interfaces;
 
-import com.planet_ink.coffee_mud.Behaviors.interfaces.Behavior;
 import com.planet_ink.coffee_mud.MOBS.interfaces.MOB;
 /*
    Copyright 2016-2017 Bo Zimmerman

@@ -1,13 +1,11 @@
 package com.planet_ink.coffee_mud.Commands;
-import com.planet_ink.coffee_mud.core.*;
-import com.planet_ink.coffee_mud.core.collections.*;
-import com.planet_ink.coffee_mud.core.interfaces.*;
-import com.planet_ink.coffee_mud.MOBS.interfaces.*;
-import com.planet_ink.coffee_mud.Items.interfaces.*;
-import com.planet_ink.coffee_mud.Common.interfaces.*;
-import com.planet_ink.coffee_mud.Libraries.*;
+import java.util.List;
 
-import java.util.*;
+import com.planet_ink.coffee_mud.MOBS.interfaces.MOB;
+import com.planet_ink.coffee_mud.core.CMLib;
+import com.planet_ink.coffee_mud.core.CMProps;
+import com.planet_ink.coffee_mud.core.CMSecurity;
+import com.planet_ink.coffee_mud.core.CMath;
 
 /*
 	Written by Robert from The Looking Glass 2005

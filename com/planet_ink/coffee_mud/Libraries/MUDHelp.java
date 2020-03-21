@@ -1,25 +1,41 @@
 package com.planet_ink.coffee_mud.Libraries;
-import com.planet_ink.coffee_mud.core.interfaces.*;
-import com.planet_ink.coffee_mud.core.*;
-import com.planet_ink.coffee_mud.core.collections.*;
-import com.planet_ink.coffee_mud.Abilities.interfaces.*;
-import com.planet_ink.coffee_mud.Areas.interfaces.*;
-import com.planet_ink.coffee_mud.Behaviors.interfaces.*;
-import com.planet_ink.coffee_mud.CharClasses.interfaces.*;
-import com.planet_ink.coffee_mud.Commands.interfaces.*;
-import com.planet_ink.coffee_mud.Common.interfaces.*;
-import com.planet_ink.coffee_mud.Exits.interfaces.*;
-import com.planet_ink.coffee_mud.Items.interfaces.*;
-import com.planet_ink.coffee_mud.Locales.interfaces.*;
-import com.planet_ink.coffee_mud.MOBS.interfaces.*;
-import com.planet_ink.coffee_mud.Races.interfaces.*;
-
 import java.io.ByteArrayInputStream;
 import java.io.IOException;
-import java.util.*;
+import java.util.Collections;
+import java.util.Enumeration;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Map;
+import java.util.Properties;
+import java.util.Vector;
 
-import com.planet_ink.coffee_mud.Libraries.interfaces.*;
+import com.planet_ink.coffee_mud.Abilities.interfaces.Ability;
+import com.planet_ink.coffee_mud.Areas.interfaces.Area;
+import com.planet_ink.coffee_mud.CharClasses.interfaces.CharClass;
+import com.planet_ink.coffee_mud.Commands.interfaces.Command;
+import com.planet_ink.coffee_mud.Common.interfaces.AbilityComponent;
+import com.planet_ink.coffee_mud.Common.interfaces.Faction;
+import com.planet_ink.coffee_mud.Items.interfaces.Coins;
+import com.planet_ink.coffee_mud.Items.interfaces.Item;
+import com.planet_ink.coffee_mud.Libraries.interfaces.ExpertiseLibrary;
+import com.planet_ink.coffee_mud.Libraries.interfaces.HelpLibrary;
+import com.planet_ink.coffee_mud.Libraries.interfaces.MoneyLibrary;
 import com.planet_ink.coffee_mud.Libraries.interfaces.MoneyLibrary.MoneyDenomination;
+import com.planet_ink.coffee_mud.MOBS.interfaces.Deity;
+import com.planet_ink.coffee_mud.MOBS.interfaces.MOB;
+import com.planet_ink.coffee_mud.Races.interfaces.Race;
+import com.planet_ink.coffee_mud.core.CMClass;
+import com.planet_ink.coffee_mud.core.CMFile;
+import com.planet_ink.coffee_mud.core.CMLib;
+import com.planet_ink.coffee_mud.core.CMProps;
+import com.planet_ink.coffee_mud.core.CMStrings;
+import com.planet_ink.coffee_mud.core.CMath;
+import com.planet_ink.coffee_mud.core.Log;
+import com.planet_ink.coffee_mud.core.Resources;
+import com.planet_ink.coffee_mud.core.collections.DVector;
+import com.planet_ink.coffee_mud.core.collections.PairList;
+import com.planet_ink.coffee_mud.core.collections.SHashtable;
+import com.planet_ink.coffee_mud.core.interfaces.MUDCmdProcessor;
 
 /*
    Copyright 2004-2017 Bo Zimmerman

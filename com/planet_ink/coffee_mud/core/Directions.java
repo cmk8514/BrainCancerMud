@@ -4,10 +4,6 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import com.planet_ink.coffee_mud.Items.interfaces.SpaceShip;
-import com.planet_ink.coffee_mud.Libraries.interfaces.LanguageLibrary;
-import com.planet_ink.coffee_mud.Locales.interfaces.Room;
-
 /*
    Copyright 2001-2017 Bo Zimmerman
 

@@ -1,16 +1,9 @@
 package com.planet_ink.siplet.support;
 
-import java.applet.*;
 import java.io.ByteArrayOutputStream;
-import java.io.IOException;
-import java.net.*;
 import java.nio.charset.Charset;
-import java.util.*;
-import java.util.Map.Entry;
 
-import com.planet_ink.coffee_mud.Common.interfaces.Session;
 import com.planet_ink.siplet.applet.Siplet;
-import com.planet_ink.siplet.support.MiniJSON.JSONObject;
 import com.planet_ink.siplet.support.MiniJSON.MJSONException;
 
 /*

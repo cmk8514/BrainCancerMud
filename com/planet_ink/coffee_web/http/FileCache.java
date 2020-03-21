@@ -15,13 +15,11 @@ import java.util.logging.Logger;
 import java.util.zip.DeflaterOutputStream;
 import java.util.zip.GZIPOutputStream;
 
-import com.planet_ink.coffee_web.http.HTTPException;
-import com.planet_ink.coffee_web.http.HTTPStatus;
 import com.planet_ink.coffee_web.interfaces.DataBuffers;
 import com.planet_ink.coffee_web.interfaces.FileCacheManager;
 import com.planet_ink.coffee_web.interfaces.FileManager;
-import com.planet_ink.coffee_web.util.CWDataBuffers;
 import com.planet_ink.coffee_web.util.CWConfig;
+import com.planet_ink.coffee_web.util.CWDataBuffers;
 
 /*
    Copyright 2012-2017 Bo Zimmerman

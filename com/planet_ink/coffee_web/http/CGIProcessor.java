@@ -8,10 +8,8 @@ import java.io.OutputStream;
 import java.nio.ByteBuffer;
 import java.util.Map;
 
-import com.planet_ink.coffee_mud.core.collections.Pair;
 import com.planet_ink.coffee_mud.core.Log;
-import com.planet_ink.coffee_web.http.HTTPException;
-import com.planet_ink.coffee_web.http.HTTPStatus;
+import com.planet_ink.coffee_mud.core.collections.Pair;
 import com.planet_ink.coffee_web.interfaces.HTTPIOHandler;
 import com.planet_ink.coffee_web.interfaces.HTTPOutputConverter;
 import com.planet_ink.coffee_web.interfaces.HTTPRequest;

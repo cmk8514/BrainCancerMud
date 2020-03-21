@@ -7,13 +7,15 @@ import java.sql.RowId;
 import java.sql.SQLException;
 import java.sql.SQLFeatureNotSupportedException;
 import java.sql.SQLXML;
-import java.util.ArrayList;
 import java.util.Hashtable;
 import java.util.List;
 import java.util.Map;
 import java.util.Vector;
 
-import com.planet_ink.fakedb.Backend.*;
+import com.planet_ink.fakedb.Backend.ComparableValue;
+import com.planet_ink.fakedb.Backend.FakeColumn;
+import com.planet_ink.fakedb.Backend.FakeCondition;
+import com.planet_ink.fakedb.Backend.RecordInfo;
 
 /*
    Copyright 2001 Thomas Neumann

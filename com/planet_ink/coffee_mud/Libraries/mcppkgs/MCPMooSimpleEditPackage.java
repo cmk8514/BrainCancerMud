@@ -6,7 +6,6 @@ import java.util.Map;
 import com.planet_ink.coffee_mud.Common.interfaces.Session;
 import com.planet_ink.coffee_mud.Libraries.interfaces.ProtocolLibrary.MCPPackage;
 import com.planet_ink.coffee_mud.core.CMParms;
-import com.planet_ink.coffee_mud.core.CMath;
 import com.planet_ink.coffee_mud.core.Log;
 import com.planet_ink.coffee_mud.core.Resources;
 

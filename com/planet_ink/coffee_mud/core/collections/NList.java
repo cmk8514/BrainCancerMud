@@ -1,11 +1,6 @@
 package com.planet_ink.coffee_mud.core.collections;
 
-import java.util.Enumeration;
-import java.util.Hashtable;
-import java.util.Iterator;
 import java.util.List;
-import java.util.TreeSet;
-import java.util.Vector;
 
 @SuppressWarnings("unchecked")
 public interface NList<T>

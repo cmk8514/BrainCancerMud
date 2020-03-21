@@ -4,10 +4,13 @@
  * ACTION TAKEN: Removed imported packages that were not used to remove warnings 
  */
 package com.planet_ink.coffee_mud.Abilities.Common;
-import com.planet_ink.coffee_mud.core.interfaces.*;
-import com.planet_ink.coffee_mud.Abilities.interfaces.*;
-import com.planet_ink.coffee_mud.MOBS.interfaces.*;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Vector;
+
+import com.planet_ink.coffee_mud.Abilities.interfaces.Ability;
+import com.planet_ink.coffee_mud.MOBS.interfaces.MOB;
+import com.planet_ink.coffee_mud.core.interfaces.Physical;
 
 /*
    Copyright 2013-2017 Bo Zimmerman

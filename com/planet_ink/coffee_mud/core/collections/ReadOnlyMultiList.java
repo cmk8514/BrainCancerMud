@@ -2,12 +2,9 @@ package com.planet_ink.coffee_mud.core.collections;
 
 import java.util.Arrays;
 import java.util.Collection;
-import java.util.Enumeration;
 import java.util.Iterator;
-import java.util.LinkedList;
 import java.util.List;
 import java.util.ListIterator;
-import java.util.NoSuchElementException;
 import java.util.Vector;
 
 /*

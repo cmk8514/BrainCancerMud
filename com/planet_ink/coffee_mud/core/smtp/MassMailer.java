@@ -1,25 +1,17 @@
 package com.planet_ink.coffee_mud.core.smtp;
-import com.planet_ink.coffee_mud.core.interfaces.*;
-import com.planet_ink.coffee_mud.core.*;
-import com.planet_ink.coffee_mud.core.collections.*;
-import com.planet_ink.coffee_mud.Abilities.interfaces.*;
-import com.planet_ink.coffee_mud.Areas.interfaces.*;
-import com.planet_ink.coffee_mud.Behaviors.interfaces.*;
-import com.planet_ink.coffee_mud.CharClasses.interfaces.*;
-import com.planet_ink.coffee_mud.Commands.interfaces.*;
-import com.planet_ink.coffee_mud.Common.interfaces.*;
-import com.planet_ink.coffee_mud.Exits.interfaces.*;
-import com.planet_ink.coffee_mud.Items.interfaces.*;
-import com.planet_ink.coffee_mud.Libraries.interfaces.*;
-import com.planet_ink.coffee_mud.Locales.interfaces.*;
-import com.planet_ink.coffee_mud.MOBS.interfaces.*;
-import com.planet_ink.coffee_mud.Races.interfaces.*;
+import java.util.Calendar;
+import java.util.HashSet;
+import java.util.LinkedList;
 
-import java.net.*;
-import java.util.*;
-
-import com.planet_ink.coffee_mud.core.exceptions.*;
-import java.io.*;
+import com.planet_ink.coffee_mud.Common.interfaces.JournalEntry;
+import com.planet_ink.coffee_mud.Common.interfaces.PlayerAccount;
+import com.planet_ink.coffee_mud.Libraries.interfaces.SMTPLibrary;
+import com.planet_ink.coffee_mud.MOBS.interfaces.MOB;
+import com.planet_ink.coffee_mud.core.CMLib;
+import com.planet_ink.coffee_mud.core.CMProps;
+import com.planet_ink.coffee_mud.core.CMath;
+import com.planet_ink.coffee_mud.core.Log;
+import com.planet_ink.coffee_mud.core.exceptions.BadEmailAddressException;
 
 /*
    Copyright 2011-2017 Bo Zimmerman

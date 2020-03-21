@@ -1,9 +1,6 @@
 package com.planet_ink.coffee_web.interfaces;
 
 import java.io.File;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.RandomAccessFile;
 /*
    Copyright 2012-2017 Bo Zimmerman
 
@@ -20,6 +17,9 @@ import java.io.RandomAccessFile;
    limitations under the License.
 */
 import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.RandomAccessFile;
 
 /**
  * Manages File objects

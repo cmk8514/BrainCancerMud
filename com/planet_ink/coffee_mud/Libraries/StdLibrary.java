@@ -1,10 +1,12 @@
 package com.planet_ink.coffee_mud.Libraries;
 
-import com.planet_ink.coffee_mud.Libraries.interfaces.*;
+import com.planet_ink.coffee_mud.Libraries.interfaces.CMLibrary;
 import com.planet_ink.coffee_mud.core.CMClass;
 import com.planet_ink.coffee_mud.core.CMLib;
 import com.planet_ink.coffee_mud.core.Log;
-import com.planet_ink.coffee_mud.core.interfaces.*;
+import com.planet_ink.coffee_mud.core.interfaces.CMObject;
+import com.planet_ink.coffee_mud.core.interfaces.TickClient;
+import com.planet_ink.coffee_mud.core.interfaces.Tickable;
 
 /*
    Copyright 2005-2017 Bo Zimmerman

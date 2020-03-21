@@ -3,8 +3,6 @@ package com.planet_ink.coffee_mud.core.collections;
 import java.util.Iterator;
 import java.util.List;
 
-import com.planet_ink.coffee_mud.core.interfaces.CMObject;
-
 /*
    Copyright 2012-2017 Bo Zimmerman
 

@@ -1,6 +1,14 @@
 package com.planet_ink.coffee_mud.core.collections;
 import java.io.Serializable;
-import java.util.*;
+import java.util.Collection;
+import java.util.Enumeration;
+import java.util.Iterator;
+import java.util.List;
+import java.util.ListIterator;
+import java.util.RandomAccess;
+import java.util.Set;
+import java.util.TreeMap;
+import java.util.Vector;
 
 import com.planet_ink.coffee_mud.core.interfaces.CMObject;
 

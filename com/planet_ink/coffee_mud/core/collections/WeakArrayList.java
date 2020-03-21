@@ -1,6 +1,9 @@
 package com.planet_ink.coffee_mud.core.collections;
 import java.lang.ref.WeakReference;
-import java.util.*;
+import java.util.AbstractList;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Iterator;
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.atomic.AtomicLong;
 

@@ -1,7 +1,8 @@
 package com.planet_ink.coffee_mud.core.threads;
 import com.planet_ink.coffee_mud.core.CMProps;
 import com.planet_ink.coffee_mud.core.Log;
-import com.planet_ink.coffee_mud.core.interfaces.*;
+import com.planet_ink.coffee_mud.core.interfaces.TickClient;
+import com.planet_ink.coffee_mud.core.interfaces.Tickable;
 
 /*
    Copyright 2013-2017 Bo Zimmerman

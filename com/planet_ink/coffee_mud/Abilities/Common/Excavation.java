@@ -4,8 +4,6 @@
  * ACTION TAKEN: Removed imported packages that were not used to remove warnings 
  */
 package com.planet_ink.coffee_mud.Abilities.Common;
-import com.planet_ink.coffee_mud.core.*;
-import com.planet_ink.coffee_mud.MOBS.interfaces.*;
 /*
    Copyright 2016-2017 Bo Zimmerman
 
@@ -21,6 +19,8 @@ import com.planet_ink.coffee_mud.MOBS.interfaces.*;
    See the License for the specific language governing permissions and
    limitations under the License.
 */
+import com.planet_ink.coffee_mud.MOBS.interfaces.MOB;
+import com.planet_ink.coffee_mud.core.CMLib;
 
 public class Excavation extends BuildingSkill
 {

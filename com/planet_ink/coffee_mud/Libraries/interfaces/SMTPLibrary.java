@@ -3,8 +3,6 @@ package com.planet_ink.coffee_mud.Libraries.interfaces;
 import java.io.IOException;
 import java.net.UnknownHostException;
 
-import com.planet_ink.coffee_mud.Libraries.SMTPclient;
-import com.planet_ink.coffee_mud.MOBS.interfaces.MOB;
 import com.planet_ink.coffee_mud.core.exceptions.BadEmailAddressException;
 /*
    Copyright 2005-2017 Bo Zimmerman

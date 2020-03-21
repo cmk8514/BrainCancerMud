@@ -4,21 +4,42 @@
  * ACTION TAKEN: Removed imported packages that were not used to remove warnings 
  */
 package com.planet_ink.coffee_mud.Abilities;
-import com.planet_ink.coffee_mud.core.interfaces.*;
-import com.planet_ink.coffee_mud.core.*;
-import com.planet_ink.coffee_mud.core.CMClass.CMObjectType;
-import com.planet_ink.coffee_mud.core.collections.*;
-import com.planet_ink.coffee_mud.Abilities.interfaces.*;
-import com.planet_ink.coffee_mud.Areas.interfaces.*;
-import com.planet_ink.coffee_mud.CharClasses.interfaces.*;
-import com.planet_ink.coffee_mud.Common.interfaces.*;
-import com.planet_ink.coffee_mud.Exits.interfaces.*;
-import com.planet_ink.coffee_mud.Items.interfaces.*;
-import com.planet_ink.coffee_mud.Libraries.interfaces.XMLLibrary;
-import com.planet_ink.coffee_mud.Locales.interfaces.*;
-import com.planet_ink.coffee_mud.MOBS.interfaces.*;
+import java.util.ArrayList;
+import java.util.Enumeration;
+import java.util.HashSet;
+import java.util.Hashtable;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
+import java.util.Vector;
 
-import java.util.*;
+import com.planet_ink.coffee_mud.Abilities.interfaces.Ability;
+import com.planet_ink.coffee_mud.Areas.interfaces.Area;
+import com.planet_ink.coffee_mud.CharClasses.interfaces.CharClass;
+import com.planet_ink.coffee_mud.Common.interfaces.CMMsg;
+import com.planet_ink.coffee_mud.Common.interfaces.CharState;
+import com.planet_ink.coffee_mud.Common.interfaces.CharStats;
+import com.planet_ink.coffee_mud.Common.interfaces.PhyStats;
+import com.planet_ink.coffee_mud.Common.interfaces.ScriptingEngine;
+import com.planet_ink.coffee_mud.Exits.interfaces.Exit;
+import com.planet_ink.coffee_mud.Items.interfaces.Weapon;
+import com.planet_ink.coffee_mud.Items.interfaces.Wearable;
+import com.planet_ink.coffee_mud.Libraries.interfaces.XMLLibrary;
+import com.planet_ink.coffee_mud.Locales.interfaces.Room;
+import com.planet_ink.coffee_mud.MOBS.interfaces.MOB;
+import com.planet_ink.coffee_mud.core.CMClass;
+import com.planet_ink.coffee_mud.core.CMClass.CMObjectType;
+import com.planet_ink.coffee_mud.core.CMLib;
+import com.planet_ink.coffee_mud.core.CMParms;
+import com.planet_ink.coffee_mud.core.CMath;
+import com.planet_ink.coffee_mud.core.Log;
+import com.planet_ink.coffee_mud.core.collections.XVector;
+import com.planet_ink.coffee_mud.core.interfaces.AbilityContainer;
+import com.planet_ink.coffee_mud.core.interfaces.CMObject;
+import com.planet_ink.coffee_mud.core.interfaces.Environmental;
+import com.planet_ink.coffee_mud.core.interfaces.Physical;
+import com.planet_ink.coffee_mud.core.interfaces.Tickable;
 
 /*
    Copyright 2006-2017 Bo Zimmerman

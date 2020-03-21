@@ -1,5 +1,6 @@
 package com.planet_ink.coffee_web.http;
 
+import java.io.IOException;
 import java.net.InetAddress;
 import java.nio.ByteBuffer;
 import java.nio.channels.SelectionKey;
@@ -14,20 +15,19 @@ import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.atomic.AtomicLong;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import java.io.*;
 
+import com.planet_ink.coffee_mud.core.Log;
+import com.planet_ink.coffee_mud.core.Log.Type;
+import com.planet_ink.coffee_mud.core.collections.Pair;
 import com.planet_ink.coffee_web.interfaces.DataBuffers;
 import com.planet_ink.coffee_web.interfaces.HTTPIOHandler;
 import com.planet_ink.coffee_web.interfaces.HTTPRequest;
 import com.planet_ink.coffee_web.interfaces.ProtocolHandler;
 import com.planet_ink.coffee_web.server.WebServer;
+import com.planet_ink.coffee_web.util.CWConfig;
 import com.planet_ink.coffee_web.util.CWDataBuffers;
 import com.planet_ink.coffee_web.util.ThrottleSpec;
 import com.planet_ink.coffee_web.util.WebAddress;
-import com.planet_ink.coffee_web.util.CWConfig;
-import com.planet_ink.coffee_mud.core.collections.Pair;
-import com.planet_ink.coffee_mud.core.Log;
-import com.planet_ink.coffee_mud.core.Log.Type;
 
 /*
    Copyright 2012-2017 Bo Zimmerman

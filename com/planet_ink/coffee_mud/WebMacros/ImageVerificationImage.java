@@ -24,24 +24,18 @@ import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.OutputStream;
 import java.util.Iterator;
-import java.util.List;
 import java.util.Random;
 import java.util.UUID;
 
 import javax.imageio.ImageIO;
 
-import com.planet_ink.coffee_mud.Libraries.interfaces.DatabaseEngine;
-import com.planet_ink.coffee_web.http.MIMEType;
-import com.planet_ink.coffee_web.interfaces.*;
-import com.planet_ink.coffee_mud.Libraries.interfaces.DatabaseEngine.PlayerData;
-import com.planet_ink.coffee_mud.MOBS.interfaces.MOB;
-import com.planet_ink.coffee_mud.core.B64Encoder;
-import com.planet_ink.coffee_mud.core.CMLib;
 import com.planet_ink.coffee_mud.core.Log;
 import com.planet_ink.coffee_mud.core.Resources;
-import com.planet_ink.coffee_mud.core.collections.Pair;
 import com.planet_ink.coffee_mud.core.collections.SLinkedList;
 import com.planet_ink.coffee_mud.core.exceptions.HTTPServerException;
+import com.planet_ink.coffee_web.http.MIMEType;
+import com.planet_ink.coffee_web.interfaces.HTTPRequest;
+import com.planet_ink.coffee_web.interfaces.HTTPResponse;
 /**
   * ImageVerification is a simple utility class for
   * creating an image verification PNG file that will

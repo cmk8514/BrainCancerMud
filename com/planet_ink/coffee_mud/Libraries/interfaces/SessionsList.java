@@ -1,11 +1,8 @@
 package com.planet_ink.coffee_mud.Libraries.interfaces;
 
-import java.util.*;
+import java.util.Iterator;
 
-import com.planet_ink.coffee_mud.Common.interfaces.*;
-import com.planet_ink.coffee_mud.core.collections.*;
-import com.planet_ink.coffee_mud.core.interfaces.*;
-import com.planet_ink.coffee_mud.MOBS.interfaces.*;
+import com.planet_ink.coffee_mud.Common.interfaces.Session;
 /*
    Copyright 2005-2017 Bo Zimmerman
 
@@ -21,6 +18,7 @@ import com.planet_ink.coffee_mud.MOBS.interfaces.*;
    See the License for the specific language governing permissions and
    limitations under the License.
 */
+import com.planet_ink.coffee_mud.MOBS.interfaces.MOB;
 
 public interface SessionsList extends CMLibrary
 {

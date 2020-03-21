@@ -1,29 +1,30 @@
 package com.planet_ink.coffee_mud.Items.CompTech;
-import com.planet_ink.coffee_mud.core.interfaces.*;
-import com.planet_ink.coffee_mud.core.interfaces.BoundedObject.BoundedCube;
-import com.planet_ink.coffee_mud.core.*;
-import com.planet_ink.coffee_mud.core.CMSecurity.DbgFlag;
-import com.planet_ink.coffee_mud.core.collections.*;
-import com.planet_ink.coffee_mud.Abilities.interfaces.*;
-import com.planet_ink.coffee_mud.Areas.interfaces.*;
-import com.planet_ink.coffee_mud.Behaviors.interfaces.*;
-import com.planet_ink.coffee_mud.CharClasses.interfaces.*;
-import com.planet_ink.coffee_mud.Commands.interfaces.*;
-import com.planet_ink.coffee_mud.Common.interfaces.*;
-import com.planet_ink.coffee_mud.Exits.interfaces.*;
-import com.planet_ink.coffee_mud.Items.BasicTech.StdElecItem;
-import com.planet_ink.coffee_mud.Items.interfaces.*;
-import com.planet_ink.coffee_mud.Items.interfaces.TechComponent.ShipDir;
-import com.planet_ink.coffee_mud.Items.interfaces.Technical.TechCommand;
-import com.planet_ink.coffee_mud.Items.interfaces.Technical.TechType;
-import com.planet_ink.coffee_mud.Libraries.interfaces.*;
-import com.planet_ink.coffee_mud.Locales.interfaces.*;
-import com.planet_ink.coffee_mud.MOBS.interfaces.*;
-import com.planet_ink.coffee_mud.Races.interfaces.*;
-
 import java.lang.ref.Reference;
 import java.lang.ref.WeakReference;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Iterator;
+import java.util.List;
+
+import com.planet_ink.coffee_mud.Areas.interfaces.Area;
+import com.planet_ink.coffee_mud.Common.interfaces.CMMsg;
+import com.planet_ink.coffee_mud.Items.interfaces.Computer;
+import com.planet_ink.coffee_mud.Items.interfaces.Item;
+import com.planet_ink.coffee_mud.Items.interfaces.RawMaterial;
+import com.planet_ink.coffee_mud.Items.interfaces.ShipWarComponent;
+import com.planet_ink.coffee_mud.Items.interfaces.Software;
+import com.planet_ink.coffee_mud.Items.interfaces.SpaceShip;
+import com.planet_ink.coffee_mud.Items.interfaces.Technical;
+import com.planet_ink.coffee_mud.Libraries.interfaces.LanguageLibrary;
+import com.planet_ink.coffee_mud.MOBS.interfaces.MOB;
+import com.planet_ink.coffee_mud.core.CMClass;
+import com.planet_ink.coffee_mud.core.CMLib;
+import com.planet_ink.coffee_mud.core.CMParms;
+import com.planet_ink.coffee_mud.core.collections.XVector;
+import com.planet_ink.coffee_mud.core.interfaces.Environmental;
+import com.planet_ink.coffee_mud.core.interfaces.ItemPossessor;
+import com.planet_ink.coffee_mud.core.interfaces.SpaceObject;
+import com.planet_ink.coffee_mud.core.interfaces.Tickable;
 
 /*
    Copyright 2016-2017 Bo Zimmerman

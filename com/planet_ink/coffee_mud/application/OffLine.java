@@ -1,33 +1,29 @@
 	package com.planet_ink.coffee_mud.application;
-import com.planet_ink.coffee_mud.core.interfaces.*;
-import com.planet_ink.coffee_mud.core.*;
-import com.planet_ink.coffee_mud.core.CMFile.CMVFSDir;
-import com.planet_ink.coffee_mud.core.CMFile.CMVFSFile;
-import com.planet_ink.coffee_mud.core.collections.*;
-import com.planet_ink.coffee_mud.core.database.DBConnector;
-import com.planet_ink.coffee_mud.core.exceptions.CMException;
-import com.planet_ink.coffee_mud.Abilities.interfaces.*;
-import com.planet_ink.coffee_mud.Areas.interfaces.*;
-import com.planet_ink.coffee_mud.Behaviors.interfaces.*;
-import com.planet_ink.coffee_mud.CharClasses.interfaces.*;
-import com.planet_ink.coffee_mud.Commands.interfaces.*;
-import com.planet_ink.coffee_mud.Common.interfaces.*;
-import com.planet_ink.coffee_mud.Common.interfaces.Clan.MemberRecord;
-import com.planet_ink.coffee_mud.Exits.interfaces.*;
-import com.planet_ink.coffee_mud.Items.interfaces.*;
-import com.planet_ink.coffee_mud.Libraries.interfaces.DatabaseEngine;
-import com.planet_ink.coffee_mud.Libraries.interfaces.JournalsLibrary.JournalMetaData;
-import com.planet_ink.coffee_mud.Libraries.interfaces.LanguageLibrary;
-import com.planet_ink.coffee_mud.Libraries.interfaces.PlayerLibrary.ThinPlayer;
-import com.planet_ink.coffee_mud.Libraries.interfaces.PlayerLibrary.ThinnerPlayer;
-import com.planet_ink.coffee_mud.Locales.interfaces.*;
-import com.planet_ink.coffee_mud.MOBS.interfaces.*;
-import com.planet_ink.coffee_mud.Races.interfaces.*;
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.io.OutputStream;
+import java.io.OutputStreamWriter;
+import java.io.PrintWriter;
+import java.net.InetAddress;
+import java.net.ServerSocket;
+import java.net.Socket;
+import java.net.SocketException;
+import java.net.UnknownHostException;
+import java.util.List;
+import java.util.Vector;
 
-	import java.net.*;
-import java.util.*;
-import java.sql.*;
-import java.io.*;
+import com.planet_ink.coffee_mud.Common.interfaces.Session;
+import com.planet_ink.coffee_mud.core.CMLib;
+import com.planet_ink.coffee_mud.core.CMParms;
+import com.planet_ink.coffee_mud.core.CMProps;
+import com.planet_ink.coffee_mud.core.CMath;
+import com.planet_ink.coffee_mud.core.Resources;
+import com.planet_ink.coffee_mud.core.collections.DVector;
+import com.planet_ink.coffee_mud.core.interfaces.MudHost;
 
 	/*
 	Copyright 2000-2017 Bo Zimmerman

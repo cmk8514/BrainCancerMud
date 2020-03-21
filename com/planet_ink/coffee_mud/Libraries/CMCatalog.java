@@ -1,27 +1,45 @@
 package com.planet_ink.coffee_mud.Libraries;
-import com.planet_ink.coffee_mud.core.interfaces.*;
-import com.planet_ink.coffee_mud.core.*;
-import com.planet_ink.coffee_mud.core.CMSecurity.DbgFlag;
-import com.planet_ink.coffee_mud.core.collections.*;
-import com.planet_ink.coffee_mud.Libraries.interfaces.*;
-import com.planet_ink.coffee_mud.Libraries.interfaces.CatalogLibrary.CataData;
-import com.planet_ink.coffee_mud.Libraries.interfaces.CatalogLibrary.RoomContent;
-import com.planet_ink.coffee_mud.Libraries.interfaces.XMLLibrary.XMLTag;
-import com.planet_ink.coffee_mud.Abilities.interfaces.*;
-import com.planet_ink.coffee_mud.Areas.interfaces.*;
-import com.planet_ink.coffee_mud.Behaviors.interfaces.*;
-import com.planet_ink.coffee_mud.CharClasses.interfaces.*;
-import com.planet_ink.coffee_mud.Commands.interfaces.*;
-import com.planet_ink.coffee_mud.Common.interfaces.*;
-import com.planet_ink.coffee_mud.Exits.interfaces.*;
-import com.planet_ink.coffee_mud.Items.interfaces.*;
-import com.planet_ink.coffee_mud.Locales.interfaces.*;
-import com.planet_ink.coffee_mud.MOBS.interfaces.*;
-import com.planet_ink.coffee_mud.Races.interfaces.*;
-
-import java.io.IOException;
 import java.lang.ref.WeakReference;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Enumeration;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Set;
+import java.util.Vector;
+
+import com.planet_ink.coffee_mud.Areas.interfaces.Area;
+import com.planet_ink.coffee_mud.Common.interfaces.Clan;
+import com.planet_ink.coffee_mud.Common.interfaces.PhyStats;
+import com.planet_ink.coffee_mud.Common.interfaces.RoomnumberSet;
+import com.planet_ink.coffee_mud.Items.interfaces.Item;
+import com.planet_ink.coffee_mud.Libraries.interfaces.CatalogLibrary;
+import com.planet_ink.coffee_mud.Libraries.interfaces.MaskingLibrary;
+import com.planet_ink.coffee_mud.Libraries.interfaces.XMLLibrary;
+import com.planet_ink.coffee_mud.Libraries.interfaces.XMLLibrary.XMLTag;
+import com.planet_ink.coffee_mud.Locales.interfaces.Room;
+import com.planet_ink.coffee_mud.MOBS.interfaces.MOB;
+import com.planet_ink.coffee_mud.core.CMClass;
+import com.planet_ink.coffee_mud.core.CMFile;
+import com.planet_ink.coffee_mud.core.CMLib;
+import com.planet_ink.coffee_mud.core.CMProps;
+import com.planet_ink.coffee_mud.core.CMSecurity;
+import com.planet_ink.coffee_mud.core.CMSecurity.DbgFlag;
+import com.planet_ink.coffee_mud.core.CMath;
+import com.planet_ink.coffee_mud.core.collections.DVector;
+import com.planet_ink.coffee_mud.core.collections.Pair;
+import com.planet_ink.coffee_mud.core.collections.SHashSet;
+import com.planet_ink.coffee_mud.core.collections.SVector;
+import com.planet_ink.coffee_mud.core.collections.SortedListWrap;
+import com.planet_ink.coffee_mud.core.interfaces.DBIdentifiable;
+import com.planet_ink.coffee_mud.core.interfaces.Environmental;
+import com.planet_ink.coffee_mud.core.interfaces.MudHost;
+import com.planet_ink.coffee_mud.core.interfaces.Physical;
+import com.planet_ink.coffee_mud.core.interfaces.ShopKeeper;
+import com.planet_ink.coffee_mud.core.interfaces.Tickable;
 /*
    Copyright 2008-2017 Bo Zimmerman
 

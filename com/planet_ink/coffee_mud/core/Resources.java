@@ -1,12 +1,21 @@
 package com.planet_ink.coffee_mud.core;
-import com.planet_ink.coffee_mud.MOBS.interfaces.MOB;
-import com.planet_ink.coffee_mud.core.collections.*;
-
 import java.io.UnsupportedEncodingException;
 import java.net.URLDecoder;
 import java.net.URLEncoder;
 import java.nio.charset.Charset;
-import java.util.*;
+import java.util.Comparator;
+import java.util.Hashtable;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Map;
+import java.util.TreeMap;
+import java.util.Vector;
+
+import com.planet_ink.coffee_mud.MOBS.interfaces.MOB;
+import com.planet_ink.coffee_mud.core.collections.DVector;
+import com.planet_ink.coffee_mud.core.collections.FilteredIterator;
+import com.planet_ink.coffee_mud.core.collections.Filterer;
+import com.planet_ink.coffee_mud.core.collections.STreeMap;
 
 /*
    Copyright 2001-2017 Bo Zimmerman

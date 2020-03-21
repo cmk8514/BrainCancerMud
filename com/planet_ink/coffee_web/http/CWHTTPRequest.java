@@ -24,8 +24,8 @@ import java.util.logging.Logger;
 import com.planet_ink.coffee_web.interfaces.HTTPIOHandler;
 import com.planet_ink.coffee_web.interfaces.HTTPRequest;
 import com.planet_ink.coffee_web.util.CWConfig;
-import com.planet_ink.coffee_web.util.CWThread;
 import com.planet_ink.coffee_web.util.CWConfig.DisableFlag;
+import com.planet_ink.coffee_web.util.CWThread;
 
 /*
    Copyright 2012-2017 Bo Zimmerman

@@ -1,8 +1,6 @@
 
 package com.planet_ink.coffee_mud.core.intermud.imc2;
 
-import java.lang.String;
-
 /**
  * IMC2 version 0.10 - an inter-mud communications protocol
  * Copyright (C) 1996 - 1997 Oliver Jowett: oliver@randomly.org

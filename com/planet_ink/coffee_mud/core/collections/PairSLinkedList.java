@@ -1,8 +1,7 @@
 package com.planet_ink.coffee_mud.core.collections;
 
-import java.util.*;
-
-import com.planet_ink.coffee_mud.Libraries.interfaces.MaskingLibrary;
+import java.util.Arrays;
+import java.util.Iterator;
 
 public final class PairSLinkedList<T, K> extends SLinkedList<Pair<T, K>> implements PairList<T, K>
 {

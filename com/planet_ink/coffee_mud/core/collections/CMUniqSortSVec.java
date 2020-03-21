@@ -2,8 +2,6 @@ package com.planet_ink.coffee_mud.core.collections;
 
 import java.util.Collection;
 import java.util.Iterator;
-import java.util.List;
-import java.util.ListIterator;
 
 import com.planet_ink.coffee_mud.core.interfaces.CMObject;
 

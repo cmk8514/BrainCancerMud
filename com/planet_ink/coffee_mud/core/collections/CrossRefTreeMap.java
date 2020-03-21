@@ -1,12 +1,9 @@
 package com.planet_ink.coffee_mud.core.collections;
 
 import java.util.Comparator;
-import java.util.List;
-import java.util.Map;
 import java.util.Set;
 import java.util.TreeMap;
 import java.util.TreeSet;
-import java.util.Vector;
 
 /*
    Copyright 2012-2017 Bo Zimmerman

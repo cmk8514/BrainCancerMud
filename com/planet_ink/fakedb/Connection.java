@@ -1,10 +1,17 @@
 package com.planet_ink.fakedb;
 
-import java.sql.*;
+import java.lang.ref.WeakReference;
+import java.sql.Array;
+import java.sql.Blob;
+import java.sql.Clob;
+import java.sql.NClob;
+import java.sql.SQLClientInfoException;
+import java.sql.SQLException;
+import java.sql.SQLXML;
+import java.sql.Struct;
 import java.util.Map;
 import java.util.Properties;
 import java.util.concurrent.Executor;
-import java.lang.ref.WeakReference;
 
 /*
    Copyright 2001 Thomas Neumann

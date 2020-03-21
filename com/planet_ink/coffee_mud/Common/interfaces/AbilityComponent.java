@@ -3,7 +3,6 @@ package com.planet_ink.coffee_mud.Common.interfaces;
 import java.util.List;
 
 import com.planet_ink.coffee_mud.Libraries.interfaces.MaskingLibrary;
-import com.planet_ink.coffee_mud.core.CMath;
 
 /**
  * Descriptor class for ability components.

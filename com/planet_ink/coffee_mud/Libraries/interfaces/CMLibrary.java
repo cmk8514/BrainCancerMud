@@ -1,5 +1,6 @@
 package com.planet_ink.coffee_mud.Libraries.interfaces;
-import com.planet_ink.coffee_mud.core.interfaces.*;
+import com.planet_ink.coffee_mud.core.interfaces.CMObject;
+import com.planet_ink.coffee_mud.core.interfaces.TickClient;
 
 /*
    Copyright 2006-2017 Bo Zimmerman

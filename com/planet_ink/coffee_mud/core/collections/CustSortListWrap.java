@@ -1,7 +1,7 @@
 package com.planet_ink.coffee_mud.core.collections;
 
-import java.io.Serializable;
-import java.util.*;
+import java.util.Comparator;
+import java.util.List;
 
 /*
    Copyright 2013-2017 Bo Zimmerman

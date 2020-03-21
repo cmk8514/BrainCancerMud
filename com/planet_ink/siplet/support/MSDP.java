@@ -1,12 +1,14 @@
 package com.planet_ink.siplet.support;
 
-import java.applet.*;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
-import java.net.*;
 import java.nio.charset.Charset;
-import java.util.*;
+import java.util.HashMap;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Map;
 import java.util.Map.Entry;
+import java.util.Stack;
 
 import com.planet_ink.coffee_mud.Common.interfaces.Session;
 import com.planet_ink.siplet.applet.Siplet;

@@ -1,9 +1,14 @@
 package com.planet_ink.coffee_mud.Libraries;
-import com.planet_ink.coffee_mud.Libraries.interfaces.*;
-import com.planet_ink.coffee_mud.core.*;
-import com.planet_ink.coffee_mud.core.collections.*;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
+import java.util.Random;
 
-import java.util.*;
+import com.planet_ink.coffee_mud.Libraries.interfaces.DiceLibrary;
+import com.planet_ink.coffee_mud.core.CMParms;
+import com.planet_ink.coffee_mud.core.CMProps;
+import com.planet_ink.coffee_mud.core.CMath;
+import com.planet_ink.coffee_mud.core.collections.XVector;
 
 /*
    Copyright 2001-2017 Bo Zimmerman

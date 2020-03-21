@@ -1,28 +1,28 @@
 package com.planet_ink.coffee_mud.WebMacros.grinder;
 
-import com.planet_ink.coffee_web.interfaces.*;
-import com.planet_ink.coffee_mud.WebMacros.AreaData;
-import com.planet_ink.coffee_mud.WebMacros.ExitData;
-import com.planet_ink.coffee_mud.WebMacros.MUDGrinder;
-import com.planet_ink.coffee_mud.WebMacros.MobData;
-import com.planet_ink.coffee_mud.WebMacros.PlayerData.BASICS;
-import com.planet_ink.coffee_mud.WebMacros.RoomData;
-import com.planet_ink.coffee_mud.core.interfaces.*;
-import com.planet_ink.coffee_mud.core.*;
-import com.planet_ink.coffee_mud.core.collections.*;
-import com.planet_ink.coffee_mud.Abilities.interfaces.*;
-import com.planet_ink.coffee_mud.Areas.interfaces.*;
-import com.planet_ink.coffee_mud.Behaviors.interfaces.*;
-import com.planet_ink.coffee_mud.CharClasses.interfaces.*;
-import com.planet_ink.coffee_mud.Libraries.interfaces.*;
-import com.planet_ink.coffee_mud.Common.interfaces.*;
-import com.planet_ink.coffee_mud.Exits.interfaces.*;
-import com.planet_ink.coffee_mud.Items.interfaces.*;
-import com.planet_ink.coffee_mud.Locales.interfaces.*;
-import com.planet_ink.coffee_mud.MOBS.interfaces.*;
-import com.planet_ink.coffee_mud.Races.interfaces.*;
+import java.util.Enumeration;
+import java.util.List;
+import java.util.Vector;
 
-import java.util.*;
+import com.planet_ink.coffee_mud.CharClasses.interfaces.CharClass;
+import com.planet_ink.coffee_mud.Common.interfaces.CharStats;
+import com.planet_ink.coffee_mud.Common.interfaces.Faction;
+import com.planet_ink.coffee_mud.Common.interfaces.PlayerAccount;
+import com.planet_ink.coffee_mud.Common.interfaces.PlayerStats;
+import com.planet_ink.coffee_mud.Common.interfaces.Tattoo;
+import com.planet_ink.coffee_mud.Items.interfaces.Item;
+import com.planet_ink.coffee_mud.Locales.interfaces.Room;
+import com.planet_ink.coffee_mud.MOBS.interfaces.MOB;
+import com.planet_ink.coffee_mud.WebMacros.MUDGrinder;
+import com.planet_ink.coffee_mud.WebMacros.PlayerData.BASICS;
+import com.planet_ink.coffee_mud.core.CMClass;
+import com.planet_ink.coffee_mud.core.CMLib;
+import com.planet_ink.coffee_mud.core.CMParms;
+import com.planet_ink.coffee_mud.core.CMProps;
+import com.planet_ink.coffee_mud.core.CMSecurity;
+import com.planet_ink.coffee_mud.core.CMath;
+import com.planet_ink.coffee_mud.core.Log;
+import com.planet_ink.coffee_web.interfaces.HTTPRequest;
 
 /*
    Copyright 2006-2017 Bo Zimmerman

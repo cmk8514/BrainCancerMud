@@ -1,12 +1,17 @@
 package com.planet_ink.siplet.support;
 
-import java.io.*;
-import java.util.*;
+import java.io.BufferedReader;
+import java.io.ByteArrayOutputStream;
+import java.io.DataOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.io.InterruptedIOException;
+import java.io.UnsupportedEncodingException;
+import java.util.Vector;
 
-import com.jcraft.jzlib.*;
 import com.planet_ink.siplet.applet.Siplet;
 import com.planet_ink.siplet.applet.Siplet.MSPStatus;
-import com.planet_ink.siplet.support.MiniJSON.JSONObject;
 import com.planet_ink.siplet.support.MiniJSON.MJSONException;
 
 /*

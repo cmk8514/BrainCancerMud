@@ -10,7 +10,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 
-import com.planet_ink.coffee_web.http.HTTPMethod;
+import com.planet_ink.coffee_mud.core.collections.Pair;
 import com.planet_ink.coffee_web.interfaces.DataBuffers;
 import com.planet_ink.coffee_web.interfaces.FileCacheManager;
 import com.planet_ink.coffee_web.interfaces.FileManager;
@@ -21,11 +21,10 @@ import com.planet_ink.coffee_web.interfaces.HTTPRequest;
 import com.planet_ink.coffee_web.interfaces.SimpleServlet;
 import com.planet_ink.coffee_web.interfaces.SimpleServletRequest;
 import com.planet_ink.coffee_web.interfaces.SimpleServletSession;
-import com.planet_ink.coffee_web.util.ChunkSpec;
-import com.planet_ink.coffee_web.util.CWDataBuffers;
 import com.planet_ink.coffee_web.util.CWConfig;
+import com.planet_ink.coffee_web.util.CWDataBuffers;
+import com.planet_ink.coffee_web.util.ChunkSpec;
 import com.planet_ink.coffee_web.util.RequestStats;
-import com.planet_ink.coffee_mud.core.collections.Pair;
 
 /*
    Copyright 2012-2017 Bo Zimmerman

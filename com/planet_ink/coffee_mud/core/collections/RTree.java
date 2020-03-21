@@ -1,8 +1,11 @@
 package com.planet_ink.coffee_mud.core.collections;
 
 import java.lang.ref.WeakReference;
-import java.util.*;
+import java.util.Collection;
+import java.util.Enumeration;
+import java.util.List;
 import java.util.Map.Entry;
+import java.util.Vector;
 
 import com.planet_ink.coffee_mud.core.interfaces.BoundedObject;
 import com.planet_ink.coffee_mud.core.interfaces.BoundedObject.BoundedCube;

@@ -1,8 +1,9 @@
 package com.planet_ink.coffee_mud.core.collections;
 
-import java.util.*;
-
-import com.planet_ink.coffee_mud.Libraries.interfaces.MaskingLibrary;
+import java.util.Arrays;
+import java.util.Enumeration;
+import java.util.Iterator;
+import java.util.List;
 
 public class PairSVector<T, K> extends SVector<Pair<T, K>> implements List<Pair<T, K>>, PairList<T, K>
 {

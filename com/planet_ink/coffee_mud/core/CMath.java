@@ -1,9 +1,16 @@
 package com.planet_ink.coffee_mud.core;
-import java.text.DecimalFormat;
-import java.util.*;
-import java.util.Map.Entry;
-import java.io.*;
+import java.io.ByteArrayInputStream;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.StreamTokenizer;
 import java.math.BigInteger;
+import java.text.DecimalFormat;
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Map.Entry;
+import java.util.Random;
+import java.util.StringTokenizer;
 
 /*
    Copyright 2005-2017 Bo Zimmerman

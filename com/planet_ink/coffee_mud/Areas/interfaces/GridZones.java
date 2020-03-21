@@ -1,7 +1,7 @@
 package com.planet_ink.coffee_mud.Areas.interfaces;
 
 import com.planet_ink.coffee_mud.Locales.interfaces.Room;
-import com.planet_ink.coffee_mud.core.interfaces.*;
+import com.planet_ink.coffee_mud.core.interfaces.Environmental;
 /*
    Copyright 2006-2017 Bo Zimmerman
 

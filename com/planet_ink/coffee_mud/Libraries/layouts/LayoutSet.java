@@ -1,6 +1,5 @@
 package com.planet_ink.coffee_mud.Libraries.layouts;
 
-import java.util.Enumeration;
 import java.util.Hashtable;
 import java.util.Iterator;
 import java.util.List;

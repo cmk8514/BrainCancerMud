@@ -1,13 +1,15 @@
 package com.planet_ink.siplet.applet;
-import com.planet_ink.coffee_mud.core.CMLib;
-import com.planet_ink.coffee_mud.core.Log;
-import com.planet_ink.siplet.support.*;
-import com.jcraft.jzlib.*;
+import java.awt.Graphics;
+import java.io.BufferedReader;
+import java.io.DataOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.net.InetAddress;
+import java.net.Socket;
 
-import java.applet.Applet;
-import java.awt.*;
-import java.net.*;
-import java.io.*;
+import com.planet_ink.coffee_mud.core.CMLib;
+import com.planet_ink.siplet.support.TelnetFilter;
 
 /*
    Copyright 2000-2017 Bo Zimmerman

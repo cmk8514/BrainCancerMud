@@ -1,38 +1,35 @@
 package com.planet_ink.coffee_mud.Libraries;
 
-import java.util.Enumeration;
 import java.util.HashSet;
 import java.util.Hashtable;
 import java.util.List;
 import java.util.Map;
-import java.util.Set;
 import java.util.Vector;
 
-import com.planet_ink.coffee_web.interfaces.*;
-import com.planet_ink.coffee_mud.Libraries.interfaces.*;
-import com.planet_ink.coffee_mud.Libraries.interfaces.AbilityMapper.AbilityMapping;
-import com.planet_ink.coffee_mud.Libraries.interfaces.AbilityParameters.AbilityParmEditor;
-import com.planet_ink.coffee_mud.core.exceptions.*;
-import com.planet_ink.coffee_mud.core.*;
-import com.planet_ink.coffee_mud.core.collections.*;
-import com.planet_ink.coffee_mud.core.interfaces.*;
 import com.planet_ink.coffee_mud.Abilities.Common.CommonSkill;
-import com.planet_ink.coffee_mud.Abilities.interfaces.*;
-import com.planet_ink.coffee_mud.Areas.interfaces.*;
-import com.planet_ink.coffee_mud.Behaviors.interfaces.*;
-import com.planet_ink.coffee_mud.CharClasses.interfaces.*;
-import com.planet_ink.coffee_mud.Commands.interfaces.*;
-import com.planet_ink.coffee_mud.Common.interfaces.*;
+import com.planet_ink.coffee_mud.Abilities.interfaces.Ability;
+import com.planet_ink.coffee_mud.CharClasses.interfaces.CharClass;
+import com.planet_ink.coffee_mud.Common.interfaces.AbilityComponent;
 import com.planet_ink.coffee_mud.Common.interfaces.AbilityComponent.CompLocation;
-import com.planet_ink.coffee_mud.Exits.interfaces.*;
-import com.planet_ink.coffee_mud.Items.interfaces.*;
-import com.planet_ink.coffee_mud.Items.interfaces.RawMaterial.Material;
-import com.planet_ink.coffee_mud.Locales.interfaces.*;
-import com.planet_ink.coffee_mud.MOBS.interfaces.*;
-import com.planet_ink.coffee_mud.Races.interfaces.*;
-
-import java.net.Socket;
-import java.util.*;
+import com.planet_ink.coffee_mud.Common.interfaces.CharStats;
+import com.planet_ink.coffee_mud.Common.interfaces.PlayerStats;
+import com.planet_ink.coffee_mud.Items.interfaces.Item;
+import com.planet_ink.coffee_mud.Items.interfaces.PackagedItems;
+import com.planet_ink.coffee_mud.Items.interfaces.RawMaterial;
+import com.planet_ink.coffee_mud.Items.interfaces.Wearable;
+import com.planet_ink.coffee_mud.Libraries.interfaces.AbilityComponents;
+import com.planet_ink.coffee_mud.Locales.interfaces.Room;
+import com.planet_ink.coffee_mud.MOBS.interfaces.MOB;
+import com.planet_ink.coffee_mud.core.CMClass;
+import com.planet_ink.coffee_mud.core.CMFile;
+import com.planet_ink.coffee_mud.core.CMLib;
+import com.planet_ink.coffee_mud.core.CMath;
+import com.planet_ink.coffee_mud.core.Log;
+import com.planet_ink.coffee_mud.core.Resources;
+import com.planet_ink.coffee_mud.core.collections.PairList;
+import com.planet_ink.coffee_mud.core.collections.PairVector;
+import com.planet_ink.coffee_mud.core.collections.QuadVector;
+import com.planet_ink.coffee_mud.core.collections.SVector;
 
 /*
    Copyright 2015-2017 Bo Zimmerman

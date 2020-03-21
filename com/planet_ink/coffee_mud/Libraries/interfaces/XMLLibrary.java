@@ -2,9 +2,6 @@ package com.planet_ink.coffee_mud.Libraries.interfaces;
 import java.util.List;
 import java.util.Map;
 
-import com.planet_ink.coffee_mud.core.collections.XHashtable;
-import com.planet_ink.coffee_mud.core.collections.XVector;
-
 /*
    Copyright 2005-2017 Bo Zimmerman
 

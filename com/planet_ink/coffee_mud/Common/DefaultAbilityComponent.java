@@ -1,10 +1,5 @@
 package com.planet_ink.coffee_mud.Common;
-import java.util.Vector;
-
 import com.planet_ink.coffee_mud.Common.interfaces.AbilityComponent;
-import com.planet_ink.coffee_mud.Common.interfaces.AbilityComponent.CompConnector;
-import com.planet_ink.coffee_mud.Common.interfaces.AbilityComponent.CompLocation;
-import com.planet_ink.coffee_mud.Common.interfaces.AbilityComponent.CompType;
 import com.planet_ink.coffee_mud.Libraries.interfaces.MaskingLibrary;
 import com.planet_ink.coffee_mud.Libraries.interfaces.MaskingLibrary.CompiledZMask;
 import com.planet_ink.coffee_mud.core.CMClass;

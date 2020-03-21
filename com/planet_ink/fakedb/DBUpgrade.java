@@ -1,10 +1,20 @@
 package com.planet_ink.fakedb;
 
-import java.io.*;
-import java.lang.reflect.InvocationTargetException;
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.PrintStream;
 import java.lang.reflect.Method;
-import java.util.*;
-import java.sql.*;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+import java.util.Enumeration;
+import java.util.HashSet;
+import java.util.Hashtable;
+import java.util.List;
+import java.util.Map;
+import java.util.Vector;
 
 /*
    Copyright 2004-2017 Bo Zimmerman

@@ -4,9 +4,6 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.planet_ink.fakedb.Backend.ComparableValue;
-import com.planet_ink.fakedb.Backend.FakeTable;
-
 /*
    Copyright 2001 Thomas Neumann
    Copyright 2004-2017 Bo Zimmerman

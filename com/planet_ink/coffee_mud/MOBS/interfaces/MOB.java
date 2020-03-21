@@ -1,24 +1,34 @@
 package com.planet_ink.coffee_mud.MOBS.interfaces;
-import com.planet_ink.coffee_mud.core.interfaces.*;
-import com.planet_ink.coffee_mud.core.*;
-import com.planet_ink.coffee_mud.core.collections.*;
-import com.planet_ink.coffee_mud.Abilities.interfaces.*;
-import com.planet_ink.coffee_mud.Areas.interfaces.*;
-import com.planet_ink.coffee_mud.Behaviors.interfaces.*;
-import com.planet_ink.coffee_mud.CharClasses.interfaces.*;
-import com.planet_ink.coffee_mud.Commands.interfaces.*;
-import com.planet_ink.coffee_mud.Common.interfaces.*;
-import com.planet_ink.coffee_mud.Exits.interfaces.*;
-import com.planet_ink.coffee_mud.Items.interfaces.*;
-import com.planet_ink.coffee_mud.Libraries.interfaces.*;
-import com.planet_ink.coffee_mud.Locales.interfaces.*;
-import com.planet_ink.coffee_mud.MOBS.interfaces.*;
-import com.planet_ink.coffee_mud.Races.interfaces.*;
-
 import java.util.Enumeration;
 import java.util.List;
 import java.util.Set;
-import java.util.Vector;
+
+import com.planet_ink.coffee_mud.Abilities.interfaces.Ability;
+import com.planet_ink.coffee_mud.Common.interfaces.CharState;
+import com.planet_ink.coffee_mud.Common.interfaces.CharStats;
+import com.planet_ink.coffee_mud.Common.interfaces.Clan;
+import com.planet_ink.coffee_mud.Common.interfaces.PlayerStats;
+import com.planet_ink.coffee_mud.Common.interfaces.Session;
+import com.planet_ink.coffee_mud.Items.interfaces.Armor;
+import com.planet_ink.coffee_mud.Items.interfaces.DeadBody;
+import com.planet_ink.coffee_mud.Items.interfaces.Item;
+import com.planet_ink.coffee_mud.Items.interfaces.Weapon;
+import com.planet_ink.coffee_mud.Items.interfaces.Wearable;
+import com.planet_ink.coffee_mud.Locales.interfaces.Room;
+import com.planet_ink.coffee_mud.core.CMProps;
+import com.planet_ink.coffee_mud.core.collections.Filterer;
+import com.planet_ink.coffee_mud.core.collections.Pair;
+import com.planet_ink.coffee_mud.core.interfaces.AbilityContainer;
+import com.planet_ink.coffee_mud.core.interfaces.Combatant;
+import com.planet_ink.coffee_mud.core.interfaces.DBIdentifiable;
+import com.planet_ink.coffee_mud.core.interfaces.Environmental;
+import com.planet_ink.coffee_mud.core.interfaces.FactionMember;
+import com.planet_ink.coffee_mud.core.interfaces.Followable;
+import com.planet_ink.coffee_mud.core.interfaces.ItemPossessor;
+import com.planet_ink.coffee_mud.core.interfaces.MUDCmdProcessor;
+import com.planet_ink.coffee_mud.core.interfaces.PhysicalAgent;
+import com.planet_ink.coffee_mud.core.interfaces.Rider;
+import com.planet_ink.coffee_mud.core.interfaces.Tattooable;
 
 /*
    Copyright 2001-2017 Bo Zimmerman

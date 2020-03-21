@@ -7,9 +7,6 @@ import java.util.HashSet;
 import java.util.Hashtable;
 import java.util.Map;
 
-import com.planet_ink.coffee_web.http.HTTPException;
-import com.planet_ink.coffee_web.http.HTTPStatus;
-import com.planet_ink.coffee_web.http.MIMEType;
 import com.planet_ink.coffee_web.interfaces.DataBuffers;
 import com.planet_ink.coffee_web.interfaces.HTTPIOHandler;
 import com.planet_ink.coffee_web.interfaces.HTTPRequest;

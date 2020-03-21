@@ -1,29 +1,53 @@
 package com.planet_ink.coffee_mud.WebMacros;
 
-import com.planet_ink.coffee_web.http.HTTPMethod;
-import com.planet_ink.coffee_web.http.MultiPartData;
-import com.planet_ink.coffee_web.interfaces.*;
-import com.planet_ink.coffee_mud.core.interfaces.*;
-import com.planet_ink.coffee_mud.core.*;
-import com.planet_ink.coffee_mud.core.collections.*;
-import com.planet_ink.coffee_mud.core.exceptions.HTTPRedirectException;
-import com.planet_ink.coffee_mud.Abilities.interfaces.*;
-import com.planet_ink.coffee_mud.Areas.interfaces.*;
-import com.planet_ink.coffee_mud.Behaviors.interfaces.*;
-import com.planet_ink.coffee_mud.CharClasses.interfaces.*;
-import com.planet_ink.coffee_mud.Libraries.interfaces.*;
-import com.planet_ink.coffee_mud.Common.interfaces.*;
-import com.planet_ink.coffee_mud.Exits.interfaces.*;
-import com.planet_ink.coffee_mud.Items.interfaces.*;
-import com.planet_ink.coffee_mud.Locales.interfaces.*;
-import com.planet_ink.coffee_mud.MOBS.interfaces.*;
-import com.planet_ink.coffee_mud.Races.interfaces.*;
-import com.planet_ink.coffee_mud.WebMacros.grinder.GrinderRooms;
-
 import java.io.InputStream;
 import java.net.InetAddress;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.Enumeration;
+import java.util.HashSet;
+import java.util.Hashtable;
+import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
+import java.util.TreeMap;
+import java.util.TreeSet;
+import java.util.Vector;
 import java.util.concurrent.TimeUnit;
+
+import com.planet_ink.coffee_mud.Abilities.interfaces.Ability;
+import com.planet_ink.coffee_mud.Behaviors.interfaces.Behavior;
+import com.planet_ink.coffee_mud.Common.interfaces.CoffeeShop;
+import com.planet_ink.coffee_mud.Items.interfaces.ArchonOnly;
+import com.planet_ink.coffee_mud.Items.interfaces.Container;
+import com.planet_ink.coffee_mud.Items.interfaces.Item;
+import com.planet_ink.coffee_mud.Items.interfaces.RawMaterial;
+import com.planet_ink.coffee_mud.Items.interfaces.Wearable;
+import com.planet_ink.coffee_mud.Libraries.interfaces.TimeManager;
+import com.planet_ink.coffee_mud.Locales.interfaces.GridLocale;
+import com.planet_ink.coffee_mud.Locales.interfaces.Room;
+import com.planet_ink.coffee_mud.MOBS.interfaces.MOB;
+import com.planet_ink.coffee_mud.core.CMClass;
+import com.planet_ink.coffee_mud.core.CMLib;
+import com.planet_ink.coffee_mud.core.CMParms;
+import com.planet_ink.coffee_mud.core.CMProps;
+import com.planet_ink.coffee_mud.core.CMath;
+import com.planet_ink.coffee_mud.core.Resources;
+import com.planet_ink.coffee_mud.core.collections.Filterer;
+import com.planet_ink.coffee_mud.core.collections.Pair;
+import com.planet_ink.coffee_mud.core.collections.SLinkedList;
+import com.planet_ink.coffee_mud.core.collections.XHashtable;
+import com.planet_ink.coffee_mud.core.collections.XVector;
+import com.planet_ink.coffee_mud.core.interfaces.Environmental;
+import com.planet_ink.coffee_mud.core.interfaces.Places;
+import com.planet_ink.coffee_mud.core.interfaces.ShopKeeper;
+import com.planet_ink.coffee_web.http.HTTPMethod;
+import com.planet_ink.coffee_web.http.MultiPartData;
+import com.planet_ink.coffee_web.interfaces.HTTPRequest;
+import com.planet_ink.coffee_web.interfaces.HTTPResponse;
 
 /*
    Copyright 2002-2017 Bo Zimmerman

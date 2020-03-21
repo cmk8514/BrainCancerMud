@@ -1,7 +1,10 @@
 package com.planet_ink.coffee_mud.core.collections;
 
 import java.lang.ref.WeakReference;
-import java.util.*;
+import java.util.Collection;
+import java.util.List;
+import java.util.Map;
+import java.util.Vector;
 
 /*
    Copyright 2013-2017 Bo Zimmerman

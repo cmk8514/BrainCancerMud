@@ -9,8 +9,8 @@ import com.planet_ink.coffee_web.http.MIMEType;
 import com.planet_ink.coffee_web.interfaces.SimpleServlet;
 import com.planet_ink.coffee_web.interfaces.SimpleServletRequest;
 import com.planet_ink.coffee_web.interfaces.SimpleServletResponse;
-import com.planet_ink.coffee_web.util.CWThread;
 import com.planet_ink.coffee_web.util.CWConfig;
+import com.planet_ink.coffee_web.util.CWThread;
 
 /*
    Copyright 2012-2017 Bo Zimmerman

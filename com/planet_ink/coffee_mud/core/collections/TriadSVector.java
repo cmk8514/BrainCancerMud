@@ -1,8 +1,8 @@
 package com.planet_ink.coffee_mud.core.collections;
 
-import java.util.*;
-
-import com.planet_ink.coffee_mud.Libraries.interfaces.MaskingLibrary;
+import java.util.Arrays;
+import java.util.Enumeration;
+import java.util.Iterator;
 
 /*
    Copyright 2010-2017 Bo Zimmerman

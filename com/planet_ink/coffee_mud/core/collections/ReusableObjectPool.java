@@ -1,14 +1,10 @@
 package com.planet_ink.coffee_mud.core.collections;
 
-import java.lang.ref.ReferenceQueue;
-import java.lang.ref.WeakReference;
-import java.util.LinkedList;
 import java.util.List;
 import java.util.Stack;
 import java.util.Vector;
 
 import com.planet_ink.coffee_mud.core.CMParms;
-import com.planet_ink.coffee_mud.core.CMath;
 import com.planet_ink.coffee_mud.core.Log;
 import com.planet_ink.coffee_mud.core.interfaces.CMObject;
 

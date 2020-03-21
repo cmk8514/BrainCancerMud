@@ -4,20 +4,57 @@
  * ACTION TAKEN: Removed imported packages that were not used to remove warnings 
  */
 package com.planet_ink.coffee_mud.Abilities.Common;
-import com.planet_ink.coffee_mud.core.interfaces.*;
-import com.planet_ink.coffee_mud.core.*;
-import com.planet_ink.coffee_mud.core.collections.*;
-import com.planet_ink.coffee_mud.core.exceptions.CMException;
-import com.planet_ink.coffee_mud.Abilities.interfaces.*;
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Map;
+import java.util.TreeMap;
+import java.util.TreeSet;
+import java.util.Vector;
+
+import com.planet_ink.coffee_mud.Abilities.interfaces.Ability;
+import com.planet_ink.coffee_mud.Abilities.interfaces.ItemCraftor;
 import com.planet_ink.coffee_mud.Abilities.interfaces.ItemCraftor.ItemKeyPair;
-import com.planet_ink.coffee_mud.Behaviors.interfaces.*;
-import com.planet_ink.coffee_mud.Common.interfaces.*;
-import com.planet_ink.coffee_mud.Items.interfaces.*;
+import com.planet_ink.coffee_mud.Behaviors.interfaces.Behavior;
+import com.planet_ink.coffee_mud.Common.interfaces.AbilityComponent;
+import com.planet_ink.coffee_mud.Common.interfaces.CMMsg;
+import com.planet_ink.coffee_mud.Common.interfaces.PhyStats;
+import com.planet_ink.coffee_mud.Common.interfaces.ScriptingEngine;
+import com.planet_ink.coffee_mud.Items.interfaces.ArchonOnly;
+import com.planet_ink.coffee_mud.Items.interfaces.Armor;
+import com.planet_ink.coffee_mud.Items.interfaces.ClanItem;
+import com.planet_ink.coffee_mud.Items.interfaces.Container;
+import com.planet_ink.coffee_mud.Items.interfaces.DeadBody;
+import com.planet_ink.coffee_mud.Items.interfaces.DoorKey;
+import com.planet_ink.coffee_mud.Items.interfaces.Food;
+import com.planet_ink.coffee_mud.Items.interfaces.Item;
+import com.planet_ink.coffee_mud.Items.interfaces.RawMaterial;
+import com.planet_ink.coffee_mud.Items.interfaces.Recipe;
+import com.planet_ink.coffee_mud.Items.interfaces.Scroll;
+import com.planet_ink.coffee_mud.Items.interfaces.Weapon;
+import com.planet_ink.coffee_mud.Items.interfaces.Wearable;
 import com.planet_ink.coffee_mud.Libraries.interfaces.ExpertiseLibrary;
-import com.planet_ink.coffee_mud.Locales.interfaces.*;
-import com.planet_ink.coffee_mud.MOBS.interfaces.*;
+import com.planet_ink.coffee_mud.Locales.interfaces.Room;
+import com.planet_ink.coffee_mud.MOBS.interfaces.MOB;
 import com.planet_ink.coffee_mud.MOBS.interfaces.MOB.Attrib;
-import java.util.*;
+import com.planet_ink.coffee_mud.core.CMClass;
+import com.planet_ink.coffee_mud.core.CMFile;
+import com.planet_ink.coffee_mud.core.CMLib;
+import com.planet_ink.coffee_mud.core.CMParms;
+import com.planet_ink.coffee_mud.core.CMProps;
+import com.planet_ink.coffee_mud.core.CMStrings;
+import com.planet_ink.coffee_mud.core.CMath;
+import com.planet_ink.coffee_mud.core.Log;
+import com.planet_ink.coffee_mud.core.Resources;
+import com.planet_ink.coffee_mud.core.collections.Pair;
+import com.planet_ink.coffee_mud.core.collections.PairVector;
+import com.planet_ink.coffee_mud.core.collections.XVector;
+import com.planet_ink.coffee_mud.core.exceptions.CMException;
+import com.planet_ink.coffee_mud.core.interfaces.Environmental;
+import com.planet_ink.coffee_mud.core.interfaces.ItemPossessor;
+import com.planet_ink.coffee_mud.core.interfaces.Physical;
+import com.planet_ink.coffee_mud.core.interfaces.Rideable;
 
 /*
    Copyright 2004-2017 Bo Zimmerman

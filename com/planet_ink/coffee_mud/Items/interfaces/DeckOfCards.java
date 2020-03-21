@@ -1,8 +1,5 @@
 package com.planet_ink.coffee_mud.Items.interfaces;
 
-import java.util.Vector;
-
-import com.planet_ink.coffee_mud.Locales.interfaces.Room;
 import com.planet_ink.coffee_mud.MOBS.interfaces.MOB;
 import com.planet_ink.coffee_mud.core.interfaces.Environmental;
 

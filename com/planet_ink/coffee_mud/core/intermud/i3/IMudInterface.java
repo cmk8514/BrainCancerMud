@@ -1,29 +1,42 @@
 package com.planet_ink.coffee_mud.core.intermud.i3;
-import com.planet_ink.coffee_mud.core.intermud.i3.packets.*;
-import com.planet_ink.coffee_mud.core.intermud.i3.persist.*;
-import com.planet_ink.coffee_mud.core.intermud.i3.server.*;
-import com.planet_ink.coffee_mud.core.intermud.i3.net.*;
-import com.planet_ink.coffee_mud.core.intermud.*;
-import com.planet_ink.coffee_mud.core.interfaces.*;
-import com.planet_ink.coffee_mud.core.*;
-import com.planet_ink.coffee_mud.core.CMSecurity.DbgFlag;
-import com.planet_ink.coffee_mud.core.collections.*;
-import com.planet_ink.coffee_mud.Abilities.interfaces.*;
-import com.planet_ink.coffee_mud.Areas.interfaces.*;
-import com.planet_ink.coffee_mud.Behaviors.interfaces.*;
-import com.planet_ink.coffee_mud.CharClasses.interfaces.*;
-import com.planet_ink.coffee_mud.Commands.interfaces.*;
-import com.planet_ink.coffee_mud.Common.interfaces.*;
-import com.planet_ink.coffee_mud.Exits.interfaces.*;
-import com.planet_ink.coffee_mud.Items.interfaces.*;
+import java.io.Serializable;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Vector;
+
+import com.planet_ink.coffee_mud.Common.interfaces.CMMsg;
+import com.planet_ink.coffee_mud.Common.interfaces.CharStats;
+import com.planet_ink.coffee_mud.Common.interfaces.PlayerStats;
+import com.planet_ink.coffee_mud.Common.interfaces.Session;
 import com.planet_ink.coffee_mud.Libraries.interfaces.ChannelsLibrary.CMChannel;
 import com.planet_ink.coffee_mud.Libraries.interfaces.ChannelsLibrary.ChannelFlag;
-import com.planet_ink.coffee_mud.Locales.interfaces.*;
-import com.planet_ink.coffee_mud.MOBS.interfaces.*;
-import com.planet_ink.coffee_mud.Races.interfaces.*;
-
-import java.util.*;
-import java.io.Serializable;
+import com.planet_ink.coffee_mud.Locales.interfaces.Room;
+import com.planet_ink.coffee_mud.MOBS.interfaces.MOB;
+import com.planet_ink.coffee_mud.core.CMClass;
+import com.planet_ink.coffee_mud.core.CMLib;
+import com.planet_ink.coffee_mud.core.CMProps;
+import com.planet_ink.coffee_mud.core.CMSecurity;
+import com.planet_ink.coffee_mud.core.CMSecurity.DbgFlag;
+import com.planet_ink.coffee_mud.core.CMStrings;
+import com.planet_ink.coffee_mud.core.Log;
+import com.planet_ink.coffee_mud.core.collections.XVector;
+import com.planet_ink.coffee_mud.core.intermud.i3.packets.ChannelPacket;
+import com.planet_ink.coffee_mud.core.intermud.i3.packets.ChannelUserReply;
+import com.planet_ink.coffee_mud.core.intermud.i3.packets.ChannelUserRequest;
+import com.planet_ink.coffee_mud.core.intermud.i3.packets.ChannelWhoReply;
+import com.planet_ink.coffee_mud.core.intermud.i3.packets.ChannelWhoRequest;
+import com.planet_ink.coffee_mud.core.intermud.i3.packets.ErrorPacket;
+import com.planet_ink.coffee_mud.core.intermud.i3.packets.FingerReply;
+import com.planet_ink.coffee_mud.core.intermud.i3.packets.FingerRequest;
+import com.planet_ink.coffee_mud.core.intermud.i3.packets.ImudServices;
+import com.planet_ink.coffee_mud.core.intermud.i3.packets.LocateQueryPacket;
+import com.planet_ink.coffee_mud.core.intermud.i3.packets.LocateReplyPacket;
+import com.planet_ink.coffee_mud.core.intermud.i3.packets.MudAuthReply;
+import com.planet_ink.coffee_mud.core.intermud.i3.packets.MudAuthRequest;
+import com.planet_ink.coffee_mud.core.intermud.i3.packets.Packet;
+import com.planet_ink.coffee_mud.core.intermud.i3.packets.TellPacket;
+import com.planet_ink.coffee_mud.core.intermud.i3.packets.WhoPacket;
+import com.planet_ink.coffee_mud.core.intermud.i3.server.I3Server;
 
 /*
    Copyright 2003-2017 Bo Zimmerman

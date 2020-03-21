@@ -3,12 +3,6 @@ package com.planet_ink.coffee_mud.core.interfaces;
 import java.util.Enumeration;
 import java.util.List;
 
-import com.planet_ink.coffee_mud.Abilities.interfaces.Ability;
-import com.planet_ink.coffee_mud.Behaviors.interfaces.Behavior;
-import com.planet_ink.coffee_mud.Common.interfaces.PhyStats;
-import com.planet_ink.coffee_mud.Common.interfaces.Tattoo;
-import com.planet_ink.coffee_mud.MOBS.interfaces.MOB;
-
 /*
    Copyright 2015-2017 Bo Zimmerman
 

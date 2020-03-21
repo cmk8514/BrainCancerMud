@@ -1,8 +1,9 @@
 package com.planet_ink.siplet.support;
 
-import java.applet.*;
-import java.net.*;
-import java.util.*;
+import java.util.Enumeration;
+import java.util.Hashtable;
+import java.util.List;
+import java.util.Vector;
 
 /*
    Copyright 2004-2017 Bo Zimmerman

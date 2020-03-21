@@ -1,8 +1,6 @@
 package com.planet_ink.coffee_mud.application;
 
-import java.io.BufferedInputStream;
 import java.io.BufferedReader;
-import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStream;
@@ -14,11 +12,6 @@ import com.planet_ink.coffee_mud.Commands.Shell;
 import com.planet_ink.coffee_mud.Common.FakeSession;
 import com.planet_ink.coffee_mud.Common.interfaces.PlayerAccount;
 import com.planet_ink.coffee_mud.Common.interfaces.Session;
-import com.planet_ink.coffee_mud.Common.interfaces.Session.InputCallback;
-import com.planet_ink.coffee_mud.Common.interfaces.Session.SessionStatus;
-import com.planet_ink.coffee_mud.Libraries.Clans;
-import com.planet_ink.coffee_mud.Libraries.interfaces.ColorLibrary;
-import com.planet_ink.coffee_mud.Libraries.interfaces.DatabaseEngine;
 import com.planet_ink.coffee_mud.Libraries.interfaces.ColorLibrary.ColorState;
 import com.planet_ink.coffee_mud.MOBS.StdMOB;
 import com.planet_ink.coffee_mud.MOBS.interfaces.MOB;
@@ -37,9 +30,7 @@ import com.planet_ink.coffee_mud.core.database.DBConnector;
 import com.planet_ink.coffee_mud.core.database.DBInterface;
 import com.planet_ink.coffee_mud.core.interfaces.CMObject;
 import com.planet_ink.coffee_mud.core.interfaces.Environmental;
-import com.planet_ink.coffee_mud.core.interfaces.MudHost;
 import com.planet_ink.coffee_mud.core.interfaces.Physical;
-import com.planet_ink.coffee_mud.core.interfaces.Tickable;
 
 public class VFShell
 {

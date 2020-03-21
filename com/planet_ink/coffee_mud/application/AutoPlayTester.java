@@ -1,11 +1,14 @@
 package com.planet_ink.coffee_mud.application;
-import java.util.*;
-import java.io.*;
-import java.net.*;
-import java.util.regex.*;
-
-import org.mozilla.javascript.Context;
-import org.mozilla.javascript.ScriptableObject;
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.FileReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
+import java.net.Socket;
+import java.util.LinkedList;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import com.planet_ink.coffee_mud.core.CMStrings;
 /*

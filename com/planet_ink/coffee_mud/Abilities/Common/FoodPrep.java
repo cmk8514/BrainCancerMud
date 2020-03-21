@@ -4,8 +4,9 @@
  * ACTION TAKEN: Removed imported packages that were not used to remove warnings 
  */
 package com.planet_ink.coffee_mud.Abilities.Common;
-import com.planet_ink.coffee_mud.core.*;
-import java.util.*;
+import java.util.List;
+
+import com.planet_ink.coffee_mud.core.CMLib;
 
 /*
    Copyright 2005-2017 Bo Zimmerman

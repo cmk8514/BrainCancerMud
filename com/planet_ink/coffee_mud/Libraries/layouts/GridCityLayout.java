@@ -2,11 +2,12 @@ package com.planet_ink.coffee_mud.Libraries.layouts;
 
 import java.util.List;
 import java.util.Vector;
-import com.planet_ink.coffee_mud.core.Directions;
-import com.planet_ink.coffee_mud.core.Log;
+
 import com.planet_ink.coffee_mud.Libraries.interfaces.AreaGenerationLibrary.LayoutNode;
 import com.planet_ink.coffee_mud.Libraries.interfaces.AreaGenerationLibrary.LayoutRuns;
 import com.planet_ink.coffee_mud.Libraries.interfaces.AreaGenerationLibrary.LayoutTypes;
+import com.planet_ink.coffee_mud.core.Directions;
+import com.planet_ink.coffee_mud.core.Log;
 
 /*
    Copyright 2008-2017 Bo Zimmerman

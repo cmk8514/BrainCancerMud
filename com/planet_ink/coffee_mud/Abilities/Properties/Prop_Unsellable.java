@@ -1,19 +1,7 @@
 package com.planet_ink.coffee_mud.Abilities.Properties;
 
-import com.planet_ink.coffee_mud.core.CMClass;
-import com.planet_ink.coffee_mud.core.CMLib;
-import com.planet_ink.coffee_mud.core.CMParms;
-import com.planet_ink.coffee_mud.core.interfaces.*;
-import com.planet_ink.coffee_mud.CharClasses.interfaces.CharClass;
-import com.planet_ink.coffee_mud.Common.interfaces.*;
-import com.planet_ink.coffee_mud.Items.interfaces.*;
-import com.planet_ink.coffee_mud.Abilities.interfaces.*;
-import com.planet_ink.coffee_mud.Libraries.interfaces.*;
-import com.planet_ink.coffee_mud.Locales.interfaces.*;
-import com.planet_ink.coffee_mud.MOBS.interfaces.MOB;
-import com.planet_ink.coffee_mud.Races.interfaces.Race;
-
-import java.util.*;
+import com.planet_ink.coffee_mud.Common.interfaces.CMMsg;
+import com.planet_ink.coffee_mud.core.interfaces.Environmental;
 
 /*
    Copyright 2017-2017 Bo Zimmerman
